@@ -2263,11 +2263,9 @@
     "虛煙": "#6b7280"
   },
   "summary": {
-    "total_resonators": 46,
+    "owned_resonators": 46,
     "total_teams": 9,
-    "total_fights": 15,
-    "seasons": 2,
-    "featured_rate": "73.1%",
+    "zheng_percentage": "73.1%",
     "avg_key_draws": "130.9"
   }
 }
