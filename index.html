@@ -962,28 +962,13 @@
             const body = document.getElementById('modalBody');
             body.innerHTML = `
                 <div class="info-grid">
+                    <div class="info-item" style="grid-column: span 2;">
+                        <div class="label">命座</div>
+                        <div class="value" style="color:#ffd700; font-size:18px;">${'★'.repeat(r.constellation || 0)}${'☆'.repeat(6 - (r.constellation || 0))} <span style="color:#888; font-size:12px;">(${(r.constellation || 0)}/6)</span></div>
+                    </div>
                     <div class="info-item">
                         <div class="label">屬性</div>
                         <div class="value" style="color:${elemColor}">${r.element}</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="label">武器</div>
-                        <div class="value">${r.weapon}</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="label">專武</div>
-                        <div class="value">${r.special_weapon || '無'}</div>
-                    </div>
-                    <div class="info-item" style="grid-column: span 2;">
-                        <div class="label">專武圖片</div>
-                        <div class="value" style="display:flex; align-items:center; gap:10px;">
-                            ${r.weapon_avatar ? `<img src="${r.weapon_avatar}" alt="${r.special_weapon}" style="width:50px; height:50px; object-fit:contain; background:rgba(255,255,255,0.1); border-radius:8px;">` : '<span style="color:#666;">無圖片</span>'}
-                            <span>${r.special_weapon || ''}</span>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <div class="label">命座</div>
-                        <div class="value">${r.constellation || '0命'}</div>
                     </div>
                     <div class="info-item">
                         <div class="label">共鳴模態</div>
@@ -991,7 +976,7 @@
                     </div>
                     <div class="info-item">
                         <div class="label">定位</div>
-                        <div class="value">${r.tags.join(', ')}</div>
+                        <div class="value">${Array.isArray(r.tags) ? r.tags.join(', ') : (r.tags || '-')}</div>
                     </div>
                     <div class="info-item">
                         <div class="label">入手日期</div>
@@ -999,7 +984,15 @@
                     </div>
                     <div class="info-item">
                         <div class="label">關鍵角色</div>
-                        <div class="value">${r.key_role ? '✅ 是' : '否'}</div>
+                        <div class="value">${r.key_role === 'true' || r.key_role === true ? '是' : '否'}</div>
+                    </div>
+                    <div class="info-item" style="grid-column: span 2;">
+                        <div class="label">專武</div>
+                        <div class="value" style="display:flex; align-items:center; gap:10px;">
+                            ${r.weapon_avatar ? `<img src="${r.weapon_avatar}" alt="${r.special_weapon}" style="width:50px; height:50px; object-fit:contain; background:rgba(255,255,255,0.1); border-radius:8px;">` : '<span style="color:#666;">無圖片</span>'}
+                            <span>${r.special_weapon || '無'}</span>
+                        </div>
+                    </div>
                     </div>
                 </div>
 
@@ -1023,11 +1016,16 @@
                 <div class="info-grid">
                     <div class="info-item">
                         <div class="label">總抽數</div>
-                        <div class="value">${r.total_draws}</div>
+                        <div class="value">${r.total_draws || '-'}</div>
                     </div>
                     <div class="info-item">
-                        <div class="label">關鍵角色實抽</div>
-                        <div class="value" style="color:#ffd700">${r.key_draws}</div>
+                        <div class="label">抽數/命</div>
+                        <div class="value">${r.draws_per_const || '-'}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="label">角色成本</div>
+                        <div class="value" style="color:#ffd700">${r.role_cost || '-'}</div>
+                    </div>
                     </div>
                 </div>
 
