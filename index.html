@@ -655,6 +655,14 @@
             font-weight: bold;
             color: #58a6ff;
         }
+        
+        .fight-right {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        }
+    
         .fight-score {
             font-weight: bold;
             color: #ffd700;
@@ -1178,8 +1186,10 @@
                         <div class="fight-record ${i === 0 ? 'best' : ''}">
                             <div class="fight-header">
                                 <span class="fight-season">S${fight.season}.${fight.turn}</span>
-                                <span class="fight-score">${fight.score}分</span>
-                                ${i === 0 ? '<span class="fight-badge">最高分</span>' : ''}
+                                <div class="fight-right">
+                                    <span class="fight-score">${fight.score}分</span>
+                                    ${i === 0 ? '<span class="fight-badge">最高分</span>' : ''}
+                                </div>
                             </div>
                             <div class="fight-members">
                                 ${fight.members.map(m => `
