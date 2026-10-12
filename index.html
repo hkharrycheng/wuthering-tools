@@ -891,26 +891,42 @@
                 pool.sort((a, b) => sortAscending ? (a.obtain_date || '').localeCompare(b.obtain_date || '') : (b.obtain_date || '').localeCompare(a.obtain_date || ''));
             }
 
-            grid.innerHTML = pool.map(r => {
+            // 預先計算每個共鳴者的最高分
+            const resonatorMaxScores = {};
+            if (data.teams) {
+                data.teams.forEach(function(t) {
+                    const score = t.max_score || t.best_score || 0;
+                    if (t.members) {
+                        t.members.forEach(function(m) {
+                            if (!resonatorMaxScores[m.name] || score > resonatorMaxScores[m.name]) {
+                                resonatorMaxScores[m.name] = score;
+                            }
+                        });
+                    }
+                });
+            }
+            
+            grid.innerHTML = pool.map(function(r) {
                 const elemColor = data.elementColors[r.element] || '#888';
-                const constStars = '★'.repeat(r.constellation || 0) + '☆'.repeat(6 - (r.constellation || 0));
-                const teamMaxScore = (data.teams || []).filter(t => (t.members || []).some(m => m.name === r.name)).map(t => t.max_score || t.best_score || 0).reduce((a,b) => Math.max(a,b), 0);
-                return `
-                    <div class="resonator-card" onclick="showResonatorDetail('${r.name}')">
-                        <div class="resonator-avatar" style="background:linear-gradient(135deg, ${elemColor}40, ${elemColor}80)">
-                            <img src="${r.avatar}" alt="${r.name}" onerror="this.style.display='none'">
-                            <div class="element-badge" style="background:${elemColor}">${r.element.charAt(0)}</div>
-                            ${r.weapon_avatar ? `<img src="${r.weapon_avatar}" class="card-weapon-icon" alt="專武">` : ''}
-                        </div>
-                        <div class="resonator-info">
-                            <div class="resonator-name">${r.name}</div>
-                            <div class="resonator-meta">
-                                <span class="constellation-display" style="color:#ffd700;">${constStars}</span>
-                                ${teamMaxScore > 0 ? `<span class="score-display" style="color:#fbbf24;">🏆${teamMaxScore}</span>` : ''}
-                            </div>
-                        </div>
-                    </div>
-                `;
+                const constNum = r.constellation || 0;
+                const constStars = '★'.repeat(constNum) + '☆'.repeat(6 - constNum);
+                const teamMaxScore = resonatorMaxScores[r.name] || 0;
+                const weaponImg = r.weapon_avatar ? '<img src="' + r.weapon_avatar + '" class="card-weapon-icon" alt="專武">' : '';
+                const scoreHtml = teamMaxScore > 0 ? '<span class="score-display" style="color:#fbbf24;">🏆' + teamMaxScore + '</span>' : '';
+                return '<div class="resonator-card" onclick="showResonatorDetail(\'' + r.name + '\')">' +
+                    '<div class="resonator-avatar" style="background:linear-gradient(135deg, ' + elemColor + '40, ' + elemColor + '80)">' +
+                        '<img src="' + r.avatar + '" alt="' + r.name + '" onerror="this.style.display='none'">' +
+                        '<div class="element-badge" style="background:' + elemColor + '">' + r.element.charAt(0) + '</div>' +
+                        weaponImg +
+                    '</div>' +
+                    '<div class="resonator-info">' +
+                        '<div class="resonator-name">' + r.name + '</div>' +
+                        '<div class="resonator-meta">' +
+                            '<span class="constellation-display" style="color:#ffd700;">' + constStars + '</span>' +
+                            scoreHtml +
+                        '</div>' +
+                    '</div>' +
+                '</div>';
             }).join('');
         }
 
