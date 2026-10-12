@@ -917,7 +917,7 @@
             
             grid.innerHTML = pool.map(function(r) {
                 const elemColor = data.elementColors[r.element] || '#888';
-                const constNum = r.constellation || 0;
+                const constNum = Math.max(0, Math.min(6, parseInt(r.constellation) || 0));
                 const constStars = '★'.repeat(constNum) + '☆'.repeat(6 - constNum);
                 const teamMaxScore = resonatorMaxScores[r.name] || 0;
                 const weaponImg = r.weapon_avatar ? '<img src="' + r.weapon_avatar + '" class="card-weapon-icon" alt="專武">' : '';
