@@ -5,7 +5,7 @@
       "element": "衍射",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -21,7 +21,9 @@
       "total_draws": "0",
       "key_draws": "建議 S3/S5/S6",
       "key_constellation": "建議 S3/S5/S6",
-      "tags": [],
+      "tags": [
+        "副C\",\"奶媽"
+      ],
       "stats": {
         "hp": "15500",
         "atk": "2000",
@@ -33,14 +35,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "漂泊者·湮滅",
       "element": "煙滅",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -56,7 +60,9 @@
       "total_draws": "0",
       "key_draws": "建議 S3/S5/S6",
       "key_constellation": "建議 S3/S5/S6",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2000",
@@ -68,14 +74,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "漂泊者·氣動",
       "element": "氣動",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -91,7 +99,9 @@
       "total_draws": "0",
       "key_draws": "建議 S3/S5/S6",
       "key_constellation": "建議 S3/S5/S6",
-      "tags": [],
+      "tags": [
+        "奶媽"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2100",
@@ -103,14 +113,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$60.27"
     },
     {
       "name": "秧秧·玄翎",
       "element": "煙滅",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "[\"虛煙\"]",
       "role": "",
       "status": "已擁有",
@@ -126,7 +138,9 @@
       "total_draws": "70",
       "key_draws": "核心 2/3 鏈（3鏈大招翻倍解放配隊）；6鏈完全體",
       "key_constellation": "核心 2/3 鏈（3鏈大招翻倍解放配隊）；6鏈完全體",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "17000",
         "atk": "2000",
@@ -138,14 +152,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "71",
+      "role_cost": "HK$267.45"
     },
     {
       "name": "卡卡羅",
       "element": "導電",
       "weapon": "長刃",
       "star": "5",
-      "constellation": "4",
+      "constellation": 4,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -161,7 +177,9 @@
       "total_draws": "173",
       "key_draws": "核心 0/3/6 命；2命加共鳴技能傷害，6命額外加大招倍率",
       "key_constellation": "核心 0/3/6 命；2命加共鳴技能傷害，6命額外加大招倍率",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2200",
@@ -173,14 +191,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "47.8",
+      "role_cost": "HK$900.30"
     },
     {
       "name": "長離",
       "element": "熱熔",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "1",
+      "constellation": 1,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -196,7 +216,9 @@
       "total_draws": "141",
       "key_draws": "核心 0/2/6 命；2命穩定+25%暴擊率，6命無視40%防禦頂爆發",
       "key_constellation": "核心 0/2/6 命；2命穩定+25%暴擊率，6命無視40%防禦頂爆發",
-      "tags": [],
+      "tags": [
+        "副C\",\"主C"
+      ],
       "stats": {
         "hp": "16500",
         "atk": "2100",
@@ -208,14 +230,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "87.5",
+      "role_cost": "HK$659.21"
     },
     {
       "name": "安可",
       "element": "熱熔",
       "weapon": "法器",
       "star": "5",
-      "constellation": "5",
+      "constellation": 5,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -231,7 +255,9 @@
       "total_draws": "380",
       "key_draws": "核心 0/4/6 命；4命變身後全隊熱熔+20%，6命加攻擊力",
       "key_constellation": "核心 0/4/6 命；4命變身後全隊熱熔+20%，6命加攻擊力",
-      "tags": [],
+      "tags": [
+        "主C\",\"副C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2200",
@@ -243,14 +269,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "50",
+      "role_cost": "HK$1,130.08"
     },
     {
       "name": "今汐",
       "element": "衍射",
       "weapon": "長刃",
       "star": "5",
-      "constellation": "1",
+      "constellation": 1,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -266,7 +294,9 @@
       "total_draws": "23",
       "key_draws": "核心 1/3/6 命；3命變奏疊「謫仙」攻擊力+50%，6命極致輸出",
       "key_constellation": "核心 1/3/6 命；3命變奏疊「謫仙」攻擊力+50%，6命極致輸出",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2200",
@@ -278,14 +308,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "16.5",
+      "role_cost": "HK$124.31"
     },
     {
       "name": "忌炎",
       "element": "氣動",
       "weapon": "長刃",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -301,7 +333,9 @@
       "total_draws": "37",
       "key_draws": "核心 3/6 命；3命放技即吃暴擊16%+暴傷32%，堪稱最強命座",
       "key_constellation": "核心 3/6 命；3命放技即吃暴擊16%+暴傷32%，堪稱最強命座",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2300",
@@ -313,14 +347,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "111",
+      "role_cost": "HK$418.13"
     },
     {
       "name": "凌陽",
       "element": "冷凝",
       "weapon": "臂鎧",
       "star": "5",
-      "constellation": "5",
+      "constellation": 5,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -336,7 +372,9 @@
       "total_draws": "184",
       "key_draws": "核心 0/5/6 命；5命加大招倍率，6命舞獅形態普攻+100%質變",
       "key_constellation": "核心 0/5/6 命；5命加大招倍率，6命舞獅形態普攻+100%質變",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2200",
@@ -348,14 +386,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "30.66666667",
+      "role_cost": "HK$693.11"
     },
     {
       "name": "維里奈",
       "element": "衍射",
       "weapon": "法器",
       "star": "5",
-      "constellation": "7",
+      "constellation": 7,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -371,7 +411,9 @@
       "total_draws": "469",
       "key_draws": "核心 0/2/4 命；2命小技多給一層被動，4命全隊衍射+15%",
       "key_constellation": "核心 0/2/4 命；2命小技多給一層被動，4命全隊衍射+15%",
-      "tags": [],
+      "tags": [
+        "奶媽"
+      ],
       "stats": {
         "hp": "18000",
         "atk": "1500",
@@ -383,14 +425,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "58.625",
+      "role_cost": "HK$1,766.69"
     },
     {
       "name": "吟霖",
       "element": "導電",
       "weapon": "法器",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -406,7 +450,9 @@
       "total_draws": "56",
       "key_draws": "核心 0/3/6 命；3命後台雷擊觸發提速小質變，6命可當主C",
       "key_constellation": "核心 0/3/6 命；3命後台雷擊觸發提速小質變，6命可當主C",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2000",
@@ -418,14 +464,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "203",
+      "role_cost": "HK$764.69"
     },
     {
       "name": "折枝",
       "element": "冷凝",
       "weapon": "法器",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -441,7 +489,9 @@
       "total_draws": "25",
       "key_draws": "無課停 S1/S2；投資向 S3/S6",
       "key_constellation": "無課停 S1/S2；投資向 S3/S6",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2000",
@@ -453,14 +503,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "96",
+      "role_cost": "HK$361.63"
     },
     {
       "name": "守岸人",
       "element": "衍射",
       "weapon": "法器",
       "star": "5",
-      "constellation": "1",
+      "constellation": 1,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -476,7 +528,9 @@
       "total_draws": "75",
       "key_draws": "核心 0/2 命；2命全隊攻擊+40%，是意義上的完全體",
       "key_constellation": "核心 0/2 命；2命全隊攻擊+40%，是意義上的完全體",
-      "tags": [],
+      "tags": [
+        "奶媽"
+      ],
       "stats": {
         "hp": "35000",
         "atk": "1000",
@@ -488,14 +542,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "72",
+      "role_cost": "HK$542.44"
     },
     {
       "name": "椿",
       "element": "煙滅",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "3",
+      "constellation": 3,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -511,7 +567,9 @@
       "total_draws": "131",
       "key_draws": "2鏈強質變；優先 S6/S2/S3",
       "key_constellation": "2鏈強質變；優先 S6/S2/S3",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2100",
@@ -523,14 +581,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "35.5",
+      "role_cost": "HK$534.90"
     },
     {
       "name": "珂萊塔",
       "element": "冷凝",
       "weapon": "佩槍",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -546,7 +606,9 @@
       "total_draws": "69",
       "key_draws": "核心 2/3/6 命；2命大招尾槍倍率+126%真正分水嶺，6命質變",
       "key_constellation": "核心 2/3/6 命；2命大招尾槍倍率+126%真正分水嶺，6命質變",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2150",
@@ -558,14 +620,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "144",
+      "role_cost": "HK$542.44"
     },
     {
       "name": "洛可可",
       "element": "煙滅",
       "weapon": "臂鎧",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -581,7 +645,9 @@
       "total_draws": "73",
       "key_draws": "核心 0/2/6 命；2命全隊湮滅+40%化身暗隊大拐，6命轉主C",
       "key_constellation": "核心 0/2/6 命；2命全隊湮滅+40%化身暗隊大拐，6命轉主C",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2000",
@@ -593,14 +659,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "73",
+      "role_cost": "HK$274.99"
     },
     {
       "name": "菲比",
       "element": "衍射",
       "weapon": "法器",
       "star": "5",
-      "constellation": "1",
+      "constellation": 1,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -616,7 +684,9 @@
       "total_draws": "66",
       "key_draws": "2鏈強質變",
       "key_constellation": "2鏈強質變",
-      "tags": [],
+      "tags": [
+        "副C\",\"主C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2050",
@@ -628,14 +698,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "57.5",
+      "role_cost": "HK$433.20"
     },
     {
       "name": "坎特蕾拉",
       "element": "煙滅",
       "weapon": "法器",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -651,7 +723,9 @@
       "total_draws": "67",
       "key_draws": "核心 2/3/6 命；2命當頂級副C收益最高，3命大招倍率+370%",
       "key_constellation": "核心 2/3/6 命；2命當頂級副C收益最高，3命大招倍率+370%",
-      "tags": [],
+      "tags": [
+        "副C\",\"奶媽"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2175",
@@ -663,14 +737,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "130",
+      "role_cost": "HK$489.70"
     },
     {
       "name": "卡提希婭",
       "element": "氣動",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "2",
+      "constellation": 2,
       "modal": "[\"風蝕\"]",
       "role": "",
       "status": "已擁有",
@@ -686,7 +762,9 @@
       "total_draws": "168",
       "key_draws": "2鏈強質變",
       "key_constellation": "2鏈強質變",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2200",
@@ -698,14 +776,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "81.33333333",
+      "role_cost": "HK$919.13"
     },
     {
       "name": "露帕",
       "element": "熱熔",
       "weapon": "長刃",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -721,7 +801,9 @@
       "total_draws": "66",
       "key_draws": "核心 0/2/3/6 命；2命全隊熱熔加成性價比最高，3命解綁三熱熔，6命主C上限",
       "key_constellation": "核心 0/2/3/6 命；2命全隊熱熔加成性價比最高，3命解綁三熱熔，6命主C上限",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2150",
@@ -733,14 +815,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "132",
+      "role_cost": "HK$497.23"
     },
     {
       "name": "弗洛洛",
       "element": "煙滅",
       "weapon": "法器",
       "star": "5",
-      "constellation": "2",
+      "constellation": 2,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -756,7 +840,9 @@
       "total_draws": "139",
       "key_draws": "2鏈強質變（加速被動疊層）",
       "key_constellation": "2鏈強質變（加速被動疊層）",
-      "tags": [],
+      "tags": [
+        "主C\",\"副C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2250",
@@ -768,14 +854,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "48.33333333",
+      "role_cost": "HK$546.20"
     },
     {
       "name": "奧古斯塔",
       "element": "導電",
       "weapon": "長刃",
       "star": "5",
-      "constellation": "1",
+      "constellation": 1,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -791,7 +879,9 @@
       "total_draws": "77",
       "key_draws": "核心 0/2/6 命；2命質變（暴擊超100%轉暴傷），6命上限",
       "key_constellation": "核心 0/2/6 命；2命質變（暴擊超100%轉暴傷），6命上限",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2200",
@@ -803,14 +893,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "38.5",
+      "role_cost": "HK$290.05"
     },
     {
       "name": "尤諾",
       "element": "氣動",
       "weapon": "臂鎧",
       "star": "5",
-      "constellation": "2",
+      "constellation": 2,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -826,7 +918,9 @@
       "total_draws": "142",
       "key_draws": "核心 0/2/6 命；2命關鍵輔助增傷（滿月領域+40%全傷害加深），6命變身主C",
       "key_constellation": "核心 0/2/6 命；2命關鍵輔助增傷（滿月領域+40%全傷害加深），6命變身主C",
-      "tags": [],
+      "tags": [
+        "主C\",\"副C\",\"奶媽"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2100",
@@ -838,14 +932,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "71.33333333",
+      "role_cost": "HK$806.12"
     },
     {
       "name": "千咲",
       "element": "煙滅",
       "weapon": "長刃",
       "star": "5",
-      "constellation": "1",
+      "constellation": 1,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -861,7 +957,9 @@
       "total_draws": "100",
       "key_draws": "核心 0/2/3/6 命；2命質變（全隊全傷害加深），性價比最高",
       "key_constellation": "核心 0/2/3/6 命；2命質變（全隊全傷害加深），性價比最高",
-      "tags": [],
+      "tags": [
+        "副C\",\"奶媽"
+      ],
       "stats": {
         "hp": "35000",
         "atk": "1000",
@@ -873,14 +971,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "25",
+      "role_cost": "HK$188.35"
     },
     {
       "name": "莫寧",
       "element": "熱熔",
       "weapon": "長刃",
       "star": "5",
-      "constellation": "1",
+      "constellation": 1,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -896,7 +996,9 @@
       "total_draws": "73",
       "key_draws": "核心 0/1/2/6 命；1命解綁干涉標記（8秒→20秒）泛用，2命全隊暴傷+32%",
       "key_constellation": "核心 0/1/2/6 命；1命解綁干涉標記（8秒→20秒）泛用，2命全隊暴傷+32%",
-      "tags": [],
+      "tags": [
+        "奶媽"
+      ],
       "stats": {
         "hp": "35000",
         "atk": "1000",
@@ -908,14 +1010,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "36.5",
+      "role_cost": "HK$274.99"
     },
     {
       "name": "琳奈",
       "element": "衍射",
       "weapon": "佩槍",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "[\"集諧\",\"震諧\"]",
       "role": "",
       "status": "已擁有",
@@ -931,7 +1035,9 @@
       "total_draws": "69",
       "key_draws": "核心 0/2/6 命；0命機制完全體，2命延奏全傷害加深25%拐力質變",
       "key_constellation": "核心 0/2/6 命；0命機制完全體，2命延奏全傷害加深25%拐力質變",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "12000",
         "atk": "2100",
@@ -943,14 +1049,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "126",
+      "role_cost": "HK$474.63"
     },
     {
       "name": "愛彌斯",
       "element": "熱熔",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "3",
+      "constellation": 3,
       "modal": "[\"震諧\",\"聚爆\"]",
       "role": "",
       "status": "已擁有",
@@ -966,7 +1074,9 @@
       "total_draws": "107",
       "key_draws": "核心 0/2/3/6 命；3命解綁隊友二段大招倍率翻倍，6命數值怪",
       "key_constellation": "核心 0/2/3/6 命；3命解綁隊友二段大招倍率翻倍，6命數值怪",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "17401",
         "atk": "2261",
@@ -978,14 +1088,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "31.5",
+      "role_cost": "HK$474.63"
     },
     {
       "name": "達妮婭",
       "element": "熱熔",
       "weapon": "法器",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1001,7 +1113,9 @@
       "total_draws": "13",
       "key_draws": "2命（全隊增傷）與 3命（手法質變縮軸）",
       "key_constellation": "2命（全隊增傷）與 3命（手法質變縮軸）",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2000",
@@ -1013,14 +1127,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "39",
+      "role_cost": "HK$146.91"
     },
     {
       "name": "緋雪",
       "element": "冷凝",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1036,7 +1152,9 @@
       "total_draws": "72",
       "key_draws": "2命（居合傷害+125%啟動縮軸）；6鏈上限",
       "key_constellation": "2命（居合傷害+125%啟動縮軸）；6鏈上限",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "16054",
         "atk": "2843",
@@ -1048,14 +1166,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "141",
+      "role_cost": "HK$531.14"
     },
     {
       "name": "洛瑟菈",
       "element": "冷凝",
       "weapon": "法器",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "[\"霜漸\",\"集諧\"]",
       "role": "",
       "status": "已擁有",
@@ -1071,7 +1191,9 @@
       "total_draws": "72",
       "key_draws": "核心 0/2/6 命；2命給隊友霜漸傷害+80%拐力最大化",
       "key_constellation": "核心 0/2/6 命；2命給隊友霜漸傷害+80%拐力最大化",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2000",
@@ -1083,14 +1205,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "72",
+      "role_cost": "HK$271.22"
     },
     {
       "name": "穗穗",
       "element": "冷凝",
       "weapon": "音感儀",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1106,7 +1230,9 @@
       "total_draws": "10",
       "key_draws": "1鏈（機制完善+免疫打斷）、2鏈（效應角色爆傷）、3鏈（縮軸）",
       "key_constellation": "1鏈（機制完善+免疫打斷）、2鏈（效應角色爆傷）、3鏈（縮軸）",
-      "tags": [],
+      "tags": [
+        "奶媽\",\"副C"
+      ],
       "stats": {
         "hp": "43473",
         "atk": "874",
@@ -1118,14 +1244,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "0",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "清宵",
       "element": "氣動",
       "weapon": "迅刀",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "[\"集諧\"]",
       "role": "",
       "status": "已擁有",
@@ -1141,7 +1269,9 @@
       "total_draws": "62",
       "key_draws": "核心 0/1/3/6 命；1命暴擊+抗打斷質變，3命關鍵爆發節點",
       "key_constellation": "核心 0/1/3/6 命；1命暴擊+抗打斷質變，3命關鍵爆發節點",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2200",
@@ -1153,14 +1283,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "133",
+      "role_cost": "HK$501.00"
     },
     {
       "name": "心月狐",
       "element": "導電",
       "weapon": "法器",
       "star": "5",
-      "constellation": "0",
+      "constellation": 0,
       "modal": "[\"同奏\",\"電磁\"]",
       "role": "",
       "status": "已擁有",
@@ -1176,7 +1308,9 @@
       "total_draws": "39",
       "key_draws": "核心 2鏈（S2 主要投資目標）；分水嶺 3鏈；S6 鯨魚斷點",
       "key_constellation": "核心 2鏈（S2 主要投資目標）；分水嶺 3鏈；S6 鯨魚斷點",
-      "tags": [],
+      "tags": [
+        "主C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2050",
@@ -1188,14 +1322,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "188",
+      "role_cost": "HK$708.18"
     },
     {
       "name": "鑒心",
       "element": "氣動",
       "weapon": "臂鎧",
       "star": "5",
-      "constellation": "3",
+      "constellation": 3,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1211,7 +1347,9 @@
       "total_draws": "198",
       "key_draws": "核心 0/1/2 命；1命協奏回復翻倍，2命協奏提速可作專輔下位替代",
       "key_constellation": "核心 0/1/2 命；1命協奏回復翻倍，2命協奏提速可作專輔下位替代",
-      "tags": [],
+      "tags": [
+        "主C\",\"奶媽"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "1900",
@@ -1223,14 +1361,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "true",
+      "draws_per_const": "65.25",
+      "role_cost": "HK$983.17"
     },
     {
       "name": "白芷",
       "element": "冷凝",
       "weapon": "法器",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1246,7 +1386,9 @@
       "total_draws": "0",
       "key_draws": "零命即可用，關鍵5命（復活機制）與6命（全隊冷凝增傷12%）",
       "key_constellation": "零命即可用，關鍵5命（復活機制）與6命（全隊冷凝增傷12%）",
-      "tags": [],
+      "tags": [
+        "奶媽"
+      ],
       "stats": {
         "hp": "35000",
         "atk": "1000",
@@ -1258,14 +1400,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "熾霞",
       "element": "熱熔",
       "weapon": "佩槍",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1281,7 +1425,9 @@
       "total_draws": "0",
       "key_draws": "命座戰士，5命傷害提升最大，6命全隊普攻傷害；零命當主C不推薦",
       "key_constellation": "命座戰士，5命傷害提升最大，6命全隊普攻傷害；零命當主C不推薦",
-      "tags": [],
+      "tags": [
+        "副C\",\"主C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2200",
@@ -1293,14 +1439,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "丹瑾",
       "element": "煙滅",
       "weapon": "迅刀",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1316,7 +1464,9 @@
       "total_draws": "0",
       "key_draws": "零命即可給暗主增傷；補強2/3/4/5命，6命全隊20%攻擊",
       "key_constellation": "零命即可給暗主增傷；補強2/3/4/5命，6命全隊20%攻擊",
-      "tags": [],
+      "tags": [
+        "副C\",\"主C"
+      ],
       "stats": {
         "hp": "16500",
         "atk": "2100",
@@ -1328,14 +1478,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "莫特斐",
       "element": "熱熔",
       "weapon": "佩槍",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1351,7 +1503,9 @@
       "total_draws": "0",
       "key_draws": "零命即可用，關鍵1/5/6命（6命開大全隊20%攻擊）",
       "key_constellation": "零命即可用，關鍵1/5/6命（6命開大全隊20%攻擊）",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2050",
@@ -1363,14 +1517,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "散華",
       "element": "冷凝",
       "weapon": "迅刀",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1386,7 +1542,9 @@
       "total_draws": "0",
       "key_draws": "零命即完全體，5命質變（冰柱自動爆炸），6鏈完美副C",
       "key_constellation": "零命即完全體，5命質變（冰柱自動爆炸），6鏈完美副C",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2000",
@@ -1398,14 +1556,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "桃祈",
       "element": "煙滅",
       "weapon": "長刃",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1421,7 +1581,9 @@
       "total_draws": "0",
       "key_draws": "零命即可當輔助，1命護盾量+40%推薦",
       "key_constellation": "零命即可當輔助，1命護盾量+40%推薦",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2000",
@@ -1433,14 +1595,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "秧秧",
       "element": "氣動",
       "weapon": "迅刀",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1456,7 +1620,9 @@
       "total_draws": "0",
       "key_draws": "零命即完全體；推薦2命（重擊回能）與6命（空中攻擊後全隊+20%攻擊）",
       "key_constellation": "零命即完全體；推薦2命（重擊回能）與6命（空中攻擊後全隊+20%攻擊）",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "15000",
         "atk": "2000",
@@ -1468,14 +1634,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "淵武",
       "element": "導電",
       "weapon": "臂鎧",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1491,7 +1659,9 @@
       "total_draws": "0",
       "key_draws": "零命可用，關鍵1命（攻速+20%）與4命（開大給登場角色護盾）",
       "key_constellation": "零命可用，關鍵1命（攻速+20%）與4命（開大給登場角色護盾）",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "13000",
         "atk": "1200",
@@ -1503,14 +1673,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "釉瑚",
       "element": "冷凝",
       "weapon": "臂鎧",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1526,7 +1698,9 @@
       "total_draws": "0",
       "key_draws": "零命即完全體，命座多為自身增傷無需專門抽；主C向追2/6命",
       "key_constellation": "零命即完全體，命座多為自身增傷無需專門抽；主C向追2/6命",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2000",
@@ -1538,14 +1712,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "燈燈",
       "element": "導電",
       "weapon": "長刃",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1561,7 +1737,9 @@
       "total_draws": "0",
       "key_draws": "零命即完全體，主C推薦4命，6命開大全隊20%攻擊",
       "key_constellation": "零命即完全體，主C推薦4命，6命開大全隊20%攻擊",
-      "tags": [],
+      "tags": [
+        "副C"
+      ],
       "stats": {
         "hp": "16000",
         "atk": "2000",
@@ -1573,14 +1751,16 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     },
     {
       "name": "卜靈",
       "element": "導電",
       "weapon": "法器",
       "star": "4",
-      "constellation": "",
+      "constellation": 0,
       "modal": "",
       "role": "",
       "status": "已擁有",
@@ -1596,7 +1776,9 @@
       "total_draws": "0",
       "key_draws": "零命即帶完整治療機制，關鍵6命（共鳴技能傷害加成升至50%）",
       "key_constellation": "零命即帶完整治療機制，關鍵6命（共鳴技能傷害加成升至50%）",
-      "tags": [],
+      "tags": [
+        "奶媽"
+      ],
       "stats": {
         "hp": "35000",
         "atk": "1000",
@@ -1608,7 +1790,9 @@
       },
       "gacha_records": [],
       "appear_teams": [],
-      "key_role": false
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00"
     }
   ],
   "teams": [
