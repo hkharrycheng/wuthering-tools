@@ -699,6 +699,15 @@
             border-radius: 6px;
             padding: 2px;
         }
+    
+        .resonator-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .resonator-img:not([src]), .resonator-img[src=""] {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -915,7 +924,7 @@
                 const scoreHtml = teamMaxScore > 0 ? '<span class="score-display" style="color:#fbbf24;">🏆' + teamMaxScore + '</span>' : '';
                 return '<div class="resonator-card" onclick="showResonatorDetail(\'' + r.name + '\')">' +
                     '<div class="resonator-avatar" style="background:linear-gradient(135deg, ' + elemColor + '40, ' + elemColor + '80)">' +
-                        '<img src="' + r.avatar + '" alt="' + r.name + '" onerror="this.style.display=\'none\'">' +
+                        '<img src="' + r.avatar + '" alt="' + r.name + '" class="resonator-img">' +
                         '<div class="element-badge" style="background:' + elemColor + '">' + r.element.charAt(0) + '</div>' +
                         weaponImg +
                     '</div>' +
