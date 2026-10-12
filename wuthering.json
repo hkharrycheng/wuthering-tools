@@ -26,10 +26,10 @@
         "hp": "15500",
         "atk": "2000",
         "def": "1350",
-        "crit_rate": "0.675",
-        "crit_dmg": "2.35",
-        "resonance_efficiency": "1.215",
-        "element_dmg_bonus": "0.6"
+        "crit_rate": "67.5",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "121.5",
+        "element_dmg_bonus": "60.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -61,10 +61,10 @@
         "hp": "15000",
         "atk": "2000",
         "def": "1250",
-        "crit_rate": "0.675",
-        "crit_dmg": "2.35",
-        "resonance_efficiency": "1.4",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "67.5",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -96,10 +96,10 @@
         "hp": "15000",
         "atk": "2100",
         "def": "1150",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.1",
-        "resonance_efficiency": "1.33",
-        "element_dmg_bonus": "0.45"
+        "crit_rate": "65.0",
+        "crit_dmg": "210.0",
+        "resonance_efficiency": "133.0",
+        "element_dmg_bonus": "45.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -131,10 +131,10 @@
         "hp": "17000",
         "atk": "2000",
         "def": "1150",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.45",
-        "resonance_efficiency": "1.165",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "72.5",
+        "crit_dmg": "245.0",
+        "resonance_efficiency": "116.5",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -166,10 +166,10 @@
         "hp": "16000",
         "atk": "2200",
         "def": "1200",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.4",
-        "resonance_efficiency": "1.1",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -201,10 +201,10 @@
         "hp": "16500",
         "atk": "2100",
         "def": "1150",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.35",
-        "resonance_efficiency": "1.14",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "72.5",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "114.0",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -236,10 +236,10 @@
         "hp": "15000",
         "atk": "2200",
         "def": "1200",
-        "crit_rate": "0.675",
-        "crit_dmg": "2.5",
-        "resonance_efficiency": "1.175",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "67.5",
+        "crit_dmg": "250.0",
+        "resonance_efficiency": "117.5",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -271,10 +271,10 @@
         "hp": "15000",
         "atk": "2200",
         "def": "1250",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.45",
-        "resonance_efficiency": "1.125",
-        "element_dmg_bonus": "0.75"
+        "crit_rate": "72.5",
+        "crit_dmg": "245.0",
+        "resonance_efficiency": "112.5",
+        "element_dmg_bonus": "75.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -306,10 +306,10 @@
         "hp": "15000",
         "atk": "2300",
         "def": "1150",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.375",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.5"
+        "crit_rate": "72.5",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "50.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -341,10 +341,10 @@
         "hp": "16000",
         "atk": "2200",
         "def": "1200",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.4",
-        "resonance_efficiency": "1.1",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -376,10 +376,10 @@
         "hp": "18000",
         "atk": "1500",
         "def": "1100",
-        "crit_rate": "0.6",
-        "crit_dmg": "2.1",
-        "resonance_efficiency": "2.25",
-        "element_dmg_bonus": "0"
+        "crit_rate": "60.0",
+        "crit_dmg": "210.0",
+        "resonance_efficiency": "225.0",
+        "element_dmg_bonus": "0.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -411,10 +411,10 @@
         "hp": "16000",
         "atk": "2000",
         "def": "1200",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.2",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -446,10 +446,10 @@
         "hp": "16000",
         "atk": "2000",
         "def": "1200",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.2",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -481,10 +481,10 @@
         "hp": "35000",
         "atk": "1000",
         "def": "1300",
-        "crit_rate": "0.5",
-        "crit_dmg": "1.5",
-        "resonance_efficiency": "1.4",
-        "element_dmg_bonus": "0"
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -516,10 +516,10 @@
         "hp": "15000",
         "atk": "2100",
         "def": "1150",
-        "crit_rate": "0.675",
-        "crit_dmg": "2.5",
-        "resonance_efficiency": "1.215",
-        "element_dmg_bonus": "0.85"
+        "crit_rate": "67.5",
+        "crit_dmg": "250.0",
+        "resonance_efficiency": "121.5",
+        "element_dmg_bonus": "85.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -551,10 +551,10 @@
         "hp": "15000",
         "atk": "2150",
         "def": "1100",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.375",
-        "resonance_efficiency": "1.22",
-        "element_dmg_bonus": "0.5"
+        "crit_rate": "72.5",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "122.0",
+        "element_dmg_bonus": "50.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -586,10 +586,10 @@
         "hp": "16000",
         "atk": "2000",
         "def": "1200",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.2",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -621,10 +621,10 @@
         "hp": "15000",
         "atk": "2050",
         "def": "1100",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.375",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "70.0",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -656,10 +656,10 @@
         "hp": "16000",
         "atk": "2175",
         "def": "1100",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.45",
-        "resonance_efficiency": "1.3",
-        "element_dmg_bonus": "0.5"
+        "crit_rate": "72.5",
+        "crit_dmg": "245.0",
+        "resonance_efficiency": "130.0",
+        "element_dmg_bonus": "50.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -691,10 +691,10 @@
         "hp": "16000",
         "atk": "2200",
         "def": "1200",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.4",
-        "resonance_efficiency": "1.1",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -726,10 +726,10 @@
         "hp": "16000",
         "atk": "2150",
         "def": "1100",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.375",
-        "resonance_efficiency": "1.225",
-        "element_dmg_bonus": "0.65"
+        "crit_rate": "72.5",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "122.5",
+        "element_dmg_bonus": "65.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -761,10 +761,10 @@
         "hp": "15000",
         "atk": "2250",
         "def": "1100",
-        "crit_rate": "0.6",
-        "crit_dmg": "2.375",
-        "resonance_efficiency": "1",
-        "element_dmg_bonus": "0.5"
+        "crit_rate": "60.0",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "100.0",
+        "element_dmg_bonus": "50.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -796,10 +796,10 @@
         "hp": "16000",
         "atk": "2200",
         "def": "1200",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.4",
-        "resonance_efficiency": "1.1",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -831,10 +831,10 @@
         "hp": "15000",
         "atk": "2100",
         "def": "1100",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.375",
-        "resonance_efficiency": "1.25",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "72.5",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "125.0",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -866,10 +866,10 @@
         "hp": "35000",
         "atk": "1000",
         "def": "1300",
-        "crit_rate": "0.5",
-        "crit_dmg": "1.5",
-        "resonance_efficiency": "1.4",
-        "element_dmg_bonus": "0"
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -901,10 +901,10 @@
         "hp": "35000",
         "atk": "1000",
         "def": "1300",
-        "crit_rate": "0.5",
-        "crit_dmg": "1.5",
-        "resonance_efficiency": "1.4",
-        "element_dmg_bonus": "0"
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -936,10 +936,10 @@
         "hp": "12000",
         "atk": "2100",
         "def": "1150",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.65",
-        "resonance_efficiency": "1.225",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "65.0",
+        "crit_dmg": "265.0",
+        "resonance_efficiency": "122.5",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -971,10 +971,10 @@
         "hp": "17401",
         "atk": "2261",
         "def": "1148",
-        "crit_rate": "0.73",
-        "crit_dmg": "2.726",
-        "resonance_efficiency": "1.092",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "73.0",
+        "crit_dmg": "272.6",
+        "resonance_efficiency": "109.2",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1006,10 +1006,10 @@
         "hp": "16000",
         "atk": "2000",
         "def": "1200",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.2",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1041,10 +1041,10 @@
         "hp": "16054",
         "atk": "2843",
         "def": "1172",
-        "crit_rate": "0.73",
-        "crit_dmg": "2.406",
-        "resonance_efficiency": "1.1",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "73.0",
+        "crit_dmg": "240.6",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1076,10 +1076,10 @@
         "hp": "16000",
         "atk": "2000",
         "def": "1200",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.2",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1111,10 +1111,10 @@
         "hp": "43473",
         "atk": "874",
         "def": "1349",
-        "crit_rate": "0.224",
-        "crit_dmg": "2.734",
-        "resonance_efficiency": "1.4",
-        "element_dmg_bonus": "0"
+        "crit_rate": "22.4",
+        "crit_dmg": "273.4",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1146,10 +1146,10 @@
         "hp": "16000",
         "atk": "2200",
         "def": "1200",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.4",
-        "resonance_efficiency": "1.1",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1181,10 +1181,10 @@
         "hp": "15000",
         "atk": "2050",
         "def": "1100",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.475",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "70.0",
+        "crit_dmg": "247.5",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1216,10 +1216,10 @@
         "hp": "15000",
         "atk": "1900",
         "def": "1250",
-        "crit_rate": "0.725",
-        "crit_dmg": "2.45",
-        "resonance_efficiency": "1.65",
-        "element_dmg_bonus": "0.45"
+        "crit_rate": "72.5",
+        "crit_dmg": "245.0",
+        "resonance_efficiency": "165.0",
+        "element_dmg_bonus": "45.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1251,10 +1251,10 @@
         "hp": "35000",
         "atk": "1000",
         "def": "1300",
-        "crit_rate": "0.5",
-        "crit_dmg": "1.5",
-        "resonance_efficiency": "1.4",
-        "element_dmg_bonus": "0"
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1286,10 +1286,10 @@
         "hp": "16000",
         "atk": "2200",
         "def": "1200",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.4",
-        "resonance_efficiency": "1.1",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1321,10 +1321,10 @@
         "hp": "16500",
         "atk": "2100",
         "def": "1150",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.4",
-        "resonance_efficiency": "1.1",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1356,10 +1356,10 @@
         "hp": "15000",
         "atk": "2050",
         "def": "1100",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.375",
-        "resonance_efficiency": "1.225",
-        "element_dmg_bonus": "0.55"
+        "crit_rate": "70.0",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "122.5",
+        "element_dmg_bonus": "55.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1391,10 +1391,10 @@
         "hp": "15000",
         "atk": "2000",
         "def": "1150",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.35",
-        "resonance_efficiency": "1",
-        "element_dmg_bonus": "0.45"
+        "crit_rate": "70.0",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "100.0",
+        "element_dmg_bonus": "45.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1426,10 +1426,10 @@
         "hp": "15000",
         "atk": "2000",
         "def": "1150",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.35",
-        "resonance_efficiency": "1.13",
-        "element_dmg_bonus": "0.45"
+        "crit_rate": "70.0",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "113.0",
+        "element_dmg_bonus": "45.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1461,10 +1461,10 @@
         "hp": "15000",
         "atk": "2000",
         "def": "1150",
-        "crit_rate": "0.7",
-        "crit_dmg": "2.35",
-        "resonance_efficiency": "1.07",
-        "element_dmg_bonus": "0.45"
+        "crit_rate": "70.0",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "107.0",
+        "element_dmg_bonus": "45.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1496,10 +1496,10 @@
         "hp": "13000",
         "atk": "1200",
         "def": "1800",
-        "crit_rate": "0.6",
-        "crit_dmg": "2.5",
-        "resonance_efficiency": "1",
-        "element_dmg_bonus": "0.45"
+        "crit_rate": "60.0",
+        "crit_dmg": "250.0",
+        "resonance_efficiency": "100.0",
+        "element_dmg_bonus": "45.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1531,10 +1531,10 @@
         "hp": "16000",
         "atk": "2000",
         "def": "1200",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.2",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1566,10 +1566,10 @@
         "hp": "16000",
         "atk": "2000",
         "def": "1200",
-        "crit_rate": "0.65",
-        "crit_dmg": "2.2",
-        "resonance_efficiency": "1.2",
-        "element_dmg_bonus": "0.7"
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
       },
       "gacha_records": [],
       "appear_teams": [],
@@ -1601,10 +1601,10 @@
         "hp": "35000",
         "atk": "1000",
         "def": "1300",
-        "crit_rate": "0.5",
-        "crit_dmg": "1.5",
-        "resonance_efficiency": "1.4",
-        "element_dmg_bonus": "0"
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
       },
       "gacha_records": [],
       "appear_teams": [],
