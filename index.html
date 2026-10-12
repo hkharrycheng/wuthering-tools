@@ -1263,12 +1263,15 @@
         }
         
         function showTeamDetailByName(teamName) {
-            // 切換到奇點擴張排名並顯示該隊伍詳情
+            // 關閉共鳴者詳情彈窗
+            document.getElementById('resonatorModal').classList.remove('active');
+            // 切換到奇點擴張排名
             switchTab('ranking');
+            // 找到隊伍的index並打開詳情
             setTimeout(() => {
-                const team = (data.teams || []).find(t => t.name === teamName);
-                if (team) {
-                    showTeamRankingDetail(team);
+                const index = (data.teams || []).findIndex(t => t.name === teamName);
+                if (index >= 0) {
+                    showTeamDetail(index);
                 }
             }, 100);
         }
