@@ -915,7 +915,7 @@
                 const scoreHtml = teamMaxScore > 0 ? '<span class="score-display" style="color:#fbbf24;">🏆' + teamMaxScore + '</span>' : '';
                 return '<div class="resonator-card" onclick="showResonatorDetail(\'' + r.name + '\')">' +
                     '<div class="resonator-avatar" style="background:linear-gradient(135deg, ' + elemColor + '40, ' + elemColor + '80)">' +
-                        '<img src="' + r.avatar + '" alt="' + r.name + '" onerror="this.style.display='none'">' +
+                        '<img src="' + r.avatar + '" alt="' + r.name + '" onerror="this.style.display=\'none\'">' +
                         '<div class="element-badge" style="background:' + elemColor + '">' + r.element.charAt(0) + '</div>' +
                         weaponImg +
                     '</div>' +
@@ -1136,7 +1136,7 @@
                             <div class="fight-members">
                                 ${fight.members.map(m => `
                                     <div class="fight-member">
-                                        <img src="${m.avatar}" alt="${m.name}" onerror="this.style.display='none'">
+                                        <img src="${m.avatar}" alt="${m.name}" onerror="this.style.display=\'none\'">
                                         <span>${m.name}</span>
                                     </div>
                                 `).join('')}
