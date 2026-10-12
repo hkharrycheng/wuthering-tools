@@ -606,7 +606,88 @@
             .stat-item .number { font-size: 14px; }
             .stat-item .label { font-size: 8px; }
         }
-    </style>
+    
+        /* FIGHT記錄樣式 */
+        .team-stats-bar {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .team-stat {
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        .team-stat-number {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        .team-stat-label {
+            font-size: 10px;
+            color: rgba(255,255,255,0.6);
+            margin-top: 2px;
+        }
+        .fights-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .fight-record {
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 10px;
+            border-left: 3px solid rgba(255,255,255,0.2);
+        }
+        .fight-record.best {
+            border-left-color: #ffd700;
+            background: rgba(255,215,0,0.1);
+        }
+        .fight-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        .fight-season {
+            font-weight: bold;
+            color: #58a6ff;
+        }
+        .fight-score {
+            font-weight: bold;
+            color: #ffd700;
+        }
+        .fight-badge {
+            background: #ffd700;
+            color: #000;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        .fight-members {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .fight-member {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            background: rgba(255,255,255,0.05);
+            padding: 3px 6px;
+            border-radius: 12px;
+        }
+        .fight-member img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+</style>
 </head>
 <body>
     <div class="header">
@@ -893,6 +974,13 @@
                         <div class="label">專武</div>
                         <div class="value">${r.special_weapon || '無'}</div>
                     </div>
+                    <div class="info-item" style="grid-column: span 2;">
+                        <div class="label">專武圖片</div>
+                        <div class="value" style="display:flex; align-items:center; gap:10px;">
+                            ${r.weapon_avatar ? `<img src="${r.weapon_avatar}" alt="${r.special_weapon}" style="width:50px; height:50px; object-fit:contain; background:rgba(255,255,255,0.1); border-radius:8px;">` : '<span style="color:#666;">無圖片</span>'}
+                            <span>${r.special_weapon || ''}</span>
+                        </div>
+                    </div>
                     <div class="info-item">
                         <div class="label">命座</div>
                         <div class="value">${r.constellation || '0命'}</div>
@@ -975,7 +1063,7 @@
             if (!team) return;
 
             document.getElementById('teamModalName').textContent = team.name;
-            document.getElementById('teamModalScore').textContent = '最佳分數: ' + team.best_score;
+            document.getElementById('teamModalScore').textContent = `🏆 ${team.champion_count || 0}冠軍 | 最高分 ${team.max_score || team.best_score} | ${team.total_fights || 0}場`;
 
             const bossInfo = data.bosses ? Object.values(data.bosses).find(b => b.name === team.boss) : null;
             const bossAvatar = team.boss ? `bosses/${team.boss}.png` : '';
@@ -1006,7 +1094,47 @@
             }).join('');
 
             const body = document.getElementById('teamModalBody');
+            
+            // 生成所有FIGHT場次
+            const fightsHtml = team.fights && team.fights.length > 0 ? `
+                <div class="section-title">📊 所有FIGHT場次 (${team.fights.length}場)</div>
+                <div class="fights-list">
+                    ${team.fights.map((fight, i) => `
+                        <div class="fight-record ${i === 0 ? 'best' : ''}">
+                            <div class="fight-header">
+                                <span class="fight-season">S${fight.season}.${fight.turn}</span>
+                                <span class="fight-score">${fight.score}分</span>
+                                ${i === 0 ? '<span class="fight-badge">最高分</span>' : ''}
+                            </div>
+                            <div class="fight-members">
+                                ${fight.members.map(m => `
+                                    <div class="fight-member">
+                                        <img src="${m.avatar}" alt="${m.name}" onerror="this.style.display='none'">
+                                        <span>${m.name}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '';
+            
             body.innerHTML = `
+                <div class="team-stats-bar">
+                    <div class="team-stat">
+                        <div class="team-stat-number">${team.champion_count || 0}</div>
+                        <div class="team-stat-label">Season冠軍</div>
+                    </div>
+                    <div class="team-stat">
+                        <div class="team-stat-number">${team.max_score || team.best_score || 0}</div>
+                        <div class="team-stat-label">最高分</div>
+                    </div>
+                    <div class="team-stat">
+                        <div class="team-stat-number">${team.total_fights || 0}</div>
+                        <div class="team-stat-label">總場次</div>
+                    </div>
+                </div>
+
                 ${team.boss ? `
                 <div class="team-detail-boss">
                     <div class="boss-avatar">
@@ -1019,7 +1147,6 @@
                             <div class="boss-round"><span class="round-label">第一輪啟用:</span>${bossRound1}</div>
                             <div class="boss-round"><span class="round-label">第二輪啟用:</span>${bossRound2}</div>
                         </div>
-                        <p style="margin-top:8px">🏆 Season ${team.season} | ⏱️ Turn ${team.turn}</p>
                     </div>
                 </div>
                 ` : ''}
@@ -1028,6 +1155,8 @@
                 <div class="team-detail-members">
                     ${membersHtml}
                 </div>
+
+                ${fightsHtml}
             `;
 
             document.getElementById('teamModal').classList.add('active');
