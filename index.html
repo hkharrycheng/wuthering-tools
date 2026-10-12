@@ -992,7 +992,7 @@
                 else if (rank === 2) { rankClass = 'rank-2'; cardClass = 'top2'; }
                 else if (rank === 3) { rankClass = 'rank-3'; cardClass = 'top3'; }
 
-                const membersHtml = team.members.map(m => {
+                const membersHtml = sortMembersByPosition(team.members).map(m => {
                     let posClass = '';
                     if (m.position === '主C') posClass = 'main';
                     else if (m.position === '副C') posClass = 'sub';
@@ -1154,7 +1154,7 @@
             const bossRound1 = bossInfo ? (bossInfo.round1 || '未記錄') : '未記錄';
             const bossRound2 = bossInfo ? (bossInfo.round2 || '未記錄') : '未記錄';
 
-            const membersHtml = team.members.map(m => {
+            const membersHtml = sortMembersByPosition(team.members).map(m => {
                 let posClass = '';
                 if (m.position === '主C') posClass = 'main';
                 else if (m.position === '副C') posClass = 'sub';
@@ -1192,7 +1192,7 @@
                                 </div>
                             </div>
                             <div class="fight-members">
-                                ${fight.members.map(m => `
+                                ${sortMembersByPosition(fight.members).map(m => `
                                     <div class="fight-member">
                                         <img src="${m.avatar}" alt="${m.name}" onerror="this.style.display=\'none\'">
                                         <span>${m.name}</span>
@@ -1276,6 +1276,15 @@
                 }
             }, 100);
         }
-    </script>
+    
+        function sortMembersByPosition(members) {
+            const order = { '主C': 0, '副C': 1, '奶媽': 2 };
+            return [...members].sort((a, b) => {
+                const posA = a.position || '';
+                const posB = b.position || '';
+                return (order[posA] ?? 99) - (order[posB] ?? 99);
+            });
+        }
+</script>
 </body>
 </html>
