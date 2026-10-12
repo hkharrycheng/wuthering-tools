@@ -1805,17 +1805,17 @@
       "members": [
         {
           "name": "守岸人",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/守岸人.png"
         },
         {
           "name": "奧古斯塔",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/奧古斯塔.png"
         },
         {
           "name": "尤諾",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/尤諾.png"
         }
       ],
@@ -1829,17 +1829,17 @@
           "members": [
             {
               "name": "守岸人",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/守岸人.png"
             },
             {
               "name": "奧古斯塔",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/奧古斯塔.png"
             },
             {
               "name": "尤諾",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/尤諾.png"
             }
           ]
@@ -1853,17 +1853,17 @@
           "members": [
             {
               "name": "守岸人",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/守岸人.png"
             },
             {
               "name": "奧古斯塔",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/奧古斯塔.png"
             },
             {
               "name": "尤諾",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/尤諾.png"
             }
           ]
@@ -1883,17 +1883,17 @@
       "members": [
         {
           "name": "千咲",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/千咲.png"
         },
         {
           "name": "守岸人",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/守岸人.png"
         },
         {
           "name": "秧秧·玄翎",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/秧秧·玄翎.png"
         }
       ],
@@ -1907,17 +1907,17 @@
           "members": [
             {
               "name": "千咲",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/千咲.png"
             },
             {
               "name": "守岸人",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/守岸人.png"
             },
             {
               "name": "秧秧·玄翎",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/秧秧·玄翎.png"
             }
           ]
@@ -1931,17 +1931,17 @@
           "members": [
             {
               "name": "秧秧·玄翎",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/秧秧·玄翎.png"
             },
             {
               "name": "千咲",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/千咲.png"
             },
             {
               "name": "守岸人",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/守岸人.png"
             }
           ]
@@ -1961,17 +1961,17 @@
       "members": [
         {
           "name": "莫寧",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/莫寧.png"
         },
         {
           "name": "達妮婭",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/達妮婭.png"
         },
         {
           "name": "清宵",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/清宵.png"
         }
       ],
@@ -1985,17 +1985,17 @@
           "members": [
             {
               "name": "莫寧",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/莫寧.png"
             },
             {
               "name": "達妮婭",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/達妮婭.png"
             },
             {
               "name": "清宵",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/清宵.png"
             }
           ]
@@ -2015,17 +2015,17 @@
       "members": [
         {
           "name": "愛彌斯",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/愛彌斯.png"
         },
         {
           "name": "達妮婭",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/達妮婭.png"
         },
         {
           "name": "莫寧",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/莫寧.png"
         }
       ],
@@ -2039,17 +2039,17 @@
           "members": [
             {
               "name": "愛彌斯",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/愛彌斯.png"
             },
             {
               "name": "達妮婭",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/達妮婭.png"
             },
             {
               "name": "莫寧",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/莫寧.png"
             }
           ]
@@ -2063,17 +2063,17 @@
           "members": [
             {
               "name": "愛彌斯",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/愛彌斯.png"
             },
             {
               "name": "達妮婭",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/達妮婭.png"
             },
             {
               "name": "莫寧",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/莫寧.png"
             }
           ]
@@ -2093,17 +2093,17 @@
       "members": [
         {
           "name": "緋雪",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/緋雪.png"
         },
         {
           "name": "洛瑟菈",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/洛瑟菈.png"
         },
         {
           "name": "穗穗",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/穗穗.png"
         }
       ],
@@ -2117,17 +2117,17 @@
           "members": [
             {
               "name": "緋雪",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/緋雪.png"
             },
             {
               "name": "洛瑟菈",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/洛瑟菈.png"
             },
             {
               "name": "穗穗",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/穗穗.png"
             }
           ]
@@ -2141,17 +2141,17 @@
           "members": [
             {
               "name": "緋雪",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/緋雪.png"
             },
             {
               "name": "洛瑟菈",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/洛瑟菈.png"
             },
             {
               "name": "穗穗",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/穗穗.png"
             }
           ]
@@ -2171,17 +2171,17 @@
       "members": [
         {
           "name": "椿",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/椿.png"
         },
         {
           "name": "坎特蕾拉",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/坎特蕾拉.png"
         },
         {
           "name": "維里奈",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/維里奈.png"
         }
       ],
@@ -2195,17 +2195,17 @@
           "members": [
             {
               "name": "椿",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/椿.png"
             },
             {
               "name": "坎特蕾拉",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/坎特蕾拉.png"
             },
             {
               "name": "維里奈",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/維里奈.png"
             }
           ]
@@ -2219,17 +2219,17 @@
           "members": [
             {
               "name": "坎特蕾拉",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/坎特蕾拉.png"
             },
             {
               "name": "椿",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/椿.png"
             },
             {
               "name": "維里奈",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/維里奈.png"
             }
           ]
@@ -2243,17 +2243,17 @@
           "members": [
             {
               "name": "椿",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/椿.png"
             },
             {
               "name": "坎特蕾拉",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/坎特蕾拉.png"
             },
             {
               "name": "維里奈",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/維里奈.png"
             }
           ]
@@ -2273,17 +2273,17 @@
       "members": [
         {
           "name": "弗洛洛",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/弗洛洛.png"
         },
         {
           "name": "洛可可",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/洛可可.png"
         },
         {
           "name": "守岸人",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/守岸人.png"
         }
       ],
@@ -2297,17 +2297,17 @@
           "members": [
             {
               "name": "弗洛洛",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/弗洛洛.png"
             },
             {
               "name": "洛可可",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/洛可可.png"
             },
             {
               "name": "守岸人",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/守岸人.png"
             }
           ]
@@ -2327,17 +2327,17 @@
       "members": [
         {
           "name": "卡提希婭",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/卡提希婭.png"
         },
         {
           "name": "菲比",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/菲比.png"
         },
         {
           "name": "漂泊者·衍射",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/漂泊者·衍射.png"
         }
       ],
@@ -2351,17 +2351,17 @@
           "members": [
             {
               "name": "卡提希婭",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/卡提希婭.png"
             },
             {
               "name": "菲比",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/菲比.png"
             },
             {
               "name": "漂泊者·衍射",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/漂泊者·衍射.png"
             }
           ]
@@ -2381,17 +2381,17 @@
       "members": [
         {
           "name": "今汐",
-          "position": "[\"主C\"]",
+          "position": "主C",
           "avatar": "avatars/今汐.png"
         },
         {
           "name": "琳奈",
-          "position": "[\"副C\"]",
+          "position": "副C",
           "avatar": "avatars/琳奈.png"
         },
         {
           "name": "維里奈",
-          "position": "[\"奶媽\"]",
+          "position": "奶媽",
           "avatar": "avatars/維里奈.png"
         }
       ],
@@ -2405,17 +2405,17 @@
           "members": [
             {
               "name": "今汐",
-              "position": "[\"主C\"]",
+              "position": "主C",
               "avatar": "avatars/今汐.png"
             },
             {
               "name": "琳奈",
-              "position": "[\"副C\"]",
+              "position": "副C",
               "avatar": "avatars/琳奈.png"
             },
             {
               "name": "維里奈",
-              "position": "[\"奶媽\"]",
+              "position": "奶媽",
               "avatar": "avatars/維里奈.png"
             }
           ]
