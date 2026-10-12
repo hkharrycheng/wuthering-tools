@@ -1033,9 +1033,9 @@
             const body = document.getElementById('modalBody');
             body.innerHTML = `
                 <div class="info-grid">
-                    <div class="info-item" style="grid-column: span 2;">
+                    <div class="info-item">
                         <div class="label">命座</div>
-                        <div class="value" style="color:#ffd700; font-size:18px;">${'★'.repeat(r.constellation || 0)}${'☆'.repeat(6 - (r.constellation || 0))} <span style="color:#888; font-size:12px;">(${(r.constellation || 0)}/6)</span></div>
+                        <div class="value" style="color:#ffd700;">${'★'.repeat(Math.min(6, r.constellation || 0))}${'☆'.repeat(Math.max(0, 6 - (r.constellation || 0)))}</div>
                     </div>
                     <div class="info-item">
                         <div class="label">屬性</div>
@@ -1097,6 +1097,7 @@
                         <div class="label">角色成本</div>
                         <div class="value" style="color:#ffd700">${r.role_cost || '-'}</div>
                     </div>
+                </div>
                 
                 <div class="section-title">⚔️ 出場配隊</div>
                 <div class="team-list">
