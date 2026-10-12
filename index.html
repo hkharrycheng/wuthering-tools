@@ -687,7 +687,19 @@
             border-radius: 50%;
             object-fit: cover;
         }
-</style>
+
+        .card-weapon-icon {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+            background: rgba(0,0,0,0.5);
+            border-radius: 6px;
+            padding: 2px;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
@@ -880,20 +892,21 @@
             }
 
             grid.innerHTML = pool.map(r => {
-                const stars = '★'.repeat(r.star);
                 const elemColor = data.elementColors[r.element] || '#888';
+                const constStars = '★'.repeat(r.constellation || 0) + '☆'.repeat(6 - (r.constellation || 0));
+                const teamMaxScore = (data.teams || []).filter(t => (t.members || []).some(m => m.name === r.name)).map(t => t.max_score || t.best_score || 0).reduce((a,b) => Math.max(a,b), 0);
                 return `
                     <div class="resonator-card" onclick="showResonatorDetail('${r.name}')">
                         <div class="resonator-avatar" style="background:linear-gradient(135deg, ${elemColor}40, ${elemColor}80)">
                             <img src="${r.avatar}" alt="${r.name}" onerror="this.style.display='none'">
                             <div class="element-badge" style="background:${elemColor}">${r.element.charAt(0)}</div>
-                            <div class="star-badge">${stars}</div>
+                            ${r.weapon_avatar ? `<img src="${r.weapon_avatar}" class="card-weapon-icon" alt="專武">` : ''}
                         </div>
                         <div class="resonator-info">
                             <div class="resonator-name">${r.name}</div>
                             <div class="resonator-meta">
-                                <span class="weapon-tag">${r.weapon}</span>
-                                <span class="cost-display">${r.key_draws}抽</span>
+                                <span class="constellation-display" style="color:#ffd700;">${constStars}</span>
+                                ${teamMaxScore > 0 ? `<span class="score-display" style="color:#fbbf24;">🏆${teamMaxScore}</span>` : ''}
                             </div>
                         </div>
                     </div>
@@ -1097,7 +1110,7 @@
             const fightsHtml = team.fights && team.fights.length > 0 ? `
                 <div class="section-title">📊 所有FIGHT場次 (${team.fights.length}場)</div>
                 <div class="fights-list">
-                    ${team.fights.map((fight, i) => `
+                    ${team.fights.slice().sort((a,b) => b.score - a.score).map((fight, i) => `
                         <div class="fight-record ${i === 0 ? 'best' : ''}">
                             <div class="fight-header">
                                 <span class="fight-season">S${fight.season}.${fight.turn}</span>
