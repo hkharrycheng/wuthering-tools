@@ -708,6 +708,41 @@
         .resonator-img:not([src]), .resonator-img[src=""] {
             display: none;
         }
+    
+        .card-weapon-small {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            padding: 1px;
+        }
+    
+        .team-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .team-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .team-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        .team-name {
+            font-weight: 500;
+        }
+        .team-score {
+            color: #fbbf24;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
@@ -920,16 +955,14 @@
                 const constNum = Math.max(0, Math.min(6, parseInt(r.constellation) || 0));
                 const constStars = '★'.repeat(constNum) + '☆'.repeat(6 - constNum);
                 const teamMaxScore = resonatorMaxScores[r.name] || 0;
-                const weaponImg = r.weapon_avatar ? '<img src="' + r.weapon_avatar + '" class="card-weapon-icon" alt="專武">' : '';
                 const scoreHtml = teamMaxScore > 0 ? '<span class="score-display" style="color:#fbbf24;">🏆' + teamMaxScore + '</span>' : '';
                 return '<div class="resonator-card" onclick="showResonatorDetail(\'' + r.name + '\')">' +
                     '<div class="resonator-avatar" style="background:linear-gradient(135deg, ' + elemColor + '40, ' + elemColor + '80)">' +
                         '<img src="' + r.avatar + '" alt="' + r.name + '" class="resonator-img">' +
                         '<div class="element-badge" style="background:' + elemColor + '">' + r.element.charAt(0) + '</div>' +
-                        weaponImg +
                     '</div>' +
                     '<div class="resonator-info">' +
-                        '<div class="resonator-name">' + r.name + '</div>' +
+                        '<div class="resonator-name" style="display:flex; align-items:center; gap:6px;">' + (r.weapon_avatar ? '<img src="' + r.weapon_avatar + '" class="card-weapon-small" alt="專武">' : '') + '<span>' + r.name + '</span></div>' +
                         '<div class="resonator-meta">' +
                             '<span class="constellation-display" style="color:#ffd700;">' + constStars + '</span>' +
                             scoreHtml +
@@ -1064,6 +1097,11 @@
                         <div class="label">角色成本</div>
                         <div class="value" style="color:#ffd700">${r.role_cost || '-'}</div>
                     </div>
+                
+                <div class="section-title">⚔️ 出場配隊</div>
+                <div class="team-list">
+                    ${getResonatorTeams(r.name)}
+                </div>
                     </div>
                 </div>
 
@@ -1204,6 +1242,29 @@
 
         // 初始化
         loadData();
+    
+        function getResonatorTeams(resonatorName) {
+            if (!data.teams) return '<div style="color:#666;">暫無配隊</div>';
+            const teams = data.teams.filter(t => (t.members || []).some(m => m.name === resonatorName));
+            if (teams.length === 0) return '<div style="color:#666;">暫無配隊</div>';
+            return teams.map(t => 
+                '<div class="team-item" onclick="showTeamDetailByName(\'' + t.name + '\')">' +
+                    '<span class="team-name">' + t.name + '</span>' +
+                    '<span class="team-score">🏆' + (t.max_score || t.best_score || 0) + '</span>' +
+                '</div>'
+            ).join('');
+        }
+        
+        function showTeamDetailByName(teamName) {
+            // 切換到奇點擴張排名並顯示該隊伍詳情
+            switchTab('ranking');
+            setTimeout(() => {
+                const team = (data.teams || []).find(t => t.name === teamName);
+                if (team) {
+                    showTeamRankingDetail(team);
+                }
+            }, 100);
+        }
     </script>
 </body>
 </html>
