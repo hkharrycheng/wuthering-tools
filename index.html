@@ -757,11 +757,11 @@
     <div class="header">
         <h1>⚔️ 鳴潮助手</h1>
         <div class="stats-bar" id="statsBar">
-            <div class="stat-item">
+            <div class="stat-item" onclick="switchTab('pool', this)" style="cursor:pointer;">
                 <div class="number" id="ownedCount">-</div>
                 <div class="label">擁有共鳴者</div>
             </div>
-            <div class="stat-item">
+            <div class="stat-item" onclick="switchTab('ranking', this)" style="cursor:pointer;">
                 <div class="number" id="teamCount">-</div>
                 <div class="label">配隊數量</div>
             </div>
@@ -776,8 +776,6 @@
         </div>
     </div>
 
-    <div class="tabs">
-        <div class="tab active" onclick="switchTab('pool', this)">🎭 共鳴者POOL</div>
         <div class="tab" onclick="switchTab('ranking', this)">🏆 奇點擴張排名</div>
     </div>
 
@@ -846,9 +844,7 @@
 
         // 切換Tab
         function switchTab(tabName, el) {
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-            el.classList.add('active');
             document.getElementById('section-' + tabName).classList.add('active');
         }
 
