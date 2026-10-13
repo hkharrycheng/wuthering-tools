@@ -2424,211 +2424,9 @@
    "season": 3,
    "turn": 1,
    "boss": "燎照之騎",
+   "runner_up_count": 0,
+   "third_count": 0,
    "rank": 1
-  },
-  {
-   "name": "尤諾日月隊",
-   "members": [
-    {
-     "name": "尤諾",
-     "position": "主C",
-     "avatar": "avatars/尤諾.png"
-    },
-    {
-     "name": "奧古斯塔",
-     "position": "副C",
-     "avatar": "avatars/奧古斯塔.png"
-    },
-    {
-     "name": "守岸人",
-     "position": "奶媽",
-     "avatar": "avatars/守岸人.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S1.4",
-     "season": 1,
-     "turn": 4,
-     "score": 5126,
-     "boss": "矩陣奇藏",
-     "members": [
-      {
-       "name": "尤諾",
-       "position": "主C",
-       "avatar": "avatars/尤諾.png"
-      },
-      {
-       "name": "奧古斯塔",
-       "position": "副C",
-       "avatar": "avatars/奧古斯塔.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S2.7",
-     "season": 2,
-     "turn": 7,
-     "score": 6980,
-     "boss": "哀聲鷙",
-     "members": [
-      {
-       "name": "尤諾",
-       "position": "主C",
-       "avatar": "avatars/尤諾.png"
-      },
-      {
-       "name": "奧古斯塔",
-       "position": "副C",
-       "avatar": "avatars/奧古斯塔.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.2",
-     "season": 3,
-     "turn": 2,
-     "score": 5364,
-     "boss": "封庭械囿",
-     "members": [
-      {
-       "name": "尤諾",
-       "position": "主C",
-       "avatar": "avatars/尤諾.png"
-      },
-      {
-       "name": "奧古斯塔",
-       "position": "副C",
-       "avatar": "avatars/奧古斯塔.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 1,
-   "max_score": 6980,
-   "total_fights": 3,
-   "best_score": 6980,
-   "season": 2,
-   "turn": 7,
-   "boss": "哀聲鷙",
-   "rank": 2
-  },
-  {
-   "name": "玄翎虛煙隊",
-   "members": [
-    {
-     "name": "秧秧·玄翎",
-     "position": "主C",
-     "avatar": "avatars/秧秧·玄翎.png"
-    },
-    {
-     "name": "千咲",
-     "position": "副C",
-     "avatar": "avatars/千咲.png"
-    },
-    {
-     "name": "守岸人",
-     "position": "奶媽",
-     "avatar": "avatars/守岸人.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S1.2",
-     "season": 1,
-     "turn": 2,
-     "score": 5683,
-     "boss": "卡提希婭",
-     "members": [
-      {
-       "name": "秧秧·玄翎",
-       "position": "主C",
-       "avatar": "avatars/秧秧·玄翎.png"
-      },
-      {
-       "name": "千咲",
-       "position": "副C",
-       "avatar": "avatars/千咲.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S2.1",
-     "season": 2,
-     "turn": 1,
-     "score": 5173,
-     "boss": "哀聲鷙",
-     "members": [
-      {
-       "name": "秧秧·玄翎",
-       "position": "主C",
-       "avatar": "avatars/秧秧·玄翎.png"
-      },
-      {
-       "name": "千咲",
-       "position": "副C",
-       "avatar": "avatars/千咲.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.6",
-     "season": 3,
-     "turn": 6,
-     "score": 5683,
-     "boss": "封庭械囿",
-     "members": [
-      {
-       "name": "秧秧·玄翎",
-       "position": "主C",
-       "avatar": "avatars/秧秧·玄翎.png"
-      },
-      {
-       "name": "千咲",
-       "position": "副C",
-       "avatar": "avatars/千咲.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 1,
-   "max_score": 5683,
-   "total_fights": 3,
-   "best_score": 5683,
-   "season": 1,
-   "turn": 2,
-   "boss": "卡提希婭",
-   "rank": 3
   },
   {
    "name": "愛彌斯熱熔隊",
@@ -2730,7 +2528,113 @@
    "season": 3,
    "turn": 3,
    "boss": "矩陣奇藏",
-   "rank": 4
+   "runner_up_count": 1,
+   "third_count": 1,
+   "rank": 2
+  },
+  {
+   "name": "尤諾日月隊",
+   "members": [
+    {
+     "name": "尤諾",
+     "position": "主C",
+     "avatar": "avatars/尤諾.png"
+    },
+    {
+     "name": "奧古斯塔",
+     "position": "副C",
+     "avatar": "avatars/奧古斯塔.png"
+    },
+    {
+     "name": "守岸人",
+     "position": "奶媽",
+     "avatar": "avatars/守岸人.png"
+    }
+   ],
+   "fights": [
+    {
+     "display_name": "S1.4",
+     "season": 1,
+     "turn": 4,
+     "score": 5126,
+     "boss": "矩陣奇藏",
+     "members": [
+      {
+       "name": "尤諾",
+       "position": "主C",
+       "avatar": "avatars/尤諾.png"
+      },
+      {
+       "name": "奧古斯塔",
+       "position": "副C",
+       "avatar": "avatars/奧古斯塔.png"
+      },
+      {
+       "name": "守岸人",
+       "position": "奶媽",
+       "avatar": "avatars/守岸人.png"
+      }
+     ]
+    },
+    {
+     "display_name": "S2.7",
+     "season": 2,
+     "turn": 7,
+     "score": 6980,
+     "boss": "哀聲鷙",
+     "members": [
+      {
+       "name": "尤諾",
+       "position": "主C",
+       "avatar": "avatars/尤諾.png"
+      },
+      {
+       "name": "奧古斯塔",
+       "position": "副C",
+       "avatar": "avatars/奧古斯塔.png"
+      },
+      {
+       "name": "守岸人",
+       "position": "奶媽",
+       "avatar": "avatars/守岸人.png"
+      }
+     ]
+    },
+    {
+     "display_name": "S3.2",
+     "season": 3,
+     "turn": 2,
+     "score": 5364,
+     "boss": "封庭械囿",
+     "members": [
+      {
+       "name": "尤諾",
+       "position": "主C",
+       "avatar": "avatars/尤諾.png"
+      },
+      {
+       "name": "奧古斯塔",
+       "position": "副C",
+       "avatar": "avatars/奧古斯塔.png"
+      },
+      {
+       "name": "守岸人",
+       "position": "奶媽",
+       "avatar": "avatars/守岸人.png"
+      }
+     ]
+    }
+   ],
+   "champion_count": 1,
+   "max_score": 6980,
+   "total_fights": 3,
+   "best_score": 6980,
+   "season": 2,
+   "turn": 7,
+   "boss": "哀聲鷙",
+   "runner_up_count": 0,
+   "third_count": 0,
+   "rank": 3
   },
   {
    "name": "清宵集諧隊",
@@ -2808,7 +2712,9 @@
    "season": 2,
    "turn": 6,
    "boss": "哀聲鷙",
-   "rank": 5
+   "runner_up_count": 1,
+   "third_count": 0,
+   "rank": 4
   },
   {
    "name": "心狐同奏隊",
@@ -2862,7 +2768,9 @@
    "season": 3,
    "turn": 5,
    "boss": "燎照之騎",
-   "rank": 6
+   "runner_up_count": 0,
+   "third_count": 1,
+   "rank": 5
   },
   {
    "name": "緋雪霜漸隊",
@@ -2964,6 +2872,112 @@
    "season": 2,
    "turn": 4,
    "boss": "朔雷之鱗",
+   "runner_up_count": 1,
+   "third_count": 0,
+   "rank": 6
+  },
+  {
+   "name": "玄翎虛煙隊",
+   "members": [
+    {
+     "name": "秧秧·玄翎",
+     "position": "主C",
+     "avatar": "avatars/秧秧·玄翎.png"
+    },
+    {
+     "name": "千咲",
+     "position": "副C",
+     "avatar": "avatars/千咲.png"
+    },
+    {
+     "name": "守岸人",
+     "position": "奶媽",
+     "avatar": "avatars/守岸人.png"
+    }
+   ],
+   "fights": [
+    {
+     "display_name": "S1.2",
+     "season": 1,
+     "turn": 2,
+     "score": 5683,
+     "boss": "卡提希婭",
+     "members": [
+      {
+       "name": "秧秧·玄翎",
+       "position": "主C",
+       "avatar": "avatars/秧秧·玄翎.png"
+      },
+      {
+       "name": "千咲",
+       "position": "副C",
+       "avatar": "avatars/千咲.png"
+      },
+      {
+       "name": "守岸人",
+       "position": "奶媽",
+       "avatar": "avatars/守岸人.png"
+      }
+     ]
+    },
+    {
+     "display_name": "S2.1",
+     "season": 2,
+     "turn": 1,
+     "score": 5173,
+     "boss": "哀聲鷙",
+     "members": [
+      {
+       "name": "秧秧·玄翎",
+       "position": "主C",
+       "avatar": "avatars/秧秧·玄翎.png"
+      },
+      {
+       "name": "千咲",
+       "position": "副C",
+       "avatar": "avatars/千咲.png"
+      },
+      {
+       "name": "守岸人",
+       "position": "奶媽",
+       "avatar": "avatars/守岸人.png"
+      }
+     ]
+    },
+    {
+     "display_name": "S3.6",
+     "season": 3,
+     "turn": 6,
+     "score": 5683,
+     "boss": "封庭械囿",
+     "members": [
+      {
+       "name": "秧秧·玄翎",
+       "position": "主C",
+       "avatar": "avatars/秧秧·玄翎.png"
+      },
+      {
+       "name": "千咲",
+       "position": "副C",
+       "avatar": "avatars/千咲.png"
+      },
+      {
+       "name": "守岸人",
+       "position": "奶媽",
+       "avatar": "avatars/守岸人.png"
+      }
+     ]
+    }
+   ],
+   "champion_count": 1,
+   "max_score": 5683,
+   "total_fights": 3,
+   "best_score": 5683,
+   "season": 1,
+   "turn": 2,
+   "boss": "卡提希婭",
+   "runner_up_count": 0,
+   "third_count": 0,
    "rank": 7
   },
   {
@@ -3042,6 +3056,8 @@
    "season": 3,
    "turn": 7,
    "boss": "封庭械囿",
+   "runner_up_count": 0,
+   "third_count": 1,
    "rank": 8
   },
   {
@@ -3125,6 +3141,8 @@
    "season": 3,
    "turn": 9,
    "boss": "天傀劫煞",
+   "runner_up_count": 0,
+   "third_count": 0,
    "rank": 9
   },
   {
@@ -3179,6 +3197,8 @@
    "season": 2,
    "turn": 8,
    "boss": "朔雷之鱗",
+   "runner_up_count": 0,
+   "third_count": 0,
    "rank": 10
   },
   {
@@ -3233,6 +3253,8 @@
    "season": 3,
    "turn": 10,
    "boss": "天傀劫煞",
+   "runner_up_count": 0,
+   "third_count": 0,
    "rank": 11
   }
  ],
