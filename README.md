@@ -29,3 +29,6 @@ v1.00 - 初始版本
 
 ---
 HIS Tools © 2026.1.00
+
+## Version Control
+- v1.19 (2026-10-13): header 改用圖標相片 LOGO（移除 ⚔️ emoji，img 同標題拍齊）
