@@ -340,6 +340,7 @@
 
         .team-score { text-align: right; }
         .score-number { font-size: 20px; font-weight: bold; color: #ffd700; }
+        .podium-line { font-size: 11px; opacity: 0.85; letter-spacing: 1px; margin-top: 2px; }
 
         .team-members {
             display: flex;
@@ -846,7 +847,7 @@
     </div>
 
     <div class="footer">
-        HIS Tools © 2026.1.19 · 數據源自飛書多維表格
+        HIS Tools © 2026.1.20 · 數據源自飛書多維表格
     </div>
 
     <script>
@@ -1026,6 +1027,7 @@
                             <div class="team-name">${team.name}</div>
                             <div class="team-score">
                                 <div class="score-number">${team.best_score}</div>
+                                <div class="podium-line">🏆${team.champion_count||0} 🥈${team.runner_up_count||0} 🥉${team.third_count||0}</div>
                             </div>
                         </div>
                         <div class="team-members">${membersHtml}</div>
@@ -1155,7 +1157,7 @@
             if (!team) return;
 
             document.getElementById('teamModalName').textContent = team.name;
-            document.getElementById('teamModalScore').textContent = `🏆 ${team.champion_count || 0}冠軍 | 最高分 ${team.max_score || team.best_score} | ${team.total_fights || 0}場`;
+            document.getElementById('teamModalScore').textContent = `🏆 ${team.champion_count || 0}冠  🥈 ${team.runner_up_count || 0}亞  🥉 ${team.third_count || 0}季`;
 
             const bossInfo = data.bosses ? Object.values(data.bosses).find(b => b.name === team.boss) : null;
             const bossAvatar = team.boss ? `bosses/${team.boss}.png` : '';
@@ -1219,12 +1221,12 @@
             body.innerHTML = `
                 <div class="team-stats-bar">
                     <div class="team-stat">
-                        <div class="team-stat-number">${team.champion_count || 0}</div>
-                        <div class="team-stat-label">Season冠軍</div>
-                    </div>
-                    <div class="team-stat">
                         <div class="team-stat-number">${team.max_score || team.best_score || 0}</div>
                         <div class="team-stat-label">最高分</div>
+                    </div>
+                    <div class="team-stat">
+                        <div class="team-stat-number">S${team.season}.${team.turn}</div>
+                        <div class="team-stat-label">Season最佳</div>
                     </div>
                     <div class="team-stat">
                         <div class="team-stat-number">${team.total_fights || 0}</div>
