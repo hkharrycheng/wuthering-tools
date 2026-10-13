@@ -1,0 +1,427 @@
+﻿[
+    {
+        "Turn":  1,
+        "Display Name":  "S1.1",
+        "最佳分數":  5371,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo4gFl"
+                     },
+                     {
+                         "id":  "reczz28JKzgo30HA"
+                     },
+                     {
+                         "id":  "reczz28JKzgo1Jdf"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYVdh"
+                     }
+                 ],
+        "Season":  "1"
+    },
+    {
+        "Turn":  2,
+        "Display Name":  "S1.2",
+        "最佳分數":  5683,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo3vyD"
+                     },
+                     {
+                         "id":  "reczz28JKzgo4fNz"
+                     },
+                     {
+                         "id":  "reczz28JKzgo2xHh"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvY1WU"
+                     }
+                 ],
+        "Season":  "1"
+    },
+    {
+        "Turn":  5,
+        "Display Name":  "S1.5",
+        "最佳分數":  5257,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo40Ya"
+                     },
+                     {
+                         "id":  "reczz28JKzgo2JLk"
+                     },
+                     {
+                         "id":  "reczz28JKzgo17cB"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYlk2"
+                     }
+                 ],
+        "Season":  "1"
+    },
+    {
+        "Turn":  6,
+        "Display Name":  "S1.6",
+        "最佳分數":  5146,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo271H"
+                     },
+                     {
+                         "id":  "reczz28JKzgo2BzX"
+                     },
+                     {
+                         "id":  "reczz28JKzgo3Osh"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYlk2"
+                     }
+                 ],
+        "Season":  "1"
+    },
+    {
+        "Turn":  3,
+        "Display Name":  "S1.3",
+        "最佳分數":  5531,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo4FRC"
+                     },
+                     {
+                         "id":  "reczz28JKzgo3TzE"
+                     },
+                     {
+                         "id":  "reczz28JKzgo1XoG"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYmT0"
+                     }
+                 ],
+        "Season":  "1"
+    },
+    {
+        "Turn":  4,
+        "Display Name":  "S1.4",
+        "最佳分數":  5126,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo3eCn"
+                     },
+                     {
+                         "id":  "reczz28JKzgo2WMR"
+                     },
+                     {
+                         "id":  "reczz28JKzgo13Nn"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvXQgz"
+                     }
+                 ],
+        "Season":  "1"
+    },
+    {
+        "Turn":  1,
+        "Display Name":  "S2.1",
+        "最佳分數":  5173,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo2xHh"
+                     },
+                     {
+                         "id":  "reczz28JKzgo3vyD"
+                     },
+                     {
+                         "id":  "reczz28JKzgo4fNz"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYVdh"
+                     },
+                     {
+                         "id":  "reczz28JkVWvYlk2"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  2,
+        "Display Name":  "S2.2",
+        "最佳分數":  5646,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo2BzX"
+                     },
+                     {
+                         "id":  "reczz28JKzgo271H"
+                     },
+                     {
+                         "id":  "reczz28JKzgo3Osh"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYlk2"
+                     },
+                     {
+                         "id":  "reczz28JkVWvYmT0"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  3,
+        "Display Name":  "S2.3",
+        "最佳分數":  5773,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo40Ya"
+                     },
+                     {
+                         "id":  "reczz28JKzgo2JLk"
+                     },
+                     {
+                         "id":  "reczz28JKzgo17cB"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYmT0"
+                     },
+                     {
+                         "id":  "reczz28JkVWvYiNl"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  4,
+        "Display Name":  "S2.4",
+        "最佳分數":  5709,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo4FRC"
+                     },
+                     {
+                         "id":  "reczz28JKzgo3TzE"
+                     },
+                     {
+                         "id":  "reczz28JKzgo1XoG"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYiNl"
+                     },
+                     {
+                         "id":  "reczz28JkVWvXQgz"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  5,
+        "Display Name":  "S2.5",
+        "最佳分數":  5019,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo4m0V"
+                     },
+                     {
+                         "id":  "reczz28JKzgo2R9b"
+                     },
+                     {
+                         "id":  "reczz28JKzgo1gpD"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYVdh"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  6,
+        "Display Name":  "S2.6",
+        "最佳分數":  6177,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo3zNV"
+                     },
+                     {
+                         "id":  "reczz28JKzgo3jNe"
+                     },
+                     {
+                         "id":  "reczz28JKzgo1AbU"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYVdh"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  7,
+        "Display Name":  "S2.7",
+        "最佳分數":  6980,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo3eCn"
+                     },
+                     {
+                         "id":  "reczz28JKzgo2WMR"
+                     },
+                     {
+                         "id":  "reczz28JKzgo13Nn"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYVdh"
+                     },
+                     {
+                         "id":  "reczz28JkVWvYlk2"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  8,
+        "Display Name":  "S2.8",
+        "最佳分數":  4791,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28Jk2KsWCOI"
+                     },
+                     {
+                         "id":  "reczz28Jk4Ud6n9d"
+                     },
+                     {
+                         "id":  "reczz28Jk4ViH2wV"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvYiNl"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  9,
+        "Display Name":  "S2.9",
+        "最佳分數":  2315,
+        "配隊成員":  [
+                     {
+                         "id":  "reczz28JKzgo271H"
+                     },
+                     {
+                         "id":  "reczz28JKzgo2BzX"
+                     },
+                     {
+                         "id":  "reczz28JKzgo3Osh"
+                     }
+                 ],
+        "Boss":  [
+                     {
+                         "id":  "reczz28JkVWvXQgz"
+                     }
+                 ],
+        "Season":  "2"
+    },
+    {
+        "Turn":  1,
+        "Display Name":  "S3.1",
+        "最佳分數":  7504,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  2,
+        "Display Name":  "S3.2",
+        "最佳分數":  5364,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  3,
+        "Display Name":  "S3.3",
+        "最佳分數":  7317,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  4,
+        "Display Name":  "S3.4",
+        "最佳分數":  5640,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  5,
+        "Display Name":  "S3.5",
+        "最佳分數":  6130,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  6,
+        "Display Name":  "S3.6",
+        "最佳分數":  5683,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  7,
+        "Display Name":  "S3.7",
+        "最佳分數":  5406,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  8,
+        "Display Name":  "S3.8",
+        "最佳分數":  4559,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  9,
+        "Display Name":  "S3.9",
+        "最佳分數":  5262,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    },
+    {
+        "Turn":  10,
+        "Display Name":  "S3.10",
+        "最佳分數":  2237,
+        "配隊成員":  null,
+        "Boss":  null,
+        "Season":  "3"
+    }
+]
