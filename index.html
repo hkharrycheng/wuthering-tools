@@ -543,7 +543,8 @@
 
         .boss-rounds {
             display: flex;
-            gap: 10px;
+            flex-direction: column;
+            gap: 6px;
             margin-top: 8px;
         }
 
@@ -847,7 +848,7 @@
     </div>
 
     <div class="footer">
-        HIS Tools © 2026.1.21 · 數據源自飛書多維表格
+        HIS Tools © 2026.1.22 · 數據源自飛書多維表格
     </div>
 
     <script>
@@ -1234,6 +1235,11 @@
                     </div>
                 </div>
 
+                <div class="section-title">⚔️ 隊伍成員</div>
+                <div class="team-detail-members">
+                    ${membersHtml}
+                </div>
+
                 ${team.boss ? `
                 <div class="team-detail-boss">
                     <div class="boss-avatar">
@@ -1249,11 +1255,6 @@
                     </div>
                 </div>
                 ` : ''}
-
-                <div class="section-title">⚔️ 隊伍成員</div>
-                <div class="team-detail-members">
-                    ${membersHtml}
-                </div>
 
                 ${fightsHtml}
             `;
