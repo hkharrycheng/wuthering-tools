@@ -848,7 +848,7 @@
     </div>
 
     <div class="footer">
-        HIS Tools © 2026.1.22 · 數據源自飛書多維表格
+        HIS Tools © 2026.1.23 · 數據源自飛書多維表格
     </div>
 
     <script>
@@ -1119,13 +1119,6 @@
                     </div>
                 </div>
                 
-                <div class="section-title">⚔️ 出場配隊</div>
-                <div class="team-list">
-                    ${getResonatorTeams(r.name)}
-                </div>
-                    </div>
-                </div>
-
                 ${r.gacha_records && r.gacha_records.length > 0 ? `
                 <div class="section-title">📜 抽卡記錄</div>
                 <div>
@@ -1133,20 +1126,18 @@
                         <div class="gacha-record">
                             <span>${rec.date ? rec.date.substring(0, 10) : '-'}</span>
                             <span>${rec.type || ''} ${rec.pool || ''}</span>
-                            <span>${rec.draws}抽 ${rec.key_draws ? '(' + rec.key_draws + '關鍵)' : ''}</span>
+                            <span>${rec.draws}抽</span>
                         </div>
                     `).join('')}
                 </div>
                 ` : ''}
 
-                ${r.appear_teams && r.appear_teams.length > 0 ? `
                 <div class="section-title">⚔️ 出場配隊</div>
-                <div class="team-links">
-                    ${r.appear_teams.map(team => `
-                        <div class="team-link" onclick="closeModal('resonatorModal');showTeamDetailByName('${team}')">${team}</div>
-                    `).join('')}
+                <div class="team-list">
+                    ${getResonatorTeams(r.name)}
                 </div>
-                ` : ''}
+                    </div>
+                </div>
             `;
 
             document.getElementById('resonatorModal').classList.add('active');
@@ -1273,12 +1264,14 @@
             if (!data.teams) return '<div style="color:#666;">暫無配隊</div>';
             const teams = data.teams.filter(t => (t.members || []).some(m => m.name === resonatorName));
             if (teams.length === 0) return '<div style="color:#666;">暫無配隊</div>';
-            return teams.map(t => 
-                '<div class="team-item" onclick="showTeamDetailByName(\'' + t.name + '\')">' +
+            return teams.map(t => {
+                const c = t.champion_count || 0, ru = t.runner_up_count || 0, th = t.third_count || 0;
+                const badge = (c + ru + th) > 0 ? ('🏆' + c + ' 🥈' + ru + ' 🥉' + th) : (t.max_score || t.best_score || 0);
+                return '<div class="team-item" onclick="showTeamDetailByName(\'' + t.name + '\')">' +
                     '<span class="team-name">' + t.name + '</span>' +
-                    '<span class="team-score">🏆' + (t.max_score || t.best_score || 0) + '</span>' +
-                '</div>'
-            ).join('');
+                    '<span class="team-score">' + badge + '</span>' +
+                    '</div>';
+            }).join('');
         }
         
         function showTeamDetailByName(teamName) {
