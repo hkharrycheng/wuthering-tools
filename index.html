@@ -847,7 +847,7 @@
     </div>
 
     <div class="footer">
-        HIS Tools © 2026.1.20 · 數據源自飛書多維表格
+        HIS Tools © 2026.1.21 · 數據源自飛書多維表格
     </div>
 
     <script>
@@ -980,7 +980,7 @@
                         '<div class="element-badge" style="background:' + elemColor + '">' + r.element.charAt(0) + '</div>' +
                     '</div>' +
                     '<div class="resonator-info">' +
-                        '<div class="resonator-name" style="display:flex; align-items:center; gap:6px;">' + (r.weapon_avatar ? '<img src="' + r.weapon_avatar + '" class="card-weapon-small" alt="專武">' : '') + '<span>' + r.name + '</span></div>' +
+                        '<div class="resonator-name" style="display:flex; align-items:center; gap:6px;">' + (r.weapon_avatar ? '<img src="' + r.weapon_avatar + '" class="card-weapon-small" alt="專武" onerror="this.style.display=\'none\'">' : '') + '<span>' + r.name + '</span></div>' +
                         '<div class="resonator-meta">' +
                             '<span class="constellation-display" style="color:#ffd700;">' + constStars + '</span>' +
                             scoreHtml +
@@ -1079,7 +1079,7 @@
                     <div class="info-item" style="grid-column: span 2;">
                         <div class="label">專武</div>
                         <div class="value" style="display:flex; align-items:center; gap:10px;">
-                            ${r.weapon_avatar ? `<img src="${r.weapon_avatar}" alt="${r.special_weapon}" style="width:50px; height:50px; object-fit:contain; background:rgba(255,255,255,0.1); border-radius:8px;">` : '<span style="color:#666;">無圖片</span>'}
+                            ${r.weapon_avatar ? `<img src="${r.weapon_avatar}" alt="${r.special_weapon}" style="width:50px; height:50px; object-fit:contain; background:rgba(255,255,255,0.1); border-radius:8px;" onerror="this.style.display='none'">` : '<span style="color:#666;">無圖片</span>'}
                             <span>${r.special_weapon || '無'}</span>
                         </div>
                     </div>
@@ -1142,7 +1142,7 @@
                 <div class="section-title">⚔️ 出場配隊</div>
                 <div class="team-links">
                     ${r.appear_teams.map(team => `
-                        <div class="team-link" onclick="closeModal('resonatorModal');switchTab('ranking', document.querySelectorAll('.tab')[1])">${team}</div>
+                        <div class="team-link" onclick="closeModal('resonatorModal');showTeamDetailByName('${team}')">${team}</div>
                     `).join('')}
                 </div>
                 ` : ''}
