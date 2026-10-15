@@ -926,7 +926,7 @@
     </div>
 
     <div class="footer">
-        HIS Tools © 2026.1.26 · 數據源自飛書多維表格
+        HIS Tools © 2026.1.27 · 數據源自飛書多維表格
     </div>
 
     <div class="bottom-tabs">
@@ -1365,7 +1365,49 @@
         })();
         const NEWS_TYPE_NAME = { 51: '🎬 資訊', 52: '📢 公告', 53: '🎉 活動' };
         const NEWS_API = 'https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/ArticleMenu.json';
+        const NEWS_MIRROR = 'news-cache.json';
+        const NEWS_CACHE_KEY = 'wuthering_news_cache_v1';
         let newsCache = null;
+        let newsSourceNote = '';
+        // 帶超時嘅 fetch（AbortController 10 秒）
+        function fetchTimeout(url, ms) {
+            const ctrl = new AbortController();
+            const timer = setTimeout(() => ctrl.abort(), ms);
+            return fetch(url, { signal: ctrl.signal }).finally(() => clearTimeout(timer));
+        }
+        async function fetchNewsList() {
+            // 1) 官方 CDN（每次開頁都試，攞最新）
+            try {
+                const t = Math.floor(Date.now() / 600000);
+                const res = await fetchTimeout(NEWS_API + '?t=' + t, 10000);
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                const list = await res.json();
+                if (Array.isArray(list) && list.length) {
+                    newsSourceNote = '官方即時';
+                    return list;
+                }
+            } catch (e) { /* fall through */ }
+            // 2) GitHub 鏡像 news-cache.json（官方唔通時用，由 GitHub Actions 定期更新）
+            try {
+                const res = await fetchTimeout(NEWS_MIRROR + '?t=' + Math.floor(Date.now() / 600000), 8000);
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                const data = await res.json();
+                const list = Array.isArray(data) ? data : (data && data.articles);
+                if (Array.isArray(list) && list.length) {
+                    newsSourceNote = '鏡像快取 ' + (data && data.fetched_at ? data.fetched_at.slice(5, 16) : '');
+                    return list;
+                }
+            } catch (e) { /* fall through */ }
+            // 3) 離線快取（上次成功嘅數據）
+            try {
+                const saved = JSON.parse(localStorage.getItem(NEWS_CACHE_KEY) || 'null');
+                if (saved && Array.isArray(saved.list) && saved.list.length) {
+                    newsSourceNote = '離線快取 ' + (saved.ts || '');
+                    return saved.list;
+                }
+            } catch (e) { /* fall through */ }
+            throw new Error('所有新聞來源都暫時無法訪問');
+        }
         async function loadWutheringNews() {
             const box = document.getElementById('animeNews');
             if (!newsCache) {
@@ -1373,14 +1415,16 @@
             }
             try {
                 if (!newsCache) {
-                    const t = Math.floor(Date.now() / 600000);
-                    const res = await fetch(NEWS_API + '?t=' + t);
-                    if (!res.ok) throw new Error('HTTP ' + res.status);
-                    const list = await res.json();
-                    newsCache = (list || []).sort((a, b) => (b.startTime || '').localeCompare(a.startTime || ''));
+                    newsCache = (await fetchNewsList()).sort((a, b) => (b.startTime || '').localeCompare(a.startTime || ''));
+                    // 成功後存入離線快取
+                    try {
+                        localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({ ts: new Date().toLocaleString('zh-HK'), list: newsCache }));
+                    } catch (e) {}
                 }
                 const items = newsSource === 'all' ? newsCache : newsCache.filter(n => n.articleType === parseInt(newsSource.replace('t', ''), 10));
                 if (!items.length) { box.innerHTML = '<div style="padding:20px;color:#888;">暫無數據</div>'; return; }
+                // 來源標註（官方即時 / 鏡像快取 / 離線快取）
+                const noteHtml = newsSourceNote ? '<div style="padding:10px 2px 2px;font-size:11px;color:#999;">新聞來源：' + escHtml(newsSourceNote) + '</div>' : '';
                 // 安全擷取純文字摘要（DOM parse 可正確處理不完整 HTML，避免殘留標籤破版）
                 function newsDesc(n) {
                     try {
@@ -1393,7 +1437,7 @@
                 function escHtml(s) {
                     return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
                 }
-                box.innerHTML = items.map(n => {
+                box.innerHTML = noteHtml + items.map(n => {
                     const typeName = NEWS_TYPE_NAME[n.articleType] || ('其他 #' + n.articleType);
                     const date = (n.startTime || '').slice(0, 10);
                     const desc = newsDesc(n);
@@ -1409,8 +1453,15 @@
                     '</div>';
                 }).join('');
             } catch (e) {
-                box.innerHTML = '<div style="padding:20px;color:#f66;">載入失敗: ' + (e.message || e) + '<br><span style="font-size:12px;color:#999;">（官方新聞服務可能暫時無法訪問）</span></div>';
+                box.innerHTML = '<div style="padding:24px;color:#f66;text-align:center;">載入失敗: ' + escHtml(e.message || e) +
+                    '<br><span style="font-size:12px;color:#999;">（新聞服務暫時無法訪問，可能係官方 CDN 唔穩定）</span>' +
+                    '<br><button onclick="retryNews()" style="margin-top:12px;padding:8px 22px;border-radius:16px;border:none;background:#ffd700;color:#111;font-size:14px;font-weight:bold;cursor:pointer;">🔄 重試</button></div>';
             }
+        }
+
+        function retryNews() {
+            newsCache = null;
+            loadWutheringNews();
         }
 
         async function openNews(articleId) {
