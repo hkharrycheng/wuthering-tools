@@ -420,7 +420,7 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.85);
-            z-index: 200;
+            z-index: 400;
             overflow-y: auto;
         }
 
@@ -467,6 +467,20 @@
         }
 
         .modal-body { padding: 15px; }
+
+        .ep-link {
+            display: inline-block;
+            padding: 9px 16px;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: bold;
+            color: #000;
+            background: linear-gradient(90deg, #ffd700, #ff9f43);
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+        }
+        .ep-link:active { transform: scale(0.97); }
 
         .info-grid {
             display: grid;
@@ -832,7 +846,7 @@
 
     <div class="content">
         <!-- 共鳴者POOL -->
-        <div class="section active" id="section-pool">
+        <div class="section" id="section-pool">
             <div class="stats-bar" id="statsBar">
                 <div class="stat-item">
                     <div class="number" id="ownedCount">-</div>
@@ -872,7 +886,7 @@
         </div>
 
         <!-- 鳴潮新聞 -->
-        <div class="section" id="section-anime">
+        <div class="section active" id="section-anime">
             <div class="news-filter">
                 <button class="news-chip active" onclick="setNewsType('all', this)">🔥 全部</button>
                 <button class="news-chip" onclick="setNewsType('official', this)">📢 官方</button>
@@ -937,7 +951,7 @@
     </div>
 
     <div class="footer">
-        HIS Tools © 2026.1.28 · 數據源自飛書多維表格
+        HIS Tools © 2026.1.29 · 數據源自飛書多維表格
     </div>
 
     <div class="bottom-tabs">
@@ -964,7 +978,7 @@
         // 載入數據
         async function loadData() {
             try {
-                const response = await fetch('wuthering.json');
+                const response = await fetch('wuthering.json?t=' + Date.now(), { cache: 'no-store' });
                 data = await response.json();
                 renderStats();
                 renderElementFilter();
@@ -1143,6 +1157,8 @@
 
             const stars = '★'.repeat(r.star);
             const elemColor = data.elementColors[r.element] || '#888';
+            const epHref = (r.ep && r.ep.indexOf('http') === 0) ? r.ep : 'https://space.bilibili.com/3493090606188642/lists/4852110?type=season';
+            const epLabel = (r.ep && r.ep.indexOf('http') === 0) ? `${r.name} 嘅EP` : `${r.name} 嘅音樂EP合集`;
 
             document.getElementById('modalAvatar').innerHTML = `<img src="${r.avatar}" alt="${r.name}">`;
             document.getElementById('modalName').textContent = r.name;
@@ -1229,6 +1245,11 @@
                     `).join('')}
                 </div>
                 ` : ''}
+
+                <div class="section-title">🎵 音樂EP</div>
+                <div style="padding: 4px 0 12px;">
+                    <a class="ep-link" href="${epHref}" target="_blank" rel="noopener">▶ 觀看 ${epLabel}</a>
+                </div>
 
                 <div class="section-title">⚔️ 出場配隊</div>
                 <div class="team-list">
@@ -1371,6 +1392,13 @@
                     document.getElementById('section-' + tabParam).classList.add('active');
                     document.querySelectorAll('.bottom-tab').forEach(t => t.classList.remove('active'));
                     const bt = document.querySelector('.bottom-tab[onclick*="' + tabParam + '"]');
+                    if (bt) bt.classList.add('active');
+                } else {
+                    // 預設開「鳴潮新聞」tab（同步 section 與底部 tab 高亮）
+                    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+                    document.getElementById('section-anime').classList.add('active');
+                    document.querySelectorAll('.bottom-tab').forEach(t => t.classList.remove('active'));
+                    const bt = document.querySelector('.bottom-tab[onclick*="anime"]');
                     if (bt) bt.classList.add('active');
                 }
             } catch (e) {}
