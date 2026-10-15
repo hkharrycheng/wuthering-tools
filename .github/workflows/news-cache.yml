@@ -1,0 +1,35 @@
+name: Update News Cache
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch official ArticleMenu and wrap
+        run: |
+          python - <<'EOF'
+          import json, urllib.request, time, datetime
+          url = "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/ArticleMenu.json?t=" + str(int(time.time() // 600))
+          req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 Chrome/126.0"})
+          data = json.load(urllib.request.urlopen(req, timeout=30))
+          if not isinstance(data, list) or not data:
+              raise SystemExit("unexpected payload")
+          out = {"fetched_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), "articles": data}
+          with open("news-cache.json", "w", encoding="utf-8") as f:
+              f.write(json.dumps(out, ensure_ascii=False))
+          print("cached", len(data), "articles")
+          EOF
+      - name: Commit and push
+        run: |
+          git config user.name "HIS Tools Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add news-cache.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update news-cache.json [skip ci]"
+            git push
+          fi
