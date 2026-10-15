@@ -638,6 +638,7 @@
         .news-badge.t-51 { background: rgba(124, 204, 255, 0.18); color: #7cf; }
         .news-badge.t-52 { background: rgba(255, 215, 0, 0.18); color: #ffd700; }
         .news-badge.t-53 { background: rgba(255, 120, 160, 0.18); color: #ff78a0; }
+        .news-badge.t-yt { background: rgba(255, 60, 60, 0.18); color: #ff5252; }
         .news-badge.t-0 { background: rgba(255, 255, 255, 0.12); color: #aaa; }
         .news-date { font-size: 12px; color: #888; margin-left: auto; }
         .news-title { font-size: 15px; font-weight: bold; color: #fff; line-height: 1.4; margin-bottom: 5px; }
@@ -874,11 +875,21 @@
         <div class="section" id="section-anime">
             <div class="news-filter">
                 <button class="news-chip active" onclick="setNewsType('all', this)">🔥 全部</button>
-                <button class="news-chip" onclick="setNewsType('t52', this)">📢 公告</button>
-                <button class="news-chip" onclick="setNewsType('t51', this)">🎬 資訊</button>
-                <button class="news-chip" onclick="setNewsType('t53', this)">🎉 活動</button>
+                <button class="news-chip" onclick="setNewsType('official', this)">📢 官方</button>
+                <button class="news-chip" onclick="setNewsType('yt', this)">▶ YouTube</button>
             </div>
             <div class="news-list" id="animeNews"><div class="loading">載入中...</div></div>
+        </div>
+
+        <!-- Bilibili 鳴潮音樂EP合集 -->
+        <div class="section" id="section-music">
+            <div style="padding:12px;">
+                <div style="font-size:14px;font-weight:bold;padding:2px 2px 10px;color:#fff;">🎵 鳴潮音樂EP合集（Bilibili）</div>
+                <div style="position:relative;width:100%;height:72vh;border-radius:12px;overflow:hidden;background:#000;border:1px solid rgba(255,255,255,0.12);">
+                    <iframe src="https://space.bilibili.com/3493090606188642/lists/4852110?type=season" scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+                </div>
+                <div style="font-size:11px;color:#999;padding:8px 2px 0;">來源：Bilibili 鳴潮音樂EP合集（space.lists）</div>
+            </div>
         </div>
     </div>
 
@@ -926,13 +937,14 @@
     </div>
 
     <div class="footer">
-        HIS Tools © 2026.1.27 · 數據源自飛書多維表格
+        HIS Tools © 2026.1.28 · 數據源自飛書多維表格
     </div>
 
     <div class="bottom-tabs">
-        <button class="bottom-tab" onclick="switchTab('anime', this)"><span class="tab-icon">📰</span><span>鳴潮新聞</span></button>
-        <button class="bottom-tab active" onclick="switchTab('pool', this)"><span class="tab-icon">⭐</span><span>共鳴者Pool</span></button>
+        <button class="bottom-tab active" onclick="switchTab('anime', this)"><span class="tab-icon">📰</span><span>鳴潮新聞</span></button>
+        <button class="bottom-tab" onclick="switchTab('pool', this)"><span class="tab-icon">⭐</span><span>共鳴者Pool</span></button>
         <button class="bottom-tab" onclick="switchTab('ranking', this)"><span class="tab-icon">🏆</span><span>奇點擴張排名</span></button>
+        <button class="bottom-tab" onclick="switchTab('music', this)"><span class="tab-icon">🎵</span><span>音樂EP</span></button>
     </div>
 
     <script>
@@ -1353,7 +1365,7 @@
                 const params = new URLSearchParams(location.search);
                 const tabParam = params.get('tab');
                 const typeParam = params.get('type');
-                if (typeParam && /^t\d+$|^all$/.test(typeParam)) newsSource = typeParam;
+                if (typeParam && /^t\d+$|^all$|^yt$|^official$/.test(typeParam)) newsSource = typeParam;
                 if (tabParam && document.getElementById('section-' + tabParam)) {
                     document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
                     document.getElementById('section-' + tabParam).classList.add('active');
@@ -1367,6 +1379,10 @@
         const NEWS_API = 'https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/ArticleMenu.json';
         const NEWS_MIRROR = 'news-cache.json';
         const NEWS_CACHE_KEY = 'wuthering_news_cache_v1';
+        const YT_MIRROR = 'youtube-news.json';
+        const YT_CACHE_KEY = 'wuthering_yt_cache_v1';
+        let ytCache = null;
+        let ytSourceNote = '';
         let newsCache = null;
         let newsSourceNote = '';
         // 帶超時嘅 fetch（AbortController 10 秒）
@@ -1408,8 +1424,62 @@
             } catch (e) { /* fall through */ }
             throw new Error('所有新聞來源都暫時無法訪問');
         }
+        async function fetchYouTubeList() {
+            // GitHub 鏡像 youtube-news.json（由 GitHub Actions 定期抓官方 YouTube RSS）
+            try {
+                const res = await fetchTimeout(YT_MIRROR + '?t=' + Math.floor(Date.now() / 600000), 8000);
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                const data = await res.json();
+                const list = Array.isArray(data) ? data : (data && data.videos);
+                if (Array.isArray(list) && list.length) {
+                    ytSourceNote = 'YouTube鏡像 ' + (data && data.fetched_at ? data.fetched_at.slice(5, 16) : '');
+                    return list;
+                }
+            } catch (e) { /* fall through */ }
+            // 離線快取（上次成功嘅數據）
+            try {
+                const saved = JSON.parse(localStorage.getItem(YT_CACHE_KEY) || 'null');
+                if (saved && Array.isArray(saved.list) && saved.list.length) {
+                    ytSourceNote = '離線快取 ' + (saved.ts || '');
+                    return saved.list;
+                }
+            } catch (e) { /* fall through */ }
+            throw new Error('YouTube 鏡像暫時無法訪問');
+        }
         async function loadWutheringNews() {
             const box = document.getElementById('animeNews');
+            // YouTube 類型：直接讀 youtube-news.json 鏡像
+            if (newsSource === 'yt') {
+                try {
+                    if (!ytCache) {
+                        ytCache = (await fetchYouTubeList()).sort((a, b) => (b.published || '').localeCompare(a.published || ''));
+                        try {
+                            localStorage.setItem(YT_CACHE_KEY, JSON.stringify({ ts: new Date().toLocaleString('zh-HK'), list: ytCache }));
+                        } catch (e) {}
+                    }
+                    if (!ytCache.length) { box.innerHTML = '<div style="padding:20px;color:#888;">暫無數據</div>'; return; }
+                    const noteHtml = ytSourceNote ? '<div style="padding:10px 2px 2px;font-size:11px;color:#999;">新聞來源：' + escHtml(ytSourceNote) + '</div>' : '';
+                    function escHtml(s) {
+                        return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+                    }
+                    box.innerHTML = noteHtml + ytCache.map(v => {
+                        const date = (v.published || '').slice(0, 10);
+                        const ytLink = v.link || ('https://www.youtube.com/watch?v=' + v.videoId);
+                        return '<div class="news-card" onclick="window.open(\'' + String(ytLink).replace(/'/g, '%27') + '\',\'_blank\')">' +
+                            '<div class="news-top">' +
+                                '<span class="news-badge t-yt">▶ 影片</span>' +
+                                '<span class="news-date">' + escHtml(date) + '</span>' +
+                            '</div>' +
+                            '<div class="news-title">' + escHtml(v.title || '') + '</div>' +
+                        '</div>';
+                    }).join('');
+                } catch (e) {
+                    box.innerHTML = '<div style="padding:24px;color:#f66;text-align:center;">載入失敗: ' + escHtml(e.message || e) +
+                        '<br><span style="font-size:12px;color:#999;">（YouTube 鏡像服務暫時無法訪問）</span>' +
+                        '<br><button onclick="retryNews()" style="margin-top:12px;padding:8px 22px;border-radius:16px;border:none;background:#ffd700;color:#111;font-size:14px;font-weight:bold;cursor:pointer;">🔄 重試</button></div>';
+                }
+                return;
+            }
             if (!newsCache) {
                 box.innerHTML = '<div class="loading">載入鳴潮官方新聞中...</div>';
             }
@@ -1421,10 +1491,27 @@
                         localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({ ts: new Date().toLocaleString('zh-HK'), list: newsCache }));
                     } catch (e) {}
                 }
-                const items = newsSource === 'all' ? newsCache : newsCache.filter(n => n.articleType === parseInt(newsSource.replace('t', ''), 10));
+                // 「全部」時合併埋 YouTube 影片（鏡像載入失敗唔影響主新聞）
+                if (newsSource === 'all' && !ytCache) {
+                    try {
+                        ytCache = (await fetchYouTubeList()).sort((a, b) => (b.published || '').localeCompare(a.published || ''));
+                        try { localStorage.setItem(YT_CACHE_KEY, JSON.stringify({ ts: new Date().toLocaleString('zh-HK'), list: ytCache })); } catch (e) {}
+                    } catch (e) { ytCache = []; }
+                }
+                let items;
+                if (newsSource === 'all') {
+                    items = newsCache.concat(ytCache || []).sort((a, b) => (b.startTime || b.published || '').localeCompare(a.startTime || a.published || ''));
+                } else if (newsSource === 'official') {
+                    items = newsCache.filter(n => [51, 52, 53].includes(n.articleType));
+                } else {
+                    items = newsCache.filter(n => n.articleType === parseInt(newsSource.replace('t', ''), 10));
+                }
                 if (!items.length) { box.innerHTML = '<div style="padding:20px;color:#888;">暫無數據</div>'; return; }
                 // 來源標註（官方即時 / 鏡像快取 / 離線快取）
-                const noteHtml = newsSourceNote ? '<div style="padding:10px 2px 2px;font-size:11px;color:#999;">新聞來源：' + escHtml(newsSourceNote) + '</div>' : '';
+                const noteParts = [];
+                if (newsSourceNote) noteParts.push(newsSourceNote);
+                if (newsSource === 'all' && ytSourceNote && ytCache && ytCache.length) noteParts.push(ytSourceNote);
+                const noteHtml = noteParts.length ? '<div style="padding:10px 2px 2px;font-size:11px;color:#999;">新聞來源：' + noteParts.map(escHtml).join(' + ') + '</div>' : '';
                 // 安全擷取純文字摘要（DOM parse 可正確處理不完整 HTML，避免殘留標籤破版）
                 function newsDesc(n) {
                     try {
@@ -1438,6 +1525,18 @@
                     return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
                 }
                 box.innerHTML = noteHtml + items.map(n => {
+                    // YouTube 影片卡（有 videoId / type=yt）
+                    if (n.videoId || n.type === 'yt') {
+                        const date = (n.published || '').slice(0, 10);
+                        const ytLink = n.link || ('https://www.youtube.com/watch?v=' + n.videoId);
+                        return '<div class="news-card" onclick="window.open(\'' + String(ytLink).replace(/'/g, '%27') + '\',\'_blank\')">' +
+                            '<div class="news-top">' +
+                                '<span class="news-badge t-yt">▶ 影片</span>' +
+                                '<span class="news-date">' + escHtml(date) + '</span>' +
+                            '</div>' +
+                            '<div class="news-title">' + escHtml(n.title || '') + '</div>' +
+                        '</div>';
+                    }
                     const typeName = NEWS_TYPE_NAME[n.articleType] || ('其他 #' + n.articleType);
                     const date = (n.startTime || '').slice(0, 10);
                     const desc = newsDesc(n);
