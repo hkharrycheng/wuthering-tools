@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鳴潮助手 | HIS Tools</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding-bottom: 60px;
+        }
+
+        .header {
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: grid;
+            grid-template-columns: auto 1fr;
+            align-items: center;
+            column-gap: 10px;
+        }
+
+        .header h1 {
+            font-size: 22px;
+            background: linear-gradient(90deg, #ffd700, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 6px;
+            margin-bottom: 14px;
+        }
+
+        .stat-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 8px 4px;
+            text-align: center;
+        }
+
+        .stat-item .number {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .stat-item .label {
+            font-size: 9px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 2px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 8px;
+            padding: 12px 20px;
+            overflow-x: auto;
+        }
+
+        .tab {
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 18px;
+            cursor: pointer;
+            font-size: 13px;
+            white-space: nowrap;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            background: linear-gradient(90deg, #ffd700, #ff6b6b);
+            border-color: transparent;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .content { padding: 0 15px; }
+        .section { display: none; }
+        .section.active { display: block; }
+
+        /* Filter */
+        .filter-bar {
+            display: flex;
+            gap: 6px;
+            padding: 10px 0;
+            overflow-x: auto;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            transition: all 0.2s;
+        }
+
+        .filter-btn.active {
+            background: #ffd700;
+            color: #000;
+            border-color: #ffd700;
+            font-weight: bold;
+        }
+
+        /* Sort Buttons */
+        .sort-bar {
+            display: flex;
+            gap: 6px;
+            padding: 8px 0;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .sort-bar label {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .sort-btn {
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            transition: all 0.2s;
+        }
+
+        .sort-btn.active {
+            background: #667eea;
+            border-color: #667eea;
+            font-weight: bold;
+        }
+
+        .sort-btn .arrow {
+            font-size: 10px;
+            margin-left: 3px;
+        }
+
+        /* 共鳴者圖庫 */
+        .resonator-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 12px;
+            padding: 10px 0;
+        }
+
+        .resonator-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .resonator-card:hover { transform: translateY(-3px); }
+
+        .resonator-avatar {
+            width: 100%;
+            height: 130px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .resonator-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .star-badge {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2px 6px;
+            border-radius: 8px;
+            font-size: 11px;
+            color: #ffd700;
+        }
+
+        .element-badge {
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .resonator-info { padding: 10px; }
+
+        .resonator-name {
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .resonator-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cost-display {
+            font-size: 11px;
+            color: #ffd700;
+        }
+
+        .weapon-tag {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* 配隊排名 */
+        .team-ranking {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding: 10px 0;
+        }
+
+        .team-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .team-card:hover { transform: translateX(3px); border-color: rgba(255, 215, 0, 0.3); }
+
+        .team-card.top1 { 
+            border: 3px solid #ffd700; 
+            background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,255,255,0.05));
+            box-shadow: 0 0 25px rgba(255,215,0,0.4);
+            transform: scale(1.02);
+        }
+        .team-card.top2 { 
+            border: 3px solid #c0c0c0; 
+            background: linear-gradient(135deg, rgba(192,192,192,0.15), rgba(255,255,255,0.05));
+            box-shadow: 0 0 15px rgba(192,192,192,0.3);
+        }
+        .team-card.top3 { 
+            border: 3px solid #cd7f32; 
+            background: linear-gradient(135deg, rgba(205,127,50,0.15), rgba(255,255,255,0.05));
+            box-shadow: 0 0 10px rgba(205,127,50,0.3);
+        }
+
+        .team-card.top1 .member-chip img,
+        .team-card.top2 .member-chip img,
+        .team-card.top3 .member-chip img {
+            width: 32px;
+            height: 32px;
+        }
+
+        .team-card.top1 .member-chip {
+            padding: 6px 14px;
+            font-size: 13px;
+        }
+
+        .team-card.top1 .score-number {
+            font-size: 28px;
+            text-shadow: 0 0 10px rgba(255,215,0,0.5);
+        }
+
+        .team-card.top1 .team-name {
+            font-size: 18px;
+        }
+
+        .team-card.top1 .rank-badge {
+            width: 44px;
+            height: 44px;
+            font-size: 20px;
+        }
+
+        .team-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .rank-badge {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .rank-1 { background: linear-gradient(135deg, #ffd700, #ff8c00); color: #000; box-shadow: 0 0 15px rgba(255,215,0,0.5); }
+        .rank-2 { background: linear-gradient(135deg, #c0c0c0, #808080); color: #000; box-shadow: 0 0 10px rgba(192,192,192,0.3); }
+        .rank-3 { background: linear-gradient(135deg, #cd7f32, #8b4513); color: #fff; }
+        .rank-other { background: rgba(255, 255, 255, 0.1); color: #fff; }
+
+        .team-name {
+            font-size: 15px;
+            font-weight: bold;
+            flex: 1;
+        }
+
+        .team-score { text-align: right; }
+        .score-number { font-size: 20px; font-weight: bold; color: #ffd700; }
+        .podium-line { font-size: 11px; opacity: 0.85; letter-spacing: 1px; margin-top: 2px; }
+
+        .team-members {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .member-chip {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.08);
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .member-chip:hover { background: rgba(255, 255, 255, 0.15); }
+
+        .member-chip img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .member-chip.main { border-left: 3px solid #ff6b6b; }
+        .member-chip.sub { border-left: 3px solid #667eea; }
+        .member-chip.healer { border-left: 3px solid #4caf50; }
+
+        .team-boss {
+            margin-top: 8px;
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            z-index: 200;
+            overflow-y: auto;
+        }
+
+        .modal-overlay.active { display: block; }
+
+        .modal {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            margin: 20px auto;
+            max-width: 500px;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .modal-header {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .modal-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .modal-avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+        .modal-title { flex: 1; }
+        .modal-title h2 { font-size: 18px; margin-bottom: 4px; }
+        .modal-title .stars { color: #ffd700; font-size: 14px; }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+
+        .modal-body { padding: 15px; }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .info-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 8px 10px;
+            border-radius: 8px;
+        }
+
+        .info-item .label {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 3px;
+        }
+
+        .info-item .value { font-size: 13px; font-weight: 500; }
+
+        .section-title {
+            font-size: 14px;
+            color: #ffd700;
+            margin: 15px 0 8px;
+            font-weight: bold;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            padding: 5px 8px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 6px;
+        }
+
+        .stat-row .stat-label { color: rgba(255, 255, 255, 0.6); }
+        .stat-row .stat-value { font-weight: 500; }
+
+        .team-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .team-link {
+            padding: 5px 10px;
+            background: rgba(102, 126, 234, 0.3);
+            border-radius: 12px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .team-link:hover { background: rgba(102, 126, 234, 0.5); }
+
+        .gacha-record {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 12px;
+        }
+
+        .gacha-record:last-child { border-bottom: none; }
+
+        /* 配隊詳情Modal */
+        .team-detail-boss {
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.15), rgba(139, 0, 0, 0.1));
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+
+        .boss-avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 12px;
+            overflow: hidden;
+            flex-shrink: 0;
+            background: rgba(255, 107, 107, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            border: 2px solid rgba(255, 107, 107, 0.5);
+        }
+
+        .boss-avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+        .boss-info { flex: 1; }
+        .boss-info h3 { font-size: 18px; margin-bottom: 6px; color: #ff6b6b; }
+        .boss-info p { font-size: 12px; color: rgba(255, 255, 255, 0.7); margin-bottom: 4px; }
+
+        .boss-rounds {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 8px;
+        }
+
+        .boss-round {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 5px 10px;
+            border-radius: 8px;
+            font-size: 11px;
+        }
+
+        .boss-round .round-label {
+            color: rgba(255, 255, 255, 0.5);
+            margin-right: 5px;
+        }
+
+        .team-detail-members {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .member-detail {
+            flex: 1;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .member-detail:hover { transform: translateY(-3px); }
+
+        .member-detail-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 0 auto 8px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .member-detail-avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+        .member-detail-avatar.main { border-color: #ff6b6b; }
+        .member-detail-avatar.sub { border-color: #667eea; }
+        .member-detail-avatar.healer { border-color: #4caf50; }
+
+        .member-detail-name { font-size: 12px; font-weight: bold; }
+        .member-detail-pos { font-size: 10px; color: rgba(255, 255, 255, 0.6); }
+
+        /* 鳴潮新聞 */
+        .news-filter { display: flex; gap: 8px; padding: 10px 12px; overflow-x: auto; scrollbar-width: none; position: sticky; top: 61px; background: #141522; z-index: 5; }
+        .news-filter::-webkit-scrollbar { display: none; }
+        .news-chip { background: rgba(255, 255, 255, 0.08); border: none; color: #ccc; padding: 6px 14px; border-radius: 16px; font-size: 13px; cursor: pointer; white-space: nowrap; flex-shrink: 0; }
+        .news-chip.active { background: #ffd700; color: #111; font-weight: bold; }
+        .news-list { padding: 4px 12px 16px; display: flex; flex-direction: column; gap: 10px; }
+        .news-card { background: rgba(255, 255, 255, 0.06); border-radius: 12px; padding: 12px 14px; cursor: pointer; transition: background 0.2s; }
+        .news-card:active { background: rgba(255, 255, 255, 0.12); }
+        .news-top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+        .news-badge { font-size: 11px; padding: 2px 8px; border-radius: 10px; flex-shrink: 0; }
+        .news-badge.t-51 { background: rgba(124, 204, 255, 0.18); color: #7cf; }
+        .news-badge.t-52 { background: rgba(255, 215, 0, 0.18); color: #ffd700; }
+        .news-badge.t-53 { background: rgba(255, 120, 160, 0.18); color: #ff78a0; }
+        .news-badge.t-0 { background: rgba(255, 255, 255, 0.12); color: #aaa; }
+        .news-date { font-size: 12px; color: #888; margin-left: auto; }
+        .news-title { font-size: 15px; font-weight: bold; color: #fff; line-height: 1.4; margin-bottom: 5px; }
+        .news-desc { font-size: 12px; color: rgba(255, 255, 255, 0.6); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .news-top-mark { font-size: 11px; color: #ffd700; background: rgba(255, 215, 0, 0.15); padding: 2px 7px; border-radius: 8px; }
+        .news-modal-body { font-size: 14px; color: #ddd; line-height: 1.8; word-break: break-word; }
+        .news-modal-body img { max-width: 100%; border-radius: 8px; }
+        .news-modal-body h1, .news-modal-body h2, .news-modal-body h3 { color: #fff; font-size: 17px; margin: 12px 0 6px; }
+        .news-modal-body a { color: #7cf; }
+        .news-modal-link { display: block; margin-top: 14px; text-align: center; color: #7cf; text-decoration: none; font-size: 13px; padding: 10px; border: 1px solid rgba(124, 204, 255, 0.4); border-radius: 10px; }
+
+        .footer {
+            text-align: center;
+            padding: 25px 20px;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 11px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        @media (max-width: 480px) {
+            .resonator-grid { grid-template-columns: repeat(2, 1fr); }
+            .stats-bar { grid-template-columns: repeat(4, 1fr); }
+            .info-grid { grid-template-columns: 1fr; }
+            .stat-item .number { font-size: 14px; }
+            .stat-item .label { font-size: 8px; }
+        }
+    
+        /* FIGHT記錄樣式 */
+        .team-stats-bar {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .team-stat {
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        .team-stat-number {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        .team-stat-label {
+            font-size: 10px;
+            color: rgba(255,255,255,0.6);
+            margin-top: 2px;
+        }
+        .fights-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .fight-record {
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 10px;
+            border-left: 3px solid rgba(255,255,255,0.2);
+        }
+        .fight-record.best {
+            border-left-color: #ffd700;
+            background: rgba(255,215,0,0.1);
+        }
+        .fight-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        .fight-season {
+            font-weight: bold;
+            color: #58a6ff;
+        }
+        
+        .fight-right {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: auto;
+        }
+    
+        
+        .fight-rank {
+            color: #888;
+            font-size: 12px;
+            margin-right: 8px;
+        }
+    
+        .fight-score {
+            font-weight: bold;
+            color: #ffd700;
+        }
+        .fight-badge {
+            background: #ffd700;
+            color: #000;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        .fight-members {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .fight-member {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            background: rgba(255,255,255,0.05);
+            padding: 3px 6px;
+            border-radius: 12px;
+        }
+        .fight-member img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .card-weapon-icon {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+            background: rgba(0,0,0,0.5);
+            border-radius: 6px;
+            padding: 2px;
+        }
+    
+        .resonator-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .resonator-img:not([src]), .resonator-img[src=""] {
+            display: none;
+        }
+    
+        .card-weapon-small {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            padding: 1px;
+        }
+    
+        .team-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .team-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .team-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        .team-name {
+            font-weight: 500;
+        }
+        .team-score {
+            color: #fbbf24;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.jpg" alt="HIS Tools" style="width:34px;height:34px;border-radius:8px;object-fit:contain;flex-shrink:0">
+        <h1>鳴潮助手</h1>
+    </div>
+
+    <div class="tabs">
+        <div class="tab" onclick="switchTab('anime', this)">📰 鳴潮新聞</div>
+        <div class="tab active" onclick="switchTab('pool', this)">⭐ 我擁有的共鳴者</div>
+        <div class="tab" onclick="switchTab('ranking', this)">🏆 奇點擴張排名</div>
+    </div>
+
+    <div class="content">
+        <!-- 共鳴者POOL -->
+        <div class="section active" id="section-pool">
+            <div class="stats-bar" id="statsBar">
+                <div class="stat-item">
+                    <div class="number" id="ownedCount">-</div>
+                    <div class="label">擁有共鳴者</div>
+                </div>
+                <div class="stat-item" onclick="switchTab('ranking', this)" style="cursor:pointer;">
+                    <div class="number" id="teamCount">-</div>
+                    <div class="label">配隊數量</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number" id="zhengPct">-</div>
+                    <div class="label">正抽%</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number" id="avgKeyDraws">-</div>
+                    <div class="label">平均關鍵實抽</div>
+                </div>
+            </div>
+            <div class="filter-bar" id="elementFilter"></div>
+            <div class="sort-bar" id="sortBar">
+                <label>排序:</label>
+                <button class="sort-btn" onclick="setSort('star', this)">星級<span class="arrow">↓</span></button>
+                <button class="sort-btn" onclick="setSort('cost', this)">成本<span class="arrow">↓</span></button>
+                <button class="sort-btn" onclick="setSort('name', this)">名稱<span class="arrow">↓</span></button>
+                <button class="sort-btn active" onclick="setSort('date', this)">入手<span class="arrow">↓</span></button>
+            </div>
+            <div class="resonator-grid" id="resonatorGrid">
+                <div class="loading">載入中...</div>
+            </div>
+        </div>
+
+        <!-- 奇點擴張排名 -->
+        <div class="section" id="section-ranking">
+            <div class="team-ranking" id="teamRanking">
+                <div class="loading">載入中...</div>
+            </div>
+        </div>
+
+        <!-- 鳴潮新聞 -->
+        <div class="section" id="section-anime">
+            <div class="news-filter">
+                <button class="news-chip active" onclick="setNewsType('all', this)">🔥 全部</button>
+                <button class="news-chip" onclick="setNewsType('t52', this)">📢 公告</button>
+                <button class="news-chip" onclick="setNewsType('t51', this)">🎬 資訊</button>
+                <button class="news-chip" onclick="setNewsType('t53', this)">🎉 活動</button>
+            </div>
+            <div class="news-list" id="animeNews"><div class="loading">載入中...</div></div>
+        </div>
+    </div>
+
+    <!-- 共鳴者詳細資訊Modal -->
+    <div class="modal-overlay" id="resonatorModal" onclick="if(event.target===this)closeModal('resonatorModal')">
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-avatar" id="modalAvatar"></div>
+                <div class="modal-title">
+                    <h2 id="modalName">-</h2>
+                    <div class="stars" id="modalStars"></div>
+                </div>
+                <button class="modal-close" onclick="closeModal('resonatorModal')">×</button>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- 配隊詳細資訊Modal -->
+    <div class="modal-overlay" id="teamModal" onclick="if(event.target===this)closeModal('teamModal')">
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-title">
+                    <h2 id="teamModalName">-</h2>
+                    <div class="stars" id="teamModalScore"></div>
+                </div>
+                <button class="modal-close" onclick="closeModal('teamModal')">×</button>
+            </div>
+            <div class="modal-body" id="teamModalBody"></div>
+        </div>
+    </div>
+
+    <!-- 新聞詳細Modal -->
+    <div class="modal-overlay" id="newsModal" onclick="if(event.target===this)closeModal('newsModal')">
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-title">
+                    <h2 id="newsModalTitle">-</h2>
+                    <div class="stars" id="newsModalMeta"></div>
+                </div>
+                <button class="modal-close" onclick="closeModal('newsModal')">×</button>
+            </div>
+            <div class="modal-body"><div class="news-modal-body" id="newsModalBody"></div></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        HIS Tools © 2026.1.25 · 數據源自飛書多維表格
+    </div>
+
+    <script>
+        let data = null;
+        let currentElementFilter = 'all';
+        let currentSort = 'date';
+        let sortAscending = false;
+
+        // 切換Tab
+        function switchTab(tabName, el) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.getElementById('section-' + tabName).classList.add('active');
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            if (el) el.classList.add('active');
+        }
+
+        // 載入數據
+        async function loadData() {
+            try {
+                const response = await fetch('wuthering.json');
+                data = await response.json();
+                renderStats();
+                renderElementFilter();
+                renderResonatorPool();
+                renderTeamRanking();
+            } catch (error) {
+                console.error('載入失敗:', error);
+                document.getElementById('resonatorGrid').innerHTML = '<div class="loading">載入失敗</div>';
+            }
+        }
+
+        // 渲染統計
+        function renderStats() {
+            document.getElementById('ownedCount').textContent = data.summary.owned_resonators;
+            document.getElementById('teamCount').textContent = data.summary.total_teams;
+            document.getElementById('zhengPct').textContent = data.summary.zheng_percentage + '%';
+            document.getElementById('avgKeyDraws').textContent = data.summary.avg_key_draws;
+        }
+
+        // 渲染屬性Filter
+        function renderElementFilter() {
+            const filterBar = document.getElementById('elementFilter');
+            const elements = [...new Set(data.myPool.map(r => r.element))];
+            
+            let html = '<button class="filter-btn active" onclick="filterElement(\'all\', this)">全部</button>';
+            elements.forEach(elem => {
+                const color = data.elementColors[elem] || '#888';
+                html += `<button class="filter-btn" style="border-color:${color};color:${color}" onclick="filterElement('${elem}', this)">${elem}</button>`;
+            });
+            filterBar.innerHTML = html;
+        }
+
+        function filterElement(elem, btn) {
+            currentElementFilter = elem;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderResonatorPool();
+        }
+
+        // 設置排序
+        function setSort(sortBy, btn) {
+            if (currentSort === sortBy) {
+                sortAscending = !sortAscending;
+            } else {
+                currentSort = sortBy;
+                sortAscending = false;
+            }
+            
+            document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            // 更新箭頭
+            document.querySelectorAll('.sort-btn').forEach(b => {
+                const arrow = b.querySelector('.arrow');
+                if (b === btn) {
+                    arrow.textContent = sortAscending ? '↑' : '↓';
+                } else {
+                    arrow.textContent = '↓';
+                }
+            });
+            
+            renderResonatorPool();
+        }
+
+        // 渲染共鳴者POOL
+        function renderResonatorPool() {
+            const grid = document.getElementById('resonatorGrid');
+            
+            let pool = [...data.myPool];
+            
+            // Filter
+            if (currentElementFilter !== 'all') {
+                pool = pool.filter(r => r.element === currentElementFilter);
+            }
+            
+            // Sort
+            if (currentSort === 'star') {
+                pool.sort((a, b) => sortAscending ? a.star - b.star : b.star - a.star);
+                if (!sortAscending) pool.sort((a, b) => b.star - a.star || a.name.localeCompare(b.name));
+            } else if (currentSort === 'cost') {
+                pool.sort((a, b) => sortAscending ? a.key_draws - b.key_draws : b.key_draws - a.key_draws);
+            } else if (currentSort === 'name') {
+                pool.sort((a, b) => sortAscending ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name));
+            } else if (currentSort === 'date') {
+                pool.sort((a, b) => sortAscending ? (a.obtain_date || '').localeCompare(b.obtain_date || '') : (b.obtain_date || '').localeCompare(a.obtain_date || ''));
+            }
+
+            // 預先計算每個共鳴者的最高分
+            const resonatorMaxScores = {};
+            if (data.teams) {
+                data.teams.forEach(function(t) {
+                    const score = t.max_score || t.best_score || 0;
+                    if (t.members) {
+                        t.members.forEach(function(m) {
+                            if (!resonatorMaxScores[m.name] || score > resonatorMaxScores[m.name]) {
+                                resonatorMaxScores[m.name] = score;
+                            }
+                        });
+                    }
+                });
+            }
+            
+            grid.innerHTML = pool.map(function(r) {
+                const elemColor = data.elementColors[r.element] || '#888';
+                const constNum = Math.max(0, Math.min(6, parseInt(r.constellation) || 0));
+                const constStars = '★'.repeat(constNum) + '☆'.repeat(6 - constNum);
+                const teamMaxScore = resonatorMaxScores[r.name] || 0;
+                const scoreHtml = teamMaxScore > 0 ? '<span class="score-display" style="color:#fbbf24;">🏆' + teamMaxScore + '</span>' : '';
+                return '<div class="resonator-card" onclick="showResonatorDetail(\'' + r.name + '\')">' +
+                    '<div class="resonator-avatar" style="background:linear-gradient(135deg, ' + elemColor + '40, ' + elemColor + '80)">' +
+                        '<img src="' + r.avatar + '" alt="' + r.name + '" class="resonator-img">' +
+                        '<div class="element-badge" style="background:' + elemColor + '">' + r.element.charAt(0) + '</div>' +
+                    '</div>' +
+                    '<div class="resonator-info">' +
+                        '<div class="resonator-name" style="display:flex; align-items:center; gap:6px;">' + (r.weapon_avatar ? '<img src="' + r.weapon_avatar + '" class="card-weapon-small" alt="專武" onerror="this.style.display=\'none\'">' : '') + '<span>' + r.name + '</span></div>' +
+                        '<div class="resonator-meta">' +
+                            '<span class="constellation-display" style="color:#ffd700;">' + constStars + '</span>' +
+                            scoreHtml +
+                        '</div>' +
+                    '</div>' +
+                '</div>';
+            }).join('');
+        }
+
+        // 渲染配隊排名
+        function renderTeamRanking() {
+            const ranking = document.getElementById('teamRanking');
+            
+            ranking.innerHTML = data.teams.map((team, index) => {
+                const rank = index + 1;
+                let rankClass = 'rank-other';
+                let cardClass = '';
+                if (rank === 1) { rankClass = 'rank-1'; cardClass = 'top1'; }
+                else if (rank === 2) { rankClass = 'rank-2'; cardClass = 'top2'; }
+                else if (rank === 3) { rankClass = 'rank-3'; cardClass = 'top3'; }
+
+                const membersHtml = sortMembersByPosition(team.members).map(m => {
+                    let posClass = '';
+                    if (m.position === '主C') posClass = 'main';
+                    else if (m.position === '副C') posClass = 'sub';
+                    else if (m.position === '奶媽') posClass = 'healer';
+                    
+                    const resonator = data.myPool.find(r => r.name === m.name);
+                    const avatar = resonator ? resonator.avatar : '';
+                    
+                    return `
+                        <div class="member-chip ${posClass}" onclick="event.stopPropagation();showResonatorDetail('${m.name}')">
+                            ${avatar ? `<img src="${avatar}" alt="${m.name}">` : ''}
+                            <span>${m.name}</span>
+                            <span style="opacity:0.6">${m.position}</span>
+                        </div>
+                    `;
+                }).join('');
+
+                return `
+                    <div class="team-card ${cardClass}" onclick="showTeamDetail(${index})">
+                        <div class="team-header">
+                            <div class="rank-badge ${rankClass}">${rank}</div>
+                            <div class="team-name">${team.name}</div>
+                            <div class="team-score">
+                                <div class="score-number">${team.best_score}</div>
+                                <div class="podium-line">🏆${team.champion_count||0} 🥈${team.runner_up_count||0} 🥉${team.third_count||0}</div>
+                            </div>
+                        </div>
+                        <div class="team-members">${membersHtml}</div>
+                        ${team.boss ? `<div class="team-boss">👹 Boss: ${team.boss} | Season ${team.season} | Turn ${team.turn}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // 顯示共鳴者詳細資訊
+        function showResonatorDetail(name) {
+            const r = data.myPool.find(x => x.name === name);
+            if (!r) return;
+
+            const stars = '★'.repeat(r.star);
+            const elemColor = data.elementColors[r.element] || '#888';
+
+            document.getElementById('modalAvatar').innerHTML = `<img src="${r.avatar}" alt="${r.name}">`;
+            document.getElementById('modalName').textContent = r.name;
+            document.getElementById('modalStars').textContent = stars;
+
+            const body = document.getElementById('modalBody');
+            body.innerHTML = `
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="label">命座</div>
+                        <div class="value" style="color:#ffd700;">${'★'.repeat(Math.min(6, r.constellation || 0))}${'☆'.repeat(Math.max(0, 6 - (r.constellation || 0)))}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="label">屬性</div>
+                        <div class="value" style="color:${elemColor}">${r.element}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="label">共鳴模態</div>
+                        <div class="value">${r.modality || '-'}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="label">定位</div>
+                        <div class="value">${Array.isArray(r.tags) ? r.tags.join(', ') : (r.tags || '-')}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="label">入手日期</div>
+                        <div class="value">${r.obtain_date || '-'}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="label">關鍵角色</div>
+                        <div class="value">${r.key_role === 'true' || r.key_role === true ? '是' : '否'}</div>
+                    </div>
+                    <div class="info-item" style="grid-column: span 2;">
+                        <div class="label">專武</div>
+                        <div class="value" style="display:flex; align-items:center; gap:10px;">
+                            ${r.weapon_avatar ? `<img src="${r.weapon_avatar}" alt="${r.special_weapon}" style="width:50px; height:50px; object-fit:contain; background:rgba(255,255,255,0.1); border-radius:8px;" onerror="this.style.display='none'">` : '<span style="color:#666;">無圖片</span>'}
+                            <span>${r.special_weapon || '無'}</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="section-title">📊 畢業面板</div>
+                <div class="stats-grid">
+                    <div class="stat-row"><span class="stat-label">生命值</span><span class="stat-value">${r.stats.hp}</span></div>
+                    <div class="stat-row"><span class="stat-label">攻擊力</span><span class="stat-value">${r.stats.atk}</span></div>
+                    <div class="stat-row"><span class="stat-label">防禦力</span><span class="stat-value">${r.stats.def}</span></div>
+                    <div class="stat-row"><span class="stat-label">暴擊率</span><span class="stat-value">${r.stats.crit_rate}%</span></div>
+                    <div class="stat-row"><span class="stat-label">暴擊傷害</span><span class="stat-value">${r.stats.crit_dmg}%</span></div>
+                    <div class="stat-row"><span class="stat-label">共鳴效率</span><span class="stat-value">${r.stats.resonance_efficiency}%</span></div>
+                    <div class="stat-row"><span class="stat-label">屬性傷害加成</span><span class="stat-value">${r.stats.element_dmg_bonus}%</span></div>
+                </div>
+
+                <div class="section-title">💡 關鍵命座</div>
+                <div style="font-size:13px; padding:8px; background:rgba(255,255,255,0.05); border-radius:8px;">
+                    ${r.key_constellation || '無資料'}
+                </div>
+
+                <div class="section-title">💰 抽卡成本</div>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="label">總抽數</div>
+                        <div class="value">${r.total_draws || '-'}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="label">抽數/命</div>
+                        <div class="value">${r.draws_per_const || '-'}</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="label">角色成本</div>
+                        <div class="value" style="color:#ffd700">${r.role_cost || '-'}</div>
+                    </div>
+                </div>
+                
+                ${r.gacha_records && r.gacha_records.length > 0 ? `
+                <div class="section-title">📜 抽卡記錄</div>
+                <div>
+                    ${r.gacha_records.slice(0, 5).map(rec => `
+                        <div class="gacha-record">
+                            <span>${rec.date ? rec.date.substring(0, 10) : '-'}</span>
+                            <span>${rec.type || ''} ${rec.pool || ''}</span>
+                            <span>${rec.draws}抽</span>
+                        </div>
+                    `).join('')}
+                </div>
+                ` : ''}
+
+                <div class="section-title">⚔️ 出場配隊</div>
+                <div class="team-list">
+                    ${getResonatorTeams(r.name)}
+                </div>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('resonatorModal').classList.add('active');
+        }
+
+        // 顯示配隊詳細資訊
+        function showTeamDetail(index) {
+            const team = data.teams[index];
+            if (!team) return;
+
+            document.getElementById('teamModalName').textContent = team.name;
+            document.getElementById('teamModalScore').textContent = `🏆 ${team.champion_count || 0}冠  🥈 ${team.runner_up_count || 0}亞  🥉 ${team.third_count || 0}季`;
+
+            const bossInfo = data.bosses ? Object.values(data.bosses).find(b => b.name === team.boss) : null;
+            const bossAvatar = team.boss ? `bosses/${team.boss}.png` : '';
+            const bossNote = bossInfo ? bossInfo.note : '';
+            const bossRound1 = bossInfo ? (bossInfo.round1 || '未記錄') : '未記錄';
+            const bossRound2 = bossInfo ? (bossInfo.round2 || '未記錄') : '未記錄';
+
+            const membersHtml = sortMembersByPosition(team.members).map(m => {
+                let posClass = '';
+                if (m.position === '主C') posClass = 'main';
+                else if (m.position === '副C') posClass = 'sub';
+                else if (m.position === '奶媽') posClass = 'healer';
+                
+                const resonator = data.myPool.find(r => r.name === m.name);
+                const avatar = resonator ? resonator.avatar : '';
+                const element = resonator ? resonator.element : '';
+                const weapon = resonator ? resonator.weapon : '';
+                
+                return `
+                    <div class="member-detail" onclick="closeModal('teamModal');showResonatorDetail('${m.name}')">
+                        <div class="member-detail-avatar ${posClass}">
+                            ${avatar ? `<img src="${avatar}" alt="${m.name}">` : m.name.charAt(0)}
+                        </div>
+                        <div class="member-detail-name">${m.name}</div>
+                        <div class="member-detail-pos">${m.position} | ${element} | ${weapon}</div>
+                    </div>
+                `;
+            }).join('');
+
+            const body = document.getElementById('teamModalBody');
+            
+            // 生成所有FIGHT場次
+            // 收集所有隊伍的所有FIGHT，用於計算Season排名
+            const allSeasonFights = (data.teams || []).flatMap(t => t.fights || []);
+            const fightsHtml = team.fights && team.fights.length > 0 ? `
+                <div class="section-title">📊 所有FIGHT場次 (${team.fights.length}場)</div>
+                <div class="fights-list">
+                    ${team.fights.slice().sort((a,b) => b.score - a.score).map((fight, i) => `
+                        <div class="fight-record ${i === 0 ? 'best' : ''}">
+                            <div class="fight-header">
+                                <span class="fight-season">S${fight.season}.${fight.turn}</span>
+                                <div class="fight-right">
+                                    <span class="fight-rank">No.${getSeasonRank(fight, allSeasonFights).rank} - ${getSeasonRank(fight, allSeasonFights).total}隊</span>
+                                    <span class="fight-score">${fight.score}分</span>
+                                    ${i === 0 ? '<span class="fight-badge">最高分</span>' : ''}
+                                </div>
+                            </div>
+                            <div class="fight-members">
+                                ${sortMembersByPosition(fight.members).map(m => `
+                                    <div class="fight-member">
+                                        <img src="${m.avatar}" alt="${m.name}" onerror="this.style.display=\'none\'">
+                                        <span>${m.name}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            ` : '';
+            
+            body.innerHTML = `
+                <div class="team-stats-bar">
+                    <div class="team-stat">
+                        <div class="team-stat-number">${team.max_score || team.best_score || 0}</div>
+                        <div class="team-stat-label">最高分</div>
+                    </div>
+                    <div class="team-stat">
+                        <div class="team-stat-number">S${team.season}.${team.turn}</div>
+                        <div class="team-stat-label">Season最佳</div>
+                    </div>
+                    <div class="team-stat">
+                        <div class="team-stat-number">${team.total_fights || 0}</div>
+                        <div class="team-stat-label">總場次</div>
+                    </div>
+                </div>
+
+                <div class="section-title">⚔️ 隊伍成員</div>
+                <div class="team-detail-members">
+                    ${membersHtml}
+                </div>
+
+                ${team.boss ? `
+                <div class="team-detail-boss">
+                    <div class="boss-avatar">
+                        ${bossAvatar ? `<img src="${bossAvatar}" alt="${team.boss}">` : '👹'}
+                    </div>
+                    <div class="boss-info">
+                        <h3>👹 ${team.boss}</h3>
+                        <p>📝 ${bossNote || '無備註'}</p>
+                        <div class="boss-rounds">
+                            <div class="boss-round"><span class="round-label">第一輪啟用:</span>${bossRound1}</div>
+                            <div class="boss-round"><span class="round-label">第二輪啟用:</span>${bossRound2}</div>
+                        </div>
+                    </div>
+                </div>
+                ` : ''}
+
+                ${fightsHtml}
+            `;
+
+            document.getElementById('teamModal').classList.add('active');
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+        }
+
+        // 初始化
+        loadData();
+
+        let newsSource = 'all';
+        const NEWS_TYPE_NAME = { 51: '🎬 資訊', 52: '📢 公告', 53: '🎉 活動' };
+        const NEWS_API = 'https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/ArticleMenu.json';
+        let newsCache = null;
+        async function loadWutheringNews() {
+            const box = document.getElementById('animeNews');
+            if (!newsCache) {
+                box.innerHTML = '<div class="loading">載入鳴潮官方新聞中...</div>';
+            }
+            try {
+                if (!newsCache) {
+                    const t = Math.floor(Date.now() / 600000);
+                    const res = await fetch(NEWS_API + '?t=' + t);
+                    if (!res.ok) throw new Error('HTTP ' + res.status);
+                    const list = await res.json();
+                    newsCache = (list || []).sort((a, b) => (b.startTime || '').localeCompare(a.startTime || ''));
+                }
+                const items = newsSource === 'all' ? newsCache : newsCache.filter(n => n.articleType === parseInt(newsSource.replace('t', ''), 10));
+                if (!items.length) { box.innerHTML = '<div style="padding:20px;color:#888;">暫無數據</div>'; return; }
+                box.innerHTML = items.map(n => {
+                    const typeName = NEWS_TYPE_NAME[n.articleType] || ('其他 #' + n.articleType);
+                    const date = (n.startTime || '').slice(0, 10);
+                    const desc = (n.articleContent || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 100);
+                    const top = n.top ? '<span class="news-top-mark">置頂</span>' : '';
+                    return '<div class="news-card" onclick="openNews(\'' + n.articleId + '\')">' +
+                        '<div class="news-top">' +
+                            '<span class="news-badge t-' + n.articleType + '">' + typeName + '</span>' +
+                            top +
+                            '<span class="news-date">' + date + '</span>' +
+                        '</div>' +
+                        '<div class="news-title">' + (n.articleTitle || '') + '</div>' +
+                        (desc ? '<div class="news-desc">' + desc + '</div>' : '') +
+                    '</div>';
+                }).join('');
+            } catch (e) {
+                box.innerHTML = '<div style="padding:20px;color:#f66;">載入失敗: ' + (e.message || e) + '<br><span style="font-size:12px;color:#999;">（官方新聞服務可能暫時無法訪問）</span></div>';
+            }
+        }
+
+        async function openNews(articleId) {
+            const item = (newsCache || []).find(n => String(n.articleId) === String(articleId));
+            if (!item) return;
+            document.getElementById('newsModalTitle').textContent = item.articleTitle || '';
+            const typeName = NEWS_TYPE_NAME[item.articleType] || '其他';
+            document.getElementById('newsModalMeta').textContent = (item.startTime || '').slice(0, 10) + ' · ' + typeName;
+            const bodyEl = document.getElementById('newsModalBody');
+            bodyEl.innerHTML = '<div style="padding:20px;color:#888;">載入中...</div>';
+            let html = (item.articleContent || '').replace(/<script[\s\S]*?<\/script>/gi, '');
+            const textLen = html.replace(/<[^>]*>/g, '').trim().length;
+            if (textLen < 60) {
+                try {
+                    const t2 = Math.floor(Date.now() / 600000);
+                    const res = await fetch('https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/' + articleId + '.json?t=' + t2);
+                    const d = await res.json();
+                    if (d && d.articleContent) html = d.articleContent.replace(/<script[\s\S]*?<\/script>/gi, '');
+                } catch (e) {}
+            }
+            html = html.replace(/\son\w+\s*=\s*"[^"]*"/gi, '');
+            bodyEl.innerHTML = html +
+                '<a class="news-modal-link" href="https://mc.kurogames.com/main/news/detail/' + item.articleId + '" target="_blank" rel="noopener">在官網查看 ↗</a>';
+            document.getElementById('newsModal').classList.add('active');
+        }
+
+        function setNewsType(src, el) {
+            newsSource = src;
+            document.querySelectorAll('.news-chip').forEach(c => c.classList.remove('active'));
+            if (el) el.classList.add('active');
+            loadWutheringNews();
+        }
+
+        loadWutheringNews();
+    
+        function getResonatorTeams(resonatorName) {
+            if (!data.teams) return '<div style="color:#666;">暫無配隊</div>';
+            const teams = data.teams.filter(t => (t.members || []).some(m => m.name === resonatorName));
+            if (teams.length === 0) return '<div style="color:#666;">暫無配隊</div>';
+            return teams.map(t => {
+                const c = t.champion_count || 0, ru = t.runner_up_count || 0, th = t.third_count || 0;
+                const badge = (c + ru + th) > 0 ? ('🏆' + c + ' 🥈' + ru + ' 🥉' + th) : (t.max_score || t.best_score || 0);
+                return '<div class="team-item" onclick="showTeamDetailByName(\'' + t.name + '\')">' +
+                    '<span class="team-name">' + t.name + '</span>' +
+                    '<span class="team-score">' + badge + '</span>' +
+                    '</div>';
+            }).join('');
+        }
+        
+        function showTeamDetailByName(teamName) {
+            // 先關閉所有彈窗
+            document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('active'));
+            // 切換到奇點擴張排名
+            switchTab('ranking');
+            // 找到隊伍的index並打開詳情
+            setTimeout(() => {
+                const index = (data.teams || []).findIndex(t => t.name === teamName);
+                if (index >= 0) {
+                    showTeamDetail(index);
+                }
+            }, 150);
+        }
+    
+        function sortMembersByPosition(members) {
+            const order = { '主C': 0, '副C': 1, '奶媽': 2 };
+            return [...members].sort((a, b) => {
+                const posA = a.position || '';
+                const posB = b.position || '';
+                return (order[posA] ?? 99) - (order[posB] ?? 99);
+            });
+        }
+
+        function getSeasonRank(fight, allFights) {
+            // 收集該Season的所有FIGHT
+            const seasonFights = allFights.filter(f => f.season === fight.season);
+            // 按分數排序
+            const sorted = [...seasonFights].sort((a, b) => b.score - a.score);
+            // 找到該FIGHT的排名
+            const rank = sorted.findIndex(f => f === fight) + 1;
+            return { rank: rank, total: seasonFights.length };
+        }
+</script>
+</body>
+</html>
