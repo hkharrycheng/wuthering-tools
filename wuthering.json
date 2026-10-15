@@ -1,3625 +1,3671 @@
 {
- "myPool": [
-  {
-   "name": "漂泊者·衍射",
-   "element": "衍射",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "建議 S3/S5/S6",
-   "weapon_name": "漂泊者之刃",
-   "weapon_pict": "",
-   "avatar": "avatars/漂泊者·衍射.png",
-   "weapon_avatar": "weapons/漂泊者·衍射.png",
-   "special_weapon": "漂泊者之刃",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "建議 S3/S5/S6",
-   "key_constellation": "建議 S3/S5/S6",
-   "tags": [
-    "副C",
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "15500",
-    "atk": "2000",
-    "def": "1350",
-    "crit_rate": "67.5",
-    "crit_dmg": "235.0",
-    "resonance_efficiency": "121.5",
-    "element_dmg_bonus": "60.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [
-    "卡提風蝕隊"
-   ],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "漂泊者·湮滅",
-   "element": "煙滅",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "建議 S3/S5/S6",
-   "weapon_name": "漂泊者之刃",
-   "weapon_pict": "",
-   "avatar": "avatars/漂泊者·湮滅.png",
-   "weapon_avatar": "weapons/漂泊者·湮滅.png",
-   "special_weapon": "漂泊者之刃",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "建議 S3/S5/S6",
-   "key_constellation": "建議 S3/S5/S6",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2000",
-    "def": "1250",
-    "crit_rate": "67.5",
-    "crit_dmg": "235.0",
-    "resonance_efficiency": "140.0",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "漂泊者·氣動",
-   "element": "氣動",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "16",
-   "key_const": "建議 S3/S5/S6",
-   "weapon_name": "千古洑流",
-   "weapon_pict": "",
-   "avatar": "avatars/漂泊者·氣動.png",
-   "weapon_avatar": "weapons/漂泊者·氣動.png",
-   "special_weapon": "千古洑流",
-   "modality": "",
-   "total_draws": "16",
-   "key_draws": "建議 S3/S5/S6",
-   "key_constellation": "建議 S3/S5/S6",
-   "tags": [
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2100",
-    "def": "1150",
-    "crit_rate": "65.0",
-    "crit_dmg": "210.0",
-    "resonance_efficiency": "133.0",
-    "element_dmg_bonus": "45.0"
-   },
-   "gacha_records": [
+  "myPool": [
     {
-     "draws": 16,
-     "key_draws": "",
-     "date": "2025-05-02T08:15:39.000+08:00",
-     "type": "武器",
-     "pool": "武器常駐"
+      "name": "漂泊者·衍射",
+      "element": "衍射",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "建議 S3/S5/S6",
+      "weapon_name": "漂泊者之刃",
+      "weapon_pict": "",
+      "avatar": "avatars/漂泊者·衍射.png",
+      "weapon_avatar": "weapons/漂泊者·衍射.png",
+      "special_weapon": "漂泊者之刃",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "建議 S3/S5/S6",
+      "key_constellation": "建議 S3/S5/S6",
+      "tags": [
+        "副C",
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "15500",
+        "atk": "2000",
+        "def": "1350",
+        "crit_rate": "67.5",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "121.5",
+        "element_dmg_bonus": "60.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [
+        "卡提風蝕隊"
+      ],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "漂泊者·湮滅",
+      "element": "煙滅",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "建議 S3/S5/S6",
+      "weapon_name": "漂泊者之刃",
+      "weapon_pict": "",
+      "avatar": "avatars/漂泊者·湮滅.png",
+      "weapon_avatar": "weapons/漂泊者·湮滅.png",
+      "special_weapon": "漂泊者之刃",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "建議 S3/S5/S6",
+      "key_constellation": "建議 S3/S5/S6",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2000",
+        "def": "1250",
+        "crit_rate": "67.5",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "漂泊者·氣動",
+      "element": "氣動",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "16",
+      "key_const": "建議 S3/S5/S6",
+      "weapon_name": "千古洑流",
+      "weapon_pict": "",
+      "avatar": "avatars/漂泊者·氣動.png",
+      "weapon_avatar": "weapons/漂泊者·氣動.png",
+      "special_weapon": "千古洑流",
+      "modality": "",
+      "total_draws": "16",
+      "key_draws": "建議 S3/S5/S6",
+      "key_constellation": "建議 S3/S5/S6",
+      "tags": [
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2100",
+        "def": "1150",
+        "crit_rate": "65.0",
+        "crit_dmg": "210.0",
+        "resonance_efficiency": "133.0",
+        "element_dmg_bonus": "45.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 16,
+          "key_draws": "",
+          "date": "2025-05-02T08:15:39.000+08:00",
+          "type": "武器",
+          "pool": "武器常駐"
+        }
+      ],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$61.68",
+      "ep": ""
+    },
+    {
+      "name": "秧秧·玄翎",
+      "element": "煙滅",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-07-10",
+      "total_pulls": "71",
+      "key_const": "核心 2/3 鏈（3鏈大招翻倍解放配隊）；6鏈完全體",
+      "weapon_name": "玄翎",
+      "weapon_pict": "[{\"file_token\": \"CvXdbQU3WohwMuxnsVEc9ADOnic\", \"name\": \"xuanling.png\", \"size\": 120208}]",
+      "avatar": "avatars/秧秧·玄翎.png",
+      "weapon_avatar": "weapons/秧秧·玄翎.png",
+      "special_weapon": "玄翎",
+      "modality": "",
+      "total_draws": "71",
+      "key_draws": "核心 2/3 鏈（3鏈大招翻倍解放配隊）；6鏈完全體",
+      "key_constellation": "核心 2/3 鏈（3鏈大招翻倍解放配隊）；6鏈完全體",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "17000",
+        "atk": "2000",
+        "def": "1150",
+        "crit_rate": "72.5",
+        "crit_dmg": "245.0",
+        "resonance_efficiency": "116.5",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 70,
+          "key_draws": 71,
+          "date": "2026-07-10T09:15:56.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "玄翎虛煙隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "71",
+      "role_cost": "HK$273.69",
+      "ep": "https://www.bilibili.com/video/BV1NbM36aEtm"
+    },
+    {
+      "name": "卡卡羅",
+      "element": "導電",
+      "weapon": "長刃",
+      "star": "5",
+      "constellation": 4,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-06-30",
+      "total_pulls": "239",
+      "key_const": "核心 0/3/6 命；2命加共鳴技能傷害，6命額外加大招倍率",
+      "weapon_name": "蒼鱗千嶂",
+      "weapon_pict": "[{\"file_token\": \"VDqobLOfPoFBmuxlaHQcOrSinTc\", \"name\": \"canglin_qianzhang.png\", \"size\": 9469}]",
+      "avatar": "avatars/卡卡羅.png",
+      "weapon_avatar": "weapons/卡卡羅.png",
+      "special_weapon": "蒼鱗千嶂",
+      "modality": "",
+      "total_draws": "239",
+      "key_draws": "核心 0/3/6 命；2命加共鳴技能傷害，6命額外加大招倍率",
+      "key_constellation": "核心 0/3/6 命；2命加共鳴技能傷害，6命額外加大招倍率",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2200",
+        "def": "1200",
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 27,
+          "key_draws": "",
+          "date": "2024-06-30T11:57:22.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 5,
+          "key_draws": "",
+          "date": "2025-11-20T17:52:02.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 70,
+          "key_draws": "",
+          "date": "2025-12-25T23:01:16.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 70,
+          "key_draws": "",
+          "date": "2026-02-05T13:24:33.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 1,
+          "key_draws": "",
+          "date": "2026-07-10T09:15:56.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "47.8",
+      "role_cost": "HK$921.31",
+      "ep": ""
+    },
+    {
+      "name": "長離",
+      "element": "熱熔",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 1,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-07-22",
+      "total_pulls": "175",
+      "key_const": "核心 0/2/6 命；2命穩定+25%暴擊率，6命無視40%防禦頂爆發",
+      "weapon_name": "赫奕流明",
+      "weapon_pict": "[{\"file_token\": \"RthFbYwzlosJUexCFgMcg2ZNnJN\", \"name\": \"heyiliu_ming.png\", \"size\": 152217}, {\"file_token\": \"CDBkb0j5PoeTKEx15EgcyoGanRg\", \"name\": \"heyiliu_ming_standard.png\", \"size\": 101302}]",
+      "avatar": "avatars/長離.png",
+      "weapon_avatar": "weapons/長離.png",
+      "special_weapon": "赫奕流明",
+      "modality": "",
+      "total_draws": "175",
+      "key_draws": "核心 0/2/6 命；2命穩定+25%暴擊率，6命無視40%防禦頂爆發",
+      "key_constellation": "核心 0/2/6 命；2命穩定+25%暴擊率，6命無視40%防禦頂爆發",
+      "tags": [
+        "副C",
+        "主C"
+      ],
+      "stats": {
+        "hp": "16500",
+        "atk": "2100",
+        "def": "1150",
+        "crit_rate": "72.5",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "114.0",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 70,
+          "key_draws": 175,
+          "date": "2024-07-22T21:09:54.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 34,
+          "key_draws": "",
+          "date": "2024-07-22T21:14:53.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 71,
+          "key_draws": "",
+          "date": "2024-08-06T23:59:01.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "長離熱溶隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "87.5",
+      "role_cost": "HK$674.60",
+      "ep": ""
+    },
+    {
+      "name": "安可",
+      "element": "熱熔",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 5,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-07-10",
+      "total_pulls": "300",
+      "key_const": "核心 0/4/6 命；4命變身後全隊熱熔+20%，6命加攻擊力",
+      "weapon_name": "掣傀之手",
+      "weapon_pict": "[{\"file_token\": \"N9iybtev9oWqs1xe8XjczV8Anue\", \"name\": \"cheguai_zhishou.png\", \"size\": 33222}]",
+      "avatar": "avatars/安可.png",
+      "weapon_avatar": "weapons/安可.png",
+      "special_weapon": "掣傀之手",
+      "modality": "",
+      "total_draws": "300",
+      "key_draws": "核心 0/4/6 命；4命變身後全隊熱熔+20%，6命加攻擊力",
+      "key_constellation": "核心 0/4/6 命；4命變身後全隊熱熔+20%，6命加攻擊力",
+      "tags": [
+        "主C",
+        "副C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2200",
+        "def": "1200",
+        "crit_rate": "67.5",
+        "crit_dmg": "250.0",
+        "resonance_efficiency": "117.5",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 71,
+          "key_draws": "",
+          "date": "2024-07-10T22:29:07.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 69,
+          "key_draws": "",
+          "date": "2025-02-13T23:23:31.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 20,
+          "key_draws": "",
+          "date": "2025-09-07T21:13:32.000+08:00",
+          "type": "角色",
+          "pool": "角色常駐"
+        },
+        {
+          "draws": 71,
+          "key_draws": "",
+          "date": "2026-04-30T21:27:33.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 69,
+          "key_draws": "",
+          "date": "2026-08-20T09:10:00.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 80,
+          "key_draws": "",
+          "date": "2026-09-30T10:00:00.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "50",
+      "role_cost": "HK$1,156.46",
+      "ep": ""
+    },
+    {
+      "name": "今汐",
+      "element": "衍射",
+      "weapon": "長刃",
+      "star": "5",
+      "constellation": 1,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-06-30",
+      "total_pulls": "33",
+      "key_const": "核心 1/3/6 命；3命變奏疊「謫仙」攻擊力+50%，6命極致輸出",
+      "weapon_name": "時和歲稔",
+      "weapon_pict": "[{\"file_token\": \"Y9vBbPIpEoFtTdxLBkMcymyBnrb\", \"name\": \"shihe_suinian_standard.png\", \"size\": 114050}]",
+      "avatar": "avatars/今汐.png",
+      "weapon_avatar": "weapons/今汐.png",
+      "special_weapon": "時和歲稔",
+      "modality": "",
+      "total_draws": "33",
+      "key_draws": "核心 1/3/6 命；3命變奏疊「謫仙」攻擊力+50%，6命極致輸出",
+      "key_constellation": "核心 1/3/6 命；3命變奏疊「謫仙」攻擊力+50%，6命極致輸出",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2200",
+        "def": "1250",
+        "crit_rate": "72.5",
+        "crit_dmg": "245.0",
+        "resonance_efficiency": "112.5",
+        "element_dmg_bonus": "75.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 23,
+          "key_draws": 33,
+          "date": "2024-06-30T12:47:35.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 10,
+          "key_draws": "",
+          "date": "2024-07-03T08:45:07.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 0,
+          "key_draws": "",
+          "date": "2025-04-12T17:21:59.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "心狐同奏隊",
+        "今汐衍射隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "16.5",
+      "role_cost": "HK$127.21",
+      "ep": "https://www.bilibili.com/video/BV1K6421f7aw/?spm_id_from=333.1387.collection.video_card.click"
+    },
+    {
+      "name": "忌炎",
+      "element": "氣動",
+      "weapon": "長刃",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-10-24",
+      "total_pulls": "111",
+      "key_const": "核心 3/6 命；3命放技即吃暴擊16%+暴傷32%，堪稱最強命座",
+      "weapon_name": "蒼鱗千嶂",
+      "weapon_pict": "[{\"file_token\": \"NKgobgFa8oHaCFx7ULDcM9ainGe\", \"name\": \"canglin_qianzhang.png\", \"size\": 9469}]",
+      "avatar": "avatars/忌炎.png",
+      "weapon_avatar": "weapons/忌炎.png",
+      "special_weapon": "蒼鱗千嶂",
+      "modality": "",
+      "total_draws": "111",
+      "key_draws": "核心 3/6 命；3命放技即吃暴擊16%+暴傷32%，堪稱最強命座",
+      "key_constellation": "核心 3/6 命；3命放技即吃暴擊16%+暴傷32%，堪稱最強命座",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2300",
+        "def": "1150",
+        "crit_rate": "72.5",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "50.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 37,
+          "key_draws": "",
+          "date": "2024-10-24T20:19:16.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 74,
+          "key_draws": "",
+          "date": "2024-10-30T22:50:04.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "111",
+      "role_cost": "HK$427.89",
+      "ep": ""
+    },
+    {
+      "name": "凌陽",
+      "element": "冷凝",
+      "weapon": "臂鎧",
+      "star": "5",
+      "constellation": 5,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-08-19",
+      "total_pulls": "184",
+      "key_const": "核心 0/5/6 命；5命加大招倍率，6命舞獅形態普攻+100%質變",
+      "weapon_name": "擎淵怒濤",
+      "weapon_pict": "[{\"file_token\": \"N8PabTjp3owgsrxo8fqcDJBgnTc\", \"name\": \"qingyuan_nutao.png\", \"size\": 9765}]",
+      "avatar": "avatars/凌陽.png",
+      "weapon_avatar": "weapons/凌陽.png",
+      "special_weapon": "擎淵怒濤",
+      "modality": "",
+      "total_draws": "184",
+      "key_draws": "核心 0/5/6 命；5命加大招倍率，6命舞獅形態普攻+100%質變",
+      "key_constellation": "核心 0/5/6 命；5命加大招倍率，6命舞獅形態普攻+100%質變",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2200",
+        "def": "1200",
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 15,
+          "key_draws": "",
+          "date": "2024-08-19T23:29:00.000+08:00",
+          "type": "角色",
+          "pool": "角色常駐"
+        },
+        {
+          "draws": 57,
+          "key_draws": "",
+          "date": "2024-11-17T09:48:37.000+08:00",
+          "type": "角色",
+          "pool": "角色常駐"
+        },
+        {
+          "draws": 11,
+          "key_draws": "",
+          "date": "2025-06-18T22:16:48.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 67,
+          "key_draws": "",
+          "date": "2025-07-25T08:15:49.000+08:00",
+          "type": "角色",
+          "pool": "角色常駐"
+        },
+        {
+          "draws": 16,
+          "key_draws": "",
+          "date": "2025-11-20T17:49:31.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 18,
+          "key_draws": "",
+          "date": "2026-01-15T20:59:36.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "30.66666667",
+      "role_cost": "HK$709.29",
+      "ep": ""
+    },
+    {
+      "name": "維里奈",
+      "element": "衍射",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 6,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-06-10",
+      "total_pulls": "469",
+      "key_const": "核心 0/2/4 命；2命小技多給一層被動，4命全隊衍射+15%",
+      "weapon_name": "漪瀾浮錄",
+      "weapon_pict": "[{\"file_token\": \"ZPFkbWqSHor0ePxXQqYctiaVnkb\", \"name\": \"yilan_fulu.png\", \"size\": 65541}]",
+      "avatar": "avatars/維里奈.png",
+      "weapon_avatar": "weapons/維里奈.png",
+      "special_weapon": "漪瀾浮錄",
+      "modality": "",
+      "total_draws": "469",
+      "key_draws": "核心 0/2/4 命；2命小技多給一層被動，4命全隊衍射+15%",
+      "key_constellation": "核心 0/2/4 命；2命小技多給一層被動，4命全隊衍射+15%",
+      "tags": [
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "18000",
+        "atk": "1500",
+        "def": "1100",
+        "crit_rate": "60.0",
+        "crit_dmg": "210.0",
+        "resonance_efficiency": "225.0",
+        "element_dmg_bonus": "0.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 55,
+          "key_draws": "",
+          "date": "2024-06-10T09:35:10.000+08:00",
+          "type": "角色",
+          "pool": "新手定向"
+        },
+        {
+          "draws": 35,
+          "key_draws": "",
+          "date": "2024-10-05T02:51:29.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 55,
+          "key_draws": "",
+          "date": "2024-11-14T23:19:04.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 72,
+          "key_draws": "",
+          "date": "2024-12-01T08:34:29.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 35,
+          "key_draws": "",
+          "date": "2025-03-27T13:33:54.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 72,
+          "key_draws": "",
+          "date": "2025-04-12T17:21:59.000+08:00",
+          "type": "角色",
+          "pool": "角色常駐"
+        },
+        {
+          "draws": 71,
+          "key_draws": "",
+          "date": "2026-01-15T19:22:07.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 74,
+          "key_draws": "",
+          "date": "2026-05-21T20:08:50.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "椿湮滅隊",
+        "今汐衍射隊"
+      ],
+      "key_role": "否",
+      "draws_per_const": "67",
+      "role_cost": "HK$1,807.93",
+      "ep": ""
+    },
+    {
+      "name": "吟霖",
+      "element": "導電",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-06-06",
+      "total_pulls": "203",
+      "key_const": "核心 0/3/6 命；3命後台雷擊觸發提速小質變，6命可當主C",
+      "weapon_name": "掣傀之手",
+      "weapon_pict": "[{\"file_token\": \"WeUrbMFNroDcUax8xowc8spanIe\", \"name\": \"cheguai_zhishou.png\", \"size\": 33222}]",
+      "avatar": "avatars/吟霖.png",
+      "weapon_avatar": "weapons/吟霖.png",
+      "special_weapon": "掣傀之手",
+      "modality": "",
+      "total_draws": "203",
+      "key_draws": "核心 0/3/6 命；3命後台雷擊觸發提速小質變，6命可當主C",
+      "key_constellation": "核心 0/3/6 命；3命後台雷擊觸發提速小質變，6命可當主C",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2000",
+        "def": "1200",
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 56,
+          "key_draws": 203,
+          "date": "2024-06-06T22:46:41.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 73,
+          "key_draws": "",
+          "date": "2024-06-11T22:08:14.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 74,
+          "key_draws": "",
+          "date": "2024-12-18T12:57:08.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [],
+      "key_role": "true",
+      "draws_per_const": "203",
+      "role_cost": "HK$782.54",
+      "ep": ""
+    },
+    {
+      "name": "折枝",
+      "element": "冷凝",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-08-15",
+      "total_pulls": "96",
+      "key_const": "無課停 S1/S2；投資向 S3/S6",
+      "weapon_name": "瓊枝冰綃",
+      "weapon_pict": "[{\"file_token\": \"R7nzbrXe3oec4XxKvvVcRlRznYf\", \"name\": \"qiongzhi_bingxiao.png\", \"size\": 79897}]",
+      "avatar": "avatars/折枝.png",
+      "weapon_avatar": "weapons/折枝.png",
+      "special_weapon": "瓊枝冰綃",
+      "modality": "",
+      "total_draws": "96",
+      "key_draws": "無課停 S1/S2；投資向 S3/S6",
+      "key_constellation": "無課停 S1/S2；投資向 S3/S6",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2000",
+        "def": "1200",
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 25,
+          "key_draws": 96,
+          "date": "2024-08-15T20:14:09.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 71,
+          "key_draws": "",
+          "date": "2024-08-17T17:39:28.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [],
+      "key_role": "true",
+      "draws_per_const": "96",
+      "role_cost": "HK$370.07",
+      "ep": "https://www.bilibili.com/video/BV1z4421f7YD/?spm_id_from=333.1387.collection.video_card.click"
+    },
+    {
+      "name": "守岸人",
+      "element": "衍射",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 1,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-09-29",
+      "total_pulls": "144",
+      "key_const": "核心 0/2 命；2命全隊攻擊+40%，是意義上的完全體",
+      "weapon_name": "星序協響",
+      "weapon_pict": "[{\"file_token\": \"M2B7bQndjownDSxyyA6cs69Rnab\", \"name\": \"xingxu_xiexiang.png\", \"size\": 65754}]",
+      "avatar": "avatars/守岸人.png",
+      "weapon_avatar": "weapons/守岸人.png",
+      "special_weapon": "星序協響",
+      "modality": "",
+      "total_draws": "144",
+      "key_draws": "核心 0/2 命；2命全隊攻擊+40%，是意義上的完全體",
+      "key_constellation": "核心 0/2 命；2命全隊攻擊+40%，是意義上的完全體",
+      "tags": [
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "35000",
+        "atk": "1000",
+        "def": "1300",
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 61,
+          "key_draws": 144,
+          "date": "2024-09-29T18:54:17.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 69,
+          "key_draws": "",
+          "date": "2024-09-29T19:25:00.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 14,
+          "key_draws": "",
+          "date": "2024-10-05T10:33:14.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "尤諾日月隊",
+        "玄翎虛煙隊",
+        "弗洛洛湮滅隊",
+        "心狐同奏隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "72",
+      "role_cost": "HK$555.10",
+      "ep": "https://www.bilibili.com/video/BV11TxsevEJU/?spm_id_from=333.1387.collection.video_card.click"
+    },
+    {
+      "name": "椿",
+      "element": "煙滅",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 3,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-11-14",
+      "total_pulls": "142",
+      "key_const": "2鏈強質變；優先 S6/S2/S3",
+      "weapon_name": "裁春",
+      "weapon_pict": "[{\"file_token\": \"GrPQbmfOdoRMlmxnsSjcCFTRnwc\", \"name\": \"caichun.png\", \"size\": 51944}]",
+      "avatar": "avatars/椿.png",
+      "weapon_avatar": "weapons/椿.png",
+      "special_weapon": "裁春",
+      "modality": "",
+      "total_draws": "142",
+      "key_draws": "2鏈強質變；優先 S6/S2/S3",
+      "key_constellation": "2鏈強質變；優先 S6/S2/S3",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2100",
+        "def": "1150",
+        "crit_rate": "67.5",
+        "crit_dmg": "250.0",
+        "resonance_efficiency": "121.5",
+        "element_dmg_bonus": "85.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 29,
+          "key_draws": 142,
+          "date": "2024-11-14T18:18:22.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 11,
+          "key_draws": "",
+          "date": "2024-11-14T18:21:42.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 21,
+          "key_draws": "",
+          "date": "2024-11-14T22:55:59.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 72,
+          "key_draws": "",
+          "date": "2024-11-14T23:32:03.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 9,
+          "key_draws": "",
+          "date": "2024-12-01T08:36:56.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "椿湮滅隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "35.5",
+      "role_cost": "HK$547.39",
+      "ep": ""
+    },
+    {
+      "name": "珂萊塔",
+      "element": "冷凝",
+      "weapon": "佩槍",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-01-02",
+      "total_pulls": "144",
+      "key_const": "核心 2/3/6 命；2命大招尾槍倍率+126%真正分水嶺，6命質變",
+      "weapon_name": "死與舞",
+      "weapon_pict": "[{\"file_token\": \"GqyBbGKoaoxIoLxdeT5czbE0nNg\", \"name\": \"si_yuwu.png\", \"size\": 9407}]",
+      "avatar": "avatars/珂萊塔.png",
+      "weapon_avatar": "weapons/珂萊塔.png",
+      "special_weapon": "死與舞",
+      "modality": "",
+      "total_draws": "144",
+      "key_draws": "核心 2/3/6 命；2命大招尾槍倍率+126%真正分水嶺，6命質變",
+      "key_constellation": "核心 2/3/6 命；2命大招尾槍倍率+126%真正分水嶺，6命質變",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2150",
+        "def": "1100",
+        "crit_rate": "72.5",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "122.0",
+        "element_dmg_bonus": "50.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 69,
+          "key_draws": 144,
+          "date": "2025-01-02T17:36:31.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 75,
+          "key_draws": "",
+          "date": "2025-01-03T21:04:18.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [],
+      "key_role": "true",
+      "draws_per_const": "144",
+      "role_cost": "HK$555.10",
+      "ep": ""
+    },
+    {
+      "name": "洛可可",
+      "element": "煙滅",
+      "weapon": "臂鎧",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-01-23",
+      "total_pulls": "73",
+      "key_const": "核心 0/2/6 命；2命全隊湮滅+40%化身暗隊大拐，6命轉主C",
+      "weapon_name": "悲喜劇",
+      "weapon_pict": "[{\"file_token\": \"StDhbSm3goqikwxbVfRc7GPgnAd\", \"name\": \"beixiju.png\", \"size\": 31986}]",
+      "avatar": "avatars/洛可可.png",
+      "weapon_avatar": "weapons/洛可可.png",
+      "special_weapon": "悲喜劇",
+      "modality": "",
+      "total_draws": "73",
+      "key_draws": "核心 0/2/6 命；2命全隊湮滅+40%化身暗隊大拐，6命轉主C",
+      "key_constellation": "核心 0/2/6 命；2命全隊湮滅+40%化身暗隊大拐，6命轉主C",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2000",
+        "def": "1200",
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 73,
+          "key_draws": 73,
+          "date": "2025-01-23T19:40:56.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "弗洛洛湮滅隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "73",
+      "role_cost": "HK$281.40",
+      "ep": "https://www.bilibili.com/video/BV1aWFWeyE5h"
+    },
+    {
+      "name": "菲比",
+      "element": "衍射",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 1,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-02-13",
+      "total_pulls": "115",
+      "key_const": "2鏈強質變",
+      "weapon_name": "和光回唱",
+      "weapon_pict": "[{\"file_token\": \"PoM6bHW9AoSrPnxJJMOckPYRnMd\", \"name\": \"heguang_huichang.png\", \"size\": 106092}]",
+      "avatar": "avatars/菲比.png",
+      "weapon_avatar": "weapons/菲比.png",
+      "special_weapon": "和光回唱",
+      "modality": "",
+      "total_draws": "115",
+      "key_draws": "2鏈強質變",
+      "key_constellation": "2鏈強質變",
+      "tags": [
+        "副C",
+        "主C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2050",
+        "def": "1100",
+        "crit_rate": "70.0",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 20,
+          "key_draws": 115,
+          "date": "2025-02-13T23:27:31.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 46,
+          "key_draws": "",
+          "date": "2025-02-22T16:49:48.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 49,
+          "key_draws": "",
+          "date": "2025-03-05T19:55:09.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [
+        "卡提風蝕隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "57.5",
+      "role_cost": "HK$443.31",
+      "ep": "https://www.bilibili.com/video/BV1vwPMeEENb"
+    },
+    {
+      "name": "坎特蕾拉",
+      "element": "煙滅",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-03-27",
+      "total_pulls": "130",
+      "key_const": "核心 2/3/6 命；2命當頂級副C收益最高，3命大招倍率+370%",
+      "weapon_name": "玻色星儀",
+      "weapon_pict": "[{\"file_token\": \"VFyUb3PG6oATNjxMAo8cREMyncc\", \"name\": \"bose_xingyi.png\", \"size\": 41592}]",
+      "avatar": "avatars/坎特蕾拉.png",
+      "weapon_avatar": "weapons/坎特蕾拉.png",
+      "special_weapon": "玻色星儀",
+      "modality": "",
+      "total_draws": "130",
+      "key_draws": "核心 2/3/6 命；2命當頂級副C收益最高，3命大招倍率+370%",
+      "key_constellation": "核心 2/3/6 命；2命當頂級副C收益最高，3命大招倍率+370%",
+      "tags": [
+        "副C",
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2175",
+        "def": "1100",
+        "crit_rate": "72.5",
+        "crit_dmg": "245.0",
+        "resonance_efficiency": "130.0",
+        "element_dmg_bonus": "50.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 67,
+          "key_draws": 130,
+          "date": "2025-03-27T13:39:47.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 63,
+          "key_draws": "",
+          "date": "2025-12-29T09:57:17.000+08:00",
+          "type": "武器",
+          "pool": "武器常駐"
+        }
+      ],
+      "appear_teams": [
+        "椿湮滅隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "130",
+      "role_cost": "HK$501.13",
+      "ep": "https://www.bilibili.com/video/BV1S5RzYME5v"
+    },
+    {
+      "name": "卡提希婭",
+      "element": "氣動",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 2,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-06-12",
+      "total_pulls": "244",
+      "key_const": "2鏈強質變",
+      "weapon_name": "不屈命定之冠",
+      "weapon_pict": "[{\"file_token\": \"VRtlbir0vo9ZBRxXCtScITtKnKf\", \"name\": \"buqu_mingding_zhiguan.png\", \"size\": 11562}]",
+      "avatar": "avatars/卡提希婭.png",
+      "weapon_avatar": "weapons/卡提希婭.png",
+      "special_weapon": "不屈命定之冠",
+      "modality": "",
+      "total_draws": "244",
+      "key_draws": "2鏈強質變",
+      "key_constellation": "2鏈強質變",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2200",
+        "def": "1200",
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 30,
+          "key_draws": 244,
+          "date": "2025-06-12T13:29:52.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 76,
+          "key_draws": "",
+          "date": "2025-06-12T13:34:59.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 69,
+          "key_draws": "",
+          "date": "2025-06-18T22:18:54.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 69,
+          "key_draws": "",
+          "date": "2025-06-29T03:20:15.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "卡提風蝕隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "81.33333333",
+      "role_cost": "HK$940.58",
+      "ep": "https://www.bilibili.com/video/BV18TjizGEAN"
+    },
+    {
+      "name": "露帕",
+      "element": "熱熔",
+      "weapon": "長刃",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-07-12",
+      "total_pulls": "132",
+      "key_const": "核心 0/2/3/6 命；2命全隊熱熔加成性價比最高，3命解綁三熱熔，6命主C上限",
+      "weapon_name": "焰痕",
+      "weapon_pict": "[{\"file_token\": \"CKanb839EoH6Uqxm3SrcVuT6nUf\", \"name\": \"yanhen.png\", \"size\": 11580}]",
+      "avatar": "avatars/露帕.png",
+      "weapon_avatar": "weapons/露帕.png",
+      "special_weapon": "焰痕",
+      "modality": "",
+      "total_draws": "132",
+      "key_draws": "核心 0/2/3/6 命；2命全隊熱熔加成性價比最高，3命解綁三熱熔，6命主C上限",
+      "key_constellation": "核心 0/2/3/6 命；2命全隊熱熔加成性價比最高，3命解綁三熱熔，6命主C上限",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2150",
+        "def": "1100",
+        "crit_rate": "72.5",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "122.5",
+        "element_dmg_bonus": "65.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 66,
+          "key_draws": 132,
+          "date": "2025-07-12T13:07:04.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 66,
+          "key_draws": "",
+          "date": "2025-07-12T13:11:30.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [
+        "長離熱溶隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "132",
+      "role_cost": "HK$508.84",
+      "ep": "https://www.bilibili.com/video/BV1v5grznE4x"
+    },
+    {
+      "name": "弗洛洛",
+      "element": "煙滅",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 2,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-07-24",
+      "total_pulls": "145",
+      "key_const": "2鏈強質變（加速被動疊層）",
+      "weapon_name": "幽冥的忘憂章",
+      "weapon_pict": "[{\"file_token\": \"OVNZbaymeogNAIxJckbcs7eNnQc\", \"name\": \"youming_wangyouzhang.png\", \"size\": 95193}]",
+      "avatar": "avatars/弗洛洛.png",
+      "weapon_avatar": "weapons/弗洛洛.png",
+      "special_weapon": "幽冥的忘憂章",
+      "modality": "",
+      "total_draws": "145",
+      "key_draws": "2鏈強質變（加速被動疊層）",
+      "key_constellation": "2鏈強質變（加速被動疊層）",
+      "tags": [
+        "主C",
+        "副C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2250",
+        "def": "1100",
+        "crit_rate": "60.0",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "100.0",
+        "element_dmg_bonus": "50.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 69,
+          "key_draws": 145,
+          "date": "2025-07-24T20:08:31.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 6,
+          "key_draws": "",
+          "date": "2025-07-24T20:11:18.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 70,
+          "key_draws": "",
+          "date": "2025-07-27T01:02:21.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 0,
+          "key_draws": "",
+          "date": "2025-07-27T01:02:21.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "弗洛洛湮滅隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "48.33333333",
+      "role_cost": "HK$558.95",
+      "ep": "https://www.bilibili.com/video/BV1H5b9zyEuG"
+    },
+    {
+      "name": "奧古斯塔",
+      "element": "導電",
+      "weapon": "長刃",
+      "star": "5",
+      "constellation": 1,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-01-15",
+      "total_pulls": "77",
+      "key_const": "核心 0/2/6 命；2命質變（暴擊超100%轉暴傷），6命上限",
+      "weapon_name": "馭冕鑄雷之權",
+      "weapon_pict": "[{\"file_token\": \"RGeDbdZUnowDQpxwZcnc6ZnJnGc\", \"name\": \"yumi_zhuleizhiquan.png\", \"size\": 24266}]",
+      "avatar": "avatars/奧古斯塔.png",
+      "weapon_avatar": "weapons/奧古斯塔.png",
+      "special_weapon": "馭冕鑄雷之權",
+      "modality": "",
+      "total_draws": "77",
+      "key_draws": "核心 0/2/6 命；2命質變（暴擊超100%轉暴傷），6命上限",
+      "key_constellation": "核心 0/2/6 命；2命質變（暴擊超100%轉暴傷），6命上限",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2200",
+        "def": "1200",
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 5,
+          "key_draws": 77,
+          "date": "2026-01-15T19:25:14.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 72,
+          "key_draws": 77,
+          "date": "2026-01-15T19:25:14.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "尤諾日月隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "38.5",
+      "role_cost": "HK$296.82",
+      "ep": "https://www.bilibili.com/video/BV1Enabz5Ecz"
+    },
+    {
+      "name": "尤諾",
+      "element": "氣動",
+      "weapon": "臂鎧",
+      "star": "5",
+      "constellation": 2,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-09-17",
+      "total_pulls": "214",
+      "key_const": "核心 0/2/6 命；2命關鍵輔助增傷（滿月領域+40%全傷害加深），6命變身主C",
+      "weapon_name": "萬物持存的注釋",
+      "weapon_pict": "[{\"file_token\": \"FpxPbFBifoz38wxXLI7cDkqXnVz\", \"name\": \"wanwu_chicun_de_zhushi.png\", \"size\": 68486}]",
+      "avatar": "avatars/尤諾.png",
+      "weapon_avatar": "weapons/尤諾.png",
+      "special_weapon": "萬物持存的注釋",
+      "modality": "",
+      "total_draws": "214",
+      "key_draws": "核心 0/2/6 命；2命關鍵輔助增傷（滿月領域+40%全傷害加深），6命變身主C",
+      "key_constellation": "核心 0/2/6 命；2命關鍵輔助增傷（滿月領域+40%全傷害加深），6命變身主C",
+      "tags": [
+        "主C",
+        "副C",
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2100",
+        "def": "1100",
+        "crit_rate": "72.5",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "125.0",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 72,
+          "key_draws": 214,
+          "date": "2025-09-17T13:52:31.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 72,
+          "key_draws": "",
+          "date": "2025-09-17T13:56:01.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 0,
+          "key_draws": "",
+          "date": "2025-09-19T13:52:31.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 70,
+          "key_draws": "",
+          "date": "2025-09-21T21:38:36.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "尤諾日月隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "71.33333333",
+      "role_cost": "HK$824.94",
+      "ep": "https://www.bilibili.com/video/BV1S1pTz5EYV"
+    },
+    {
+      "name": "千咲",
+      "element": "煙滅",
+      "weapon": "長刃",
+      "star": "5",
+      "constellation": 1,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-11-20",
+      "total_pulls": "50",
+      "key_const": "核心 0/2/3/6 命；2命質變（全隊全傷害加深），性價比最高",
+      "weapon_name": "曇切",
+      "weapon_pict": "[{\"file_token\": \"Yqb7bF7dxo3ZI6x5B1ycfdcqngw\", \"name\": \"tanqie.png\", \"size\": 98976}]",
+      "avatar": "avatars/千咲.png",
+      "weapon_avatar": "weapons/千咲.png",
+      "special_weapon": "曇切",
+      "modality": "",
+      "total_draws": "50",
+      "key_draws": "核心 0/2/3/6 命；2命質變（全隊全傷害加深），性價比最高",
+      "key_constellation": "核心 0/2/3/6 命；2命質變（全隊全傷害加深），性價比最高",
+      "tags": [
+        "副C",
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "35000",
+        "atk": "1000",
+        "def": "1300",
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 67,
+          "key_draws": "",
+          "date": "2025-11-20T17:52:02.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 17,
+          "key_draws": "",
+          "date": "2025-11-20T18:39:18.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 33,
+          "key_draws": 50,
+          "date": "2025-11-22T13:51:25.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "玄翎虛煙隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "25",
+      "role_cost": "HK$192.74",
+      "ep": "https://www.bilibili.com/video/BV1W725BcEgz"
+    },
+    {
+      "name": "莫寧",
+      "element": "熱熔",
+      "weapon": "長刃",
+      "star": "5",
+      "constellation": 1,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-01-15",
+      "total_pulls": "73",
+      "key_const": "核心 0/1/2/6 命；1命解綁干涉標記（8秒→20秒）泛用，2命全隊暴傷+32%",
+      "weapon_name": "宙算儀軌",
+      "weapon_pict": "[{\"file_token\": \"UWJibyjgyo2H5zx5dRdcHyLvnRh\", \"name\": \"zhousuan_yigui.png\", \"size\": 33892}]",
+      "avatar": "avatars/莫寧.png",
+      "weapon_avatar": "weapons/莫寧.png",
+      "special_weapon": "宙算儀軌",
+      "modality": "",
+      "total_draws": "73",
+      "key_draws": "核心 0/1/2/6 命；1命解綁干涉標記（8秒→20秒）泛用，2命全隊暴傷+32%",
+      "key_constellation": "核心 0/1/2/6 命；1命解綁干涉標記（8秒→20秒）泛用，2命全隊暴傷+32%",
+      "tags": [
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "35000",
+        "atk": "1000",
+        "def": "1300",
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 73,
+          "key_draws": 73,
+          "date": "2026-01-15T21:19:29.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 0,
+          "key_draws": "",
+          "date": "2026-01-16T21:19:29.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "清宵集諧隊",
+        "愛彌斯熱熔隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "36.5",
+      "role_cost": "HK$281.40",
+      "ep": "https://www.bilibili.com/video/BV1JtrKBXE9Y"
+    },
+    {
+      "name": "琳奈",
+      "element": "衍射",
+      "weapon": "佩槍",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2025-12-25",
+      "total_pulls": "126",
+      "key_const": "核心 0/2/6 命；0命機制完全體，2命延奏全傷害加深25%拐力質變",
+      "weapon_name": "溢彩熒輝",
+      "weapon_pict": "[{\"file_token\": \"FWo0bFFFpogrVCxUyaJclLgGn9g\", \"name\": \"yicai_yinghui.png\", \"size\": 25815}]",
+      "avatar": "avatars/琳奈.png",
+      "weapon_avatar": "weapons/琳奈.png",
+      "special_weapon": "溢彩熒輝",
+      "modality": "",
+      "total_draws": "126",
+      "key_draws": "核心 0/2/6 命；0命機制完全體，2命延奏全傷害加深25%拐力質變",
+      "key_constellation": "核心 0/2/6 命；0命機制完全體，2命延奏全傷害加深25%拐力質變",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "12000",
+        "atk": "2100",
+        "def": "1150",
+        "crit_rate": "65.0",
+        "crit_dmg": "265.0",
+        "resonance_efficiency": "122.5",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 69,
+          "key_draws": 126,
+          "date": "2025-12-25T23:04:41.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 57,
+          "key_draws": "",
+          "date": "2025-12-25T23:06:50.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [
+        "今汐衍射隊",
+        "卡提風蝕隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "126",
+      "role_cost": "HK$485.71",
+      "ep": "https://www.bilibili.com/video/BV15fqZBUEqc"
+    },
+    {
+      "name": "愛彌斯",
+      "element": "熱熔",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 3,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-02-05",
+      "total_pulls": "126",
+      "key_const": "核心 0/2/3/6 命；3命解綁隊友二段大招倍率翻倍，6命數值怪",
+      "weapon_name": "永遠的啟明星",
+      "weapon_pict": "[{\"file_token\": \"EOB6bvuNeoybTRx2PfacypKPn6e\", \"name\": \"yongyuan_de_qimingxing.png\", \"size\": 23653}]",
+      "avatar": "avatars/愛彌斯.png",
+      "weapon_avatar": "weapons/愛彌斯.png",
+      "special_weapon": "永遠的啟明星",
+      "modality": "",
+      "total_draws": "126",
+      "key_draws": "核心 0/2/3/6 命；3命解綁隊友二段大招倍率翻倍，6命數值怪",
+      "key_constellation": "核心 0/2/3/6 命；3命解綁隊友二段大招倍率翻倍，6命數值怪",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "17401",
+        "atk": "2261",
+        "def": "1148",
+        "crit_rate": "73.0",
+        "crit_dmg": "272.6",
+        "resonance_efficiency": "109.2",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 73,
+          "key_draws": 126,
+          "date": "2026-02-05T13:37:25.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 9,
+          "key_draws": "",
+          "date": "2026-02-05T13:38:55.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        },
+        {
+          "draws": 34,
+          "key_draws": "",
+          "date": "2026-02-14T22:10:36.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 0,
+          "key_draws": "",
+          "date": "2026-02-15T22:10:36.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 0,
+          "key_draws": "",
+          "date": "2026-07-30T09:15:56.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "愛彌斯熱熔隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "31.5",
+      "role_cost": "HK$485.71",
+      "ep": "https://www.bilibili.com/video/BV1QAkcBtENr"
+    },
+    {
+      "name": "達妮婭",
+      "element": "熱熔",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-05-21",
+      "total_pulls": "39",
+      "key_const": "2命（全隊增傷）與 3命（手法質變縮軸）",
+      "weapon_name": "贗作的矮星",
+      "weapon_pict": "[{\"file_token\": \"LZqgbANEbo6VGnxJKiPcvOnIncc\", \"name\": \"yanzuo_de_aixing.png\", \"size\": 83381}]",
+      "avatar": "avatars/達妮婭.png",
+      "weapon_avatar": "weapons/達妮婭.png",
+      "special_weapon": "贗作的矮星",
+      "modality": "",
+      "total_draws": "39",
+      "key_draws": "2命（全隊增傷）與 3命（手法質變縮軸）",
+      "key_constellation": "2命（全隊增傷）與 3命（手法質變縮軸）",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2000",
+        "def": "1200",
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 13,
+          "key_draws": 39,
+          "date": "2026-05-21T20:22:51.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 26,
+          "key_draws": "",
+          "date": "2026-05-23T09:15:56.000+08:00",
+          "type": "武器",
+          "pool": "武器常駐"
+        }
+      ],
+      "appear_teams": [
+        "清宵集諧隊",
+        "愛彌斯熱熔隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "39",
+      "role_cost": "HK$150.34",
+      "ep": "https://www.bilibili.com/video/BV191Lu64EXA"
+    },
+    {
+      "name": "緋雪",
+      "element": "冷凝",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-04-30",
+      "total_pulls": "141",
+      "key_const": "2命（居合傷害+125%啟動縮軸）；6鏈上限",
+      "weapon_name": "灼霜",
+      "weapon_pict": "[{\"file_token\": \"JPyJb3w4QoWQSRxhVlzckY4hnJf\", \"name\": \"zhuoshuang.png\", \"size\": 68225}]",
+      "avatar": "avatars/緋雪.png",
+      "weapon_avatar": "weapons/緋雪.png",
+      "special_weapon": "灼霜",
+      "modality": "",
+      "total_draws": "141",
+      "key_draws": "2命（居合傷害+125%啟動縮軸）；6鏈上限",
+      "key_constellation": "2命（居合傷害+125%啟動縮軸）；6鏈上限",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "16054",
+        "atk": "2843",
+        "def": "1172",
+        "crit_rate": "73.0",
+        "crit_dmg": "240.6",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 72,
+          "key_draws": 141,
+          "date": "2026-04-30T21:30:30.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 69,
+          "key_draws": "",
+          "date": "2026-04-30T21:32:22.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [
+        "緋雪霜漸隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "141",
+      "role_cost": "HK$543.53",
+      "ep": "https://www.bilibili.com/video/BV1uRozBMEtC"
+    },
+    {
+      "name": "洛瑟菈",
+      "element": "冷凝",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-06-13",
+      "total_pulls": "72",
+      "key_const": "核心 0/2/6 命；2命給隊友霜漸傷害+80%拐力最大化",
+      "weapon_name": "存幀",
+      "weapon_pict": "[{\"file_token\": \"Gb2ObtO3Co7M32xiU2ecSxuFnJh\", \"name\": \"cunzhen.png\", \"size\": 48708}]",
+      "avatar": "avatars/洛瑟菈.png",
+      "weapon_avatar": "weapons/洛瑟菈.png",
+      "special_weapon": "存幀",
+      "modality": "",
+      "total_draws": "72",
+      "key_draws": "核心 0/2/6 命；2命給隊友霜漸傷害+80%拐力最大化",
+      "key_constellation": "核心 0/2/6 命；2命給隊友霜漸傷害+80%拐力最大化",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2000",
+        "def": "1200",
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 72,
+          "key_draws": 72,
+          "date": "2026-06-13T09:15:56.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "緋雪霜漸隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "72",
+      "role_cost": "HK$277.55",
+      "ep": "https://www.bilibili.com/video/BV1dkET6aEfj"
+    },
+    {
+      "name": "穗穗",
+      "element": "冷凝",
+      "weapon": "音感儀",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-07-30",
+      "total_pulls": "0",
+      "key_const": "1鏈（機制完善+免疫打斷）、2鏈（效應角色爆傷）、3鏈（縮軸）",
+      "weapon_name": "棲霞飲露",
+      "weapon_pict": "[{\"file_token\": \"LpjIbbk0rootMwx6lqxcOnawnFh\", \"name\": \"qixia_yinlu.png\", \"size\": 60373}]",
+      "avatar": "avatars/穗穗.png",
+      "weapon_avatar": "weapons/穗穗.png",
+      "special_weapon": "棲霞飲露",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "1鏈（機制完善+免疫打斷）、2鏈（效應角色爆傷）、3鏈（縮軸）",
+      "key_constellation": "1鏈（機制完善+免疫打斷）、2鏈（效應角色爆傷）、3鏈（縮軸）",
+      "tags": [
+        "奶媽",
+        "副C"
+      ],
+      "stats": {
+        "hp": "43473",
+        "atk": "874",
+        "def": "1349",
+        "crit_rate": "22.4",
+        "crit_dmg": "273.4",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 10,
+          "key_draws": "",
+          "date": "2026-07-30T09:15:56.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "緋雪霜漸隊",
+        "心狐電磁隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "0",
+      "role_cost": "HK$0.00",
+      "ep": "https://www.bilibili.com/video/BV1Ao3Y6YE1T"
+    },
+    {
+      "name": "清宵",
+      "element": "氣動",
+      "weapon": "迅刀",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-08-20",
+      "total_pulls": "133",
+      "key_const": "核心 0/1/3/6 命；1命暴擊+抗打斷質變，3命關鍵爆發節點",
+      "weapon_name": "雲琅",
+      "weapon_pict": "[{\"file_token\": \"G0cRblxWAoppR9xgHfKcP6wTnQh\", \"name\": \"yunlang.png\", \"size\": 12078}]",
+      "avatar": "avatars/清宵.png",
+      "weapon_avatar": "weapons/清宵.png",
+      "special_weapon": "雲琅",
+      "modality": "",
+      "total_draws": "133",
+      "key_draws": "核心 0/1/3/6 命；1命暴擊+抗打斷質變，3命關鍵爆發節點",
+      "key_constellation": "核心 0/1/3/6 命；1命暴擊+抗打斷質變，3命關鍵爆發節點",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2200",
+        "def": "1200",
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 62,
+          "key_draws": 133,
+          "date": "2026-08-20T09:15:56.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 71,
+          "key_draws": "",
+          "date": "2026-08-20T09:05:00.000+08:00",
+          "type": "武器",
+          "pool": "角色活動"
+        }
+      ],
+      "appear_teams": [
+        "清宵集諧隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "133",
+      "role_cost": "HK$512.70",
+      "ep": "https://www.bilibili.com/video/BV1G48g68Ej1"
+    },
+    {
+      "name": "心月狐",
+      "element": "導電",
+      "weapon": "法器",
+      "star": "5",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2026-09-30",
+      "total_pulls": "188",
+      "key_const": "核心 2鏈（S2 主要投資目標）；分水嶺 3鏈；S6 鯨魚斷點",
+      "weapon_name": "玉闕玄華",
+      "weapon_pict": "[{\"file_token\": \"VGyxblDCkobTbPx3D7ScBolBn5b\", \"name\": \"yuque_xuanhua.png\", \"size\": 730227}]",
+      "avatar": "avatars/心月狐.png",
+      "weapon_avatar": "weapons/心月狐.png",
+      "special_weapon": "玉闕玄華",
+      "modality": "",
+      "total_draws": "188",
+      "key_draws": "核心 2鏈（S2 主要投資目標）；分水嶺 3鏈；S6 鯨魚斷點",
+      "key_constellation": "核心 2鏈（S2 主要投資目標）；分水嶺 3鏈；S6 鯨魚斷點",
+      "tags": [
+        "主C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2050",
+        "def": "1100",
+        "crit_rate": "70.0",
+        "crit_dmg": "247.5",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 39,
+          "key_draws": 188,
+          "date": "2026-09-30T10:00:00.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 69,
+          "key_draws": "",
+          "date": "2026-09-30T10:00:00.000+08:00",
+          "type": "武器",
+          "pool": "武器活動"
+        }
+      ],
+      "appear_teams": [
+        "心狐同奏隊",
+        "心狐電磁隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "188",
+      "role_cost": "HK$724.71",
+      "ep": "https://www.bilibili.com/video/BV1u9ew6yEEP"
+    },
+    {
+      "name": "鑒心",
+      "element": "氣動",
+      "weapon": "臂鎧",
+      "star": "5",
+      "constellation": 3,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "2024-05-26",
+      "total_pulls": "261",
+      "key_const": "核心 0/1/2 命；1命協奏回復翻倍，2命協奏提速可作專輔下位替代",
+      "weapon_name": "擎淵怒濤",
+      "weapon_pict": "[{\"file_token\": \"TrbObsCBXo0OpIxkdD4cEqnSnFV\", \"name\": \"qingyuan_nutao.png\", \"size\": 9765}]",
+      "avatar": "avatars/鑒心.png",
+      "weapon_avatar": "weapons/鑒心.png",
+      "special_weapon": "擎淵怒濤",
+      "modality": "",
+      "total_draws": "261",
+      "key_draws": "核心 0/1/2 命；1命協奏回復翻倍，2命協奏提速可作專輔下位替代",
+      "key_constellation": "核心 0/1/2 命；1命協奏回復翻倍，2命協奏提速可作專輔下位替代",
+      "tags": [
+        "主C",
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "1900",
+        "def": "1250",
+        "crit_rate": "72.5",
+        "crit_dmg": "245.0",
+        "resonance_efficiency": "165.0",
+        "element_dmg_bonus": "45.0"
+      },
+      "gacha_records": [
+        {
+          "draws": 50,
+          "key_draws": 261,
+          "date": "2024-05-26T19:55:58.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 10,
+          "key_draws": "",
+          "date": "2024-10-24T20:13:58.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 68,
+          "key_draws": "",
+          "date": "2025-01-02T15:12:01.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 70,
+          "key_draws": "",
+          "date": "2025-09-21T21:29:23.000+08:00",
+          "type": "角色",
+          "pool": "角色活動"
+        },
+        {
+          "draws": 63,
+          "key_draws": "",
+          "date": "2026-02-27T18:43:45.000+08:00",
+          "type": "武器",
+          "pool": "武器常駐"
+        }
+      ],
+      "appear_teams": [
+        "長離熱溶隊"
+      ],
+      "key_role": "true",
+      "draws_per_const": "65.25",
+      "role_cost": "HK$1,006.12",
+      "ep": ""
+    },
+    {
+      "name": "白芷",
+      "element": "冷凝",
+      "weapon": "法器",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即可用，關鍵5命（復活機制）與6命（全隊冷凝增傷12%）",
+      "weapon_name": "漪瀾浮錄",
+      "weapon_pict": "[{\"file_token\": \"JOQPbCdM0oqxLhx0UxAcDVrZnxb\", \"name\": \"yilan_fulu.png\", \"size\": 65541}]",
+      "avatar": "avatars/白芷.png",
+      "weapon_avatar": "weapons/白芷.png",
+      "special_weapon": "漪瀾浮錄",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即可用，關鍵5命（復活機制）與6命（全隊冷凝增傷12%）",
+      "key_constellation": "零命即可用，關鍵5命（復活機制）與6命（全隊冷凝增傷12%）",
+      "tags": [
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "35000",
+        "atk": "1000",
+        "def": "1300",
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "熾霞",
+      "element": "熱熔",
+      "weapon": "佩槍",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "命座戰士，5命傷害提升最大，6命全隊普攻傷害；零命當主C不推薦",
+      "weapon_name": "鞘銳蝕骨",
+      "weapon_pict": "[{\"file_token\": \"REK4bS4TxoUrufx5Atccx11qnKe\", \"name\": \"qiaorui_shigu.png\", \"size\": 41413}]",
+      "avatar": "avatars/熾霞.png",
+      "weapon_avatar": "weapons/熾霞.png",
+      "special_weapon": "鞘銳蝕骨",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "命座戰士，5命傷害提升最大，6命全隊普攻傷害；零命當主C不推薦",
+      "key_constellation": "命座戰士，5命傷害提升最大，6命全隊普攻傷害；零命當主C不推薦",
+      "tags": [
+        "副C",
+        "主C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2200",
+        "def": "1200",
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "丹瑾",
+      "element": "煙滅",
+      "weapon": "迅刀",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即可給暗主增傷；補強2/3/4/5命，6命全隊20%攻擊",
+      "weapon_name": "暗影",
+      "weapon_pict": "",
+      "avatar": "avatars/丹瑾.png",
+      "weapon_avatar": "weapons/丹瑾.png",
+      "special_weapon": "暗影",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即可給暗主增傷；補強2/3/4/5命，6命全隊20%攻擊",
+      "key_constellation": "零命即可給暗主增傷；補強2/3/4/5命，6命全隊20%攻擊",
+      "tags": [
+        "副C",
+        "主C"
+      ],
+      "stats": {
+        "hp": "16500",
+        "atk": "2100",
+        "def": "1150",
+        "crit_rate": "70.0",
+        "crit_dmg": "240.0",
+        "resonance_efficiency": "110.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "莫特斐",
+      "element": "熱熔",
+      "weapon": "佩槍",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即可用，關鍵1/5/6命（6命開大全隊20%攻擊）",
+      "weapon_name": "重擊",
+      "weapon_pict": "",
+      "avatar": "avatars/莫特斐.png",
+      "weapon_avatar": "weapons/莫特斐.png",
+      "special_weapon": "重擊",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即可用，關鍵1/5/6命（6命開大全隊20%攻擊）",
+      "key_constellation": "零命即可用，關鍵1/5/6命（6命開大全隊20%攻擊）",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2050",
+        "def": "1100",
+        "crit_rate": "70.0",
+        "crit_dmg": "237.5",
+        "resonance_efficiency": "122.5",
+        "element_dmg_bonus": "55.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "散華",
+      "element": "冷凝",
+      "weapon": "迅刀",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即完全體，5命質變（冰柱自動爆炸），6鏈完美副C",
+      "weapon_name": "冰晶",
+      "weapon_pict": "",
+      "avatar": "avatars/散華.png",
+      "weapon_avatar": "weapons/散華.png",
+      "special_weapon": "冰晶",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即完全體，5命質變（冰柱自動爆炸），6鏈完美副C",
+      "key_constellation": "零命即完全體，5命質變（冰柱自動爆炸），6鏈完美副C",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2000",
+        "def": "1150",
+        "crit_rate": "70.0",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "100.0",
+        "element_dmg_bonus": "45.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "桃祈",
+      "element": "煙滅",
+      "weapon": "長刃",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即可當輔助，1命護盾量+40%推薦",
+      "weapon_name": "守護",
+      "weapon_pict": "",
+      "avatar": "avatars/桃祈.png",
+      "weapon_avatar": "weapons/桃祈.png",
+      "special_weapon": "守護",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即可當輔助，1命護盾量+40%推薦",
+      "key_constellation": "零命即可當輔助，1命護盾量+40%推薦",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2000",
+        "def": "1150",
+        "crit_rate": "70.0",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "113.0",
+        "element_dmg_bonus": "45.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "秧秧",
+      "element": "氣動",
+      "weapon": "迅刀",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即完全體；推薦2命（重擊回能）與6命（空中攻擊後全隊+20%攻擊）",
+      "weapon_name": "飛翔",
+      "weapon_pict": "",
+      "avatar": "avatars/秧秧.png",
+      "weapon_avatar": "weapons/秧秧.png",
+      "special_weapon": "飛翔",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即完全體；推薦2命（重擊回能）與6命（空中攻擊後全隊+20%攻擊）",
+      "key_constellation": "零命即完全體；推薦2命（重擊回能）與6命（空中攻擊後全隊+20%攻擊）",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "15000",
+        "atk": "2000",
+        "def": "1150",
+        "crit_rate": "70.0",
+        "crit_dmg": "235.0",
+        "resonance_efficiency": "107.0",
+        "element_dmg_bonus": "45.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "淵武",
+      "element": "導電",
+      "weapon": "臂鎧",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命可用，關鍵1命（攻速+20%）與4命（開大給登場角色護盾）",
+      "weapon_name": "深淵",
+      "weapon_pict": "",
+      "avatar": "avatars/淵武.png",
+      "weapon_avatar": "weapons/淵武.png",
+      "special_weapon": "深淵",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命可用，關鍵1命（攻速+20%）與4命（開大給登場角色護盾）",
+      "key_constellation": "零命可用，關鍵1命（攻速+20%）與4命（開大給登場角色護盾）",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "13000",
+        "atk": "1200",
+        "def": "1800",
+        "crit_rate": "60.0",
+        "crit_dmg": "250.0",
+        "resonance_efficiency": "100.0",
+        "element_dmg_bonus": "45.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "釉瑚",
+      "element": "冷凝",
+      "weapon": "臂鎧",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即完全體，命座多為自身增傷無需專門抽；主C向追2/6命",
+      "weapon_name": "擎淵怒濤",
+      "weapon_pict": "[{\"file_token\": \"Ul4aby9ddo7U46xGMU5cOLsHnCd\", \"name\": \"qingyuan_nutao.png\", \"size\": 9765}]",
+      "avatar": "avatars/釉瑚.png",
+      "weapon_avatar": "weapons/釉瑚.png",
+      "special_weapon": "擎淵怒濤",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即完全體，命座多為自身增傷無需專門抽；主C向追2/6命",
+      "key_constellation": "零命即完全體，命座多為自身增傷無需專門抽；主C向追2/6命",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2000",
+        "def": "1200",
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "燈燈",
+      "element": "導電",
+      "weapon": "長刃",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即完全體，主C推薦4命，6命開大全隊20%攻擊",
+      "weapon_name": "光明",
+      "weapon_pict": "",
+      "avatar": "avatars/燈燈.png",
+      "weapon_avatar": "weapons/燈燈.png",
+      "special_weapon": "光明",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即完全體，主C推薦4命，6命開大全隊20%攻擊",
+      "key_constellation": "零命即完全體，主C推薦4命，6命開大全隊20%攻擊",
+      "tags": [
+        "副C"
+      ],
+      "stats": {
+        "hp": "16000",
+        "atk": "2000",
+        "def": "1200",
+        "crit_rate": "65.0",
+        "crit_dmg": "220.0",
+        "resonance_efficiency": "120.0",
+        "element_dmg_bonus": "70.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
+    },
+    {
+      "name": "卜靈",
+      "element": "導電",
+      "weapon": "法器",
+      "star": "4",
+      "constellation": 0,
+      "modal": "",
+      "role": "",
+      "status": "已擁有",
+      "obtain_date": "",
+      "total_pulls": "0",
+      "key_const": "零命即帶完整治療機制，關鍵6命（共鳴技能傷害加成升至50%）",
+      "weapon_name": "神秘",
+      "weapon_pict": "",
+      "avatar": "avatars/卜靈.png",
+      "weapon_avatar": "weapons/卜靈.png",
+      "special_weapon": "神秘",
+      "modality": "",
+      "total_draws": "0",
+      "key_draws": "零命即帶完整治療機制，關鍵6命（共鳴技能傷害加成升至50%）",
+      "key_constellation": "零命即帶完整治療機制，關鍵6命（共鳴技能傷害加成升至50%）",
+      "tags": [
+        "奶媽"
+      ],
+      "stats": {
+        "hp": "35000",
+        "atk": "1000",
+        "def": "1300",
+        "crit_rate": "50.0",
+        "crit_dmg": "150.0",
+        "resonance_efficiency": "140.0",
+        "element_dmg_bonus": "0.0"
+      },
+      "gacha_records": [],
+      "appear_teams": [],
+      "key_role": "否",
+      "draws_per_const": "",
+      "role_cost": "HK$0.00",
+      "ep": ""
     }
-   ],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$61.68"
-  },
-  {
-   "name": "秧秧·玄翎",
-   "element": "煙滅",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-07-10",
-   "total_pulls": "71",
-   "key_const": "核心 2/3 鏈（3鏈大招翻倍解放配隊）；6鏈完全體",
-   "weapon_name": "玄翎",
-   "weapon_pict": "[{\"file_token\": \"CvXdbQU3WohwMuxnsVEc9ADOnic\", \"name\": \"xuanling.png\", \"size\": 120208}]",
-   "avatar": "avatars/秧秧·玄翎.png",
-   "weapon_avatar": "weapons/秧秧·玄翎.png",
-   "special_weapon": "玄翎",
-   "modality": "",
-   "total_draws": "71",
-   "key_draws": "核心 2/3 鏈（3鏈大招翻倍解放配隊）；6鏈完全體",
-   "key_constellation": "核心 2/3 鏈（3鏈大招翻倍解放配隊）；6鏈完全體",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "17000",
-    "atk": "2000",
-    "def": "1150",
-    "crit_rate": "72.5",
-    "crit_dmg": "245.0",
-    "resonance_efficiency": "116.5",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [
+  ],
+  "teams": [
     {
-     "draws": 70,
-     "key_draws": 71,
-     "date": "2026-07-10T09:15:56.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
+      "name": "椿湮滅隊",
+      "members": [
+        {
+          "name": "椿",
+          "position": "主C",
+          "avatar": "avatars/椿.png"
+        },
+        {
+          "name": "坎特蕾拉",
+          "position": "副C",
+          "avatar": "avatars/坎特蕾拉.png"
+        },
+        {
+          "name": "維里奈",
+          "position": "奶媽",
+          "avatar": "avatars/維里奈.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S1.6",
+          "season": 1,
+          "turn": 6,
+          "score": 5146,
+          "boss": "萬囮牢朽軀",
+          "members": [
+            {
+              "name": "椿",
+              "position": "主C",
+              "avatar": "avatars/椿.png"
+            },
+            {
+              "name": "坎特蕾拉",
+              "position": "副C",
+              "avatar": "avatars/坎特蕾拉.png"
+            },
+            {
+              "name": "維里奈",
+              "position": "奶媽",
+              "avatar": "avatars/維里奈.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S2.2",
+          "season": 2,
+          "turn": 2,
+          "score": 5646,
+          "boss": "萬囮牢朽軀",
+          "members": [
+            {
+              "name": "椿",
+              "position": "主C",
+              "avatar": "avatars/椿.png"
+            },
+            {
+              "name": "坎特蕾拉",
+              "position": "副C",
+              "avatar": "avatars/坎特蕾拉.png"
+            },
+            {
+              "name": "維里奈",
+              "position": "奶媽",
+              "avatar": "avatars/維里奈.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S3.1",
+          "season": 3,
+          "turn": 1,
+          "score": 7504,
+          "boss": "燎照之騎",
+          "members": [
+            {
+              "name": "椿",
+              "position": "主C",
+              "avatar": "avatars/椿.png"
+            },
+            {
+              "name": "坎特蕾拉",
+              "position": "副C",
+              "avatar": "avatars/坎特蕾拉.png"
+            },
+            {
+              "name": "維里奈",
+              "position": "奶媽",
+              "avatar": "avatars/維里奈.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 1,
+      "runner_up_count": 0,
+      "third_count": 0,
+      "max_score": 7504,
+      "total_fights": 3,
+      "best_score": 7504,
+      "season": 3,
+      "turn": 1,
+      "boss": "燎照之騎",
+      "rank": 1
+    },
+    {
+      "name": "愛彌斯熱熔隊",
+      "members": [
+        {
+          "name": "愛彌斯",
+          "position": "主C",
+          "avatar": "avatars/愛彌斯.png"
+        },
+        {
+          "name": "達妮婭",
+          "position": "副C",
+          "avatar": "avatars/達妮婭.png"
+        },
+        {
+          "name": "莫寧",
+          "position": "奶媽",
+          "avatar": "avatars/莫寧.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S1.5",
+          "season": 1,
+          "turn": 5,
+          "score": 5257,
+          "boss": "萬囮牢朽軀",
+          "members": [
+            {
+              "name": "愛彌斯",
+              "position": "主C",
+              "avatar": "avatars/愛彌斯.png"
+            },
+            {
+              "name": "達妮婭",
+              "position": "副C",
+              "avatar": "avatars/達妮婭.png"
+            },
+            {
+              "name": "莫寧",
+              "position": "奶媽",
+              "avatar": "avatars/莫寧.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S2.3",
+          "season": 2,
+          "turn": 3,
+          "score": 5773,
+          "boss": "異構武裝",
+          "members": [
+            {
+              "name": "愛彌斯",
+              "position": "主C",
+              "avatar": "avatars/愛彌斯.png"
+            },
+            {
+              "name": "達妮婭",
+              "position": "副C",
+              "avatar": "avatars/達妮婭.png"
+            },
+            {
+              "name": "莫寧",
+              "position": "奶媽",
+              "avatar": "avatars/莫寧.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S3.3",
+          "season": 3,
+          "turn": 3,
+          "score": 7317,
+          "boss": "矩陣奇藏",
+          "members": [
+            {
+              "name": "愛彌斯",
+              "position": "主C",
+              "avatar": "avatars/愛彌斯.png"
+            },
+            {
+              "name": "達妮婭",
+              "position": "副C",
+              "avatar": "avatars/達妮婭.png"
+            },
+            {
+              "name": "莫寧",
+              "position": "奶媽",
+              "avatar": "avatars/莫寧.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 0,
+      "runner_up_count": 1,
+      "third_count": 1,
+      "max_score": 7317,
+      "total_fights": 3,
+      "best_score": 7317,
+      "season": 3,
+      "turn": 3,
+      "boss": "矩陣奇藏",
+      "rank": 2
+    },
+    {
+      "name": "尤諾日月隊",
+      "members": [
+        {
+          "name": "尤諾",
+          "position": "主C",
+          "avatar": "avatars/尤諾.png"
+        },
+        {
+          "name": "奧古斯塔",
+          "position": "副C",
+          "avatar": "avatars/奧古斯塔.png"
+        },
+        {
+          "name": "守岸人",
+          "position": "奶媽",
+          "avatar": "avatars/守岸人.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S1.4",
+          "season": 1,
+          "turn": 4,
+          "score": 5126,
+          "boss": "矩陣奇藏",
+          "members": [
+            {
+              "name": "尤諾",
+              "position": "主C",
+              "avatar": "avatars/尤諾.png"
+            },
+            {
+              "name": "奧古斯塔",
+              "position": "副C",
+              "avatar": "avatars/奧古斯塔.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S2.7",
+          "season": 2,
+          "turn": 7,
+          "score": 6980,
+          "boss": "哀聲鷙",
+          "members": [
+            {
+              "name": "尤諾",
+              "position": "主C",
+              "avatar": "avatars/尤諾.png"
+            },
+            {
+              "name": "奧古斯塔",
+              "position": "副C",
+              "avatar": "avatars/奧古斯塔.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S3.2",
+          "season": 3,
+          "turn": 2,
+          "score": 5364,
+          "boss": "封庭械囿",
+          "members": [
+            {
+              "name": "尤諾",
+              "position": "主C",
+              "avatar": "avatars/尤諾.png"
+            },
+            {
+              "name": "奧古斯塔",
+              "position": "副C",
+              "avatar": "avatars/奧古斯塔.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 1,
+      "runner_up_count": 0,
+      "third_count": 0,
+      "max_score": 6980,
+      "total_fights": 3,
+      "best_score": 6980,
+      "season": 2,
+      "turn": 7,
+      "boss": "哀聲鷙",
+      "rank": 3
+    },
+    {
+      "name": "清宵集諧隊",
+      "members": [
+        {
+          "name": "清宵",
+          "position": "主C",
+          "avatar": "avatars/清宵.png"
+        },
+        {
+          "name": "達妮婭",
+          "position": "副C",
+          "avatar": "avatars/達妮婭.png"
+        },
+        {
+          "name": "莫寧",
+          "position": "奶媽",
+          "avatar": "avatars/莫寧.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S2.6",
+          "season": 2,
+          "turn": 6,
+          "score": 6177,
+          "boss": "哀聲鷙",
+          "members": [
+            {
+              "name": "清宵",
+              "position": "主C",
+              "avatar": "avatars/清宵.png"
+            },
+            {
+              "name": "達妮婭",
+              "position": "副C",
+              "avatar": "avatars/達妮婭.png"
+            },
+            {
+              "name": "莫寧",
+              "position": "奶媽",
+              "avatar": "avatars/莫寧.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S3.4",
+          "season": 3,
+          "turn": 4,
+          "score": 5640,
+          "boss": "燎照之騎",
+          "members": [
+            {
+              "name": "清宵",
+              "position": "主C",
+              "avatar": "avatars/清宵.png"
+            },
+            {
+              "name": "達妮婭",
+              "position": "副C",
+              "avatar": "avatars/達妮婭.png"
+            },
+            {
+              "name": "莫寧",
+              "position": "奶媽",
+              "avatar": "avatars/莫寧.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 0,
+      "runner_up_count": 1,
+      "third_count": 0,
+      "max_score": 6177,
+      "total_fights": 2,
+      "best_score": 6177,
+      "season": 2,
+      "turn": 6,
+      "boss": "哀聲鷙",
+      "rank": 4
+    },
+    {
+      "name": "心狐同奏隊",
+      "members": [
+        {
+          "name": "心月狐",
+          "position": "主C",
+          "avatar": "avatars/心月狐.png"
+        },
+        {
+          "name": "今汐",
+          "position": "副C",
+          "avatar": "avatars/今汐.png"
+        },
+        {
+          "name": "守岸人",
+          "position": "奶媽",
+          "avatar": "avatars/守岸人.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S3.5",
+          "season": 3,
+          "turn": 5,
+          "score": 6130,
+          "boss": "燎照之騎",
+          "members": [
+            {
+              "name": "心月狐",
+              "position": "主C",
+              "avatar": "avatars/心月狐.png"
+            },
+            {
+              "name": "今汐",
+              "position": "副C",
+              "avatar": "avatars/今汐.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 0,
+      "runner_up_count": 0,
+      "third_count": 1,
+      "max_score": 6130,
+      "total_fights": 1,
+      "best_score": 6130,
+      "season": 3,
+      "turn": 5,
+      "boss": "燎照之騎",
+      "rank": 5
+    },
+    {
+      "name": "緋雪霜漸隊",
+      "members": [
+        {
+          "name": "緋雪",
+          "position": "主C",
+          "avatar": "avatars/緋雪.png"
+        },
+        {
+          "name": "洛瑟菈",
+          "position": "副C",
+          "avatar": "avatars/洛瑟菈.png"
+        },
+        {
+          "name": "穗穗",
+          "position": "奶媽",
+          "avatar": "avatars/穗穗.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S1.3",
+          "season": 1,
+          "turn": 3,
+          "score": 5531,
+          "boss": "異構武裝",
+          "members": [
+            {
+              "name": "緋雪",
+              "position": "主C",
+              "avatar": "avatars/緋雪.png"
+            },
+            {
+              "name": "洛瑟菈",
+              "position": "副C",
+              "avatar": "avatars/洛瑟菈.png"
+            },
+            {
+              "name": "穗穗",
+              "position": "奶媽",
+              "avatar": "avatars/穗穗.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S2.4",
+          "season": 2,
+          "turn": 4,
+          "score": 5709,
+          "boss": "朔雷之鱗",
+          "members": [
+            {
+              "name": "緋雪",
+              "position": "主C",
+              "avatar": "avatars/緋雪.png"
+            },
+            {
+              "name": "洛瑟菈",
+              "position": "副C",
+              "avatar": "avatars/洛瑟菈.png"
+            },
+            {
+              "name": "穗穗",
+              "position": "奶媽",
+              "avatar": "avatars/穗穗.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S3.8",
+          "season": 3,
+          "turn": 8,
+          "score": 4559,
+          "boss": "無冠者",
+          "members": [
+            {
+              "name": "緋雪",
+              "position": "主C",
+              "avatar": "avatars/緋雪.png"
+            },
+            {
+              "name": "洛瑟菈",
+              "position": "副C",
+              "avatar": "avatars/洛瑟菈.png"
+            },
+            {
+              "name": "穗穗",
+              "position": "奶媽",
+              "avatar": "avatars/穗穗.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 0,
+      "runner_up_count": 1,
+      "third_count": 0,
+      "max_score": 5709,
+      "total_fights": 3,
+      "best_score": 5709,
+      "season": 2,
+      "turn": 4,
+      "boss": "朔雷之鱗",
+      "rank": 6
+    },
+    {
+      "name": "玄翎虛煙隊",
+      "members": [
+        {
+          "name": "秧秧·玄翎",
+          "position": "主C",
+          "avatar": "avatars/秧秧·玄翎.png"
+        },
+        {
+          "name": "千咲",
+          "position": "副C",
+          "avatar": "avatars/千咲.png"
+        },
+        {
+          "name": "守岸人",
+          "position": "奶媽",
+          "avatar": "avatars/守岸人.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S1.2",
+          "season": 1,
+          "turn": 2,
+          "score": 5683,
+          "boss": "卡提希婭",
+          "members": [
+            {
+              "name": "秧秧·玄翎",
+              "position": "主C",
+              "avatar": "avatars/秧秧·玄翎.png"
+            },
+            {
+              "name": "千咲",
+              "position": "副C",
+              "avatar": "avatars/千咲.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S2.1",
+          "season": 2,
+          "turn": 1,
+          "score": 5173,
+          "boss": "哀聲鷙",
+          "members": [
+            {
+              "name": "秧秧·玄翎",
+              "position": "主C",
+              "avatar": "avatars/秧秧·玄翎.png"
+            },
+            {
+              "name": "千咲",
+              "position": "副C",
+              "avatar": "avatars/千咲.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S3.6",
+          "season": 3,
+          "turn": 6,
+          "score": 5683,
+          "boss": "封庭械囿",
+          "members": [
+            {
+              "name": "秧秧·玄翎",
+              "position": "主C",
+              "avatar": "avatars/秧秧·玄翎.png"
+            },
+            {
+              "name": "千咲",
+              "position": "副C",
+              "avatar": "avatars/千咲.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 1,
+      "runner_up_count": 0,
+      "third_count": 0,
+      "max_score": 5683,
+      "total_fights": 3,
+      "best_score": 5683,
+      "season": 1,
+      "turn": 2,
+      "boss": "卡提希婭",
+      "rank": 7
+    },
+    {
+      "name": "弗洛洛湮滅隊",
+      "members": [
+        {
+          "name": "弗洛洛",
+          "position": "主C",
+          "avatar": "avatars/弗洛洛.png"
+        },
+        {
+          "name": "洛可可",
+          "position": "副C",
+          "avatar": "avatars/洛可可.png"
+        },
+        {
+          "name": "守岸人",
+          "position": "奶媽",
+          "avatar": "avatars/守岸人.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S1.1",
+          "season": 1,
+          "turn": 1,
+          "score": 5371,
+          "boss": "哀聲鷙",
+          "members": [
+            {
+              "name": "弗洛洛",
+              "position": "主C",
+              "avatar": "avatars/弗洛洛.png"
+            },
+            {
+              "name": "洛可可",
+              "position": "副C",
+              "avatar": "avatars/洛可可.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S3.7",
+          "season": 3,
+          "turn": 7,
+          "score": 5406,
+          "boss": "封庭械囿",
+          "members": [
+            {
+              "name": "弗洛洛",
+              "position": "主C",
+              "avatar": "avatars/弗洛洛.png"
+            },
+            {
+              "name": "洛可可",
+              "position": "副C",
+              "avatar": "avatars/洛可可.png"
+            },
+            {
+              "name": "守岸人",
+              "position": "奶媽",
+              "avatar": "avatars/守岸人.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 0,
+      "runner_up_count": 0,
+      "third_count": 1,
+      "max_score": 5406,
+      "total_fights": 2,
+      "best_score": 5406,
+      "season": 3,
+      "turn": 7,
+      "boss": "封庭械囿",
+      "rank": 8
+    },
+    {
+      "name": "卡提風蝕隊",
+      "members": [
+        {
+          "name": "卡提希婭",
+          "position": "主C",
+          "avatar": "avatars/卡提希婭.png"
+        },
+        {
+          "name": "菲比",
+          "position": "副C",
+          "avatar": "avatars/菲比.png"
+        },
+        {
+          "name": "琳奈",
+          "position": "副C",
+          "avatar": "avatars/琳奈.png"
+        },
+        {
+          "name": "漂泊者·衍射",
+          "position": "奶媽",
+          "avatar": "avatars/漂泊者·衍射.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S2.5",
+          "season": 2,
+          "turn": 5,
+          "score": 5019,
+          "boss": "哀聲鷙",
+          "members": [
+            {
+              "name": "卡提希婭",
+              "position": "主C",
+              "avatar": "avatars/卡提希婭.png"
+            },
+            {
+              "name": "菲比",
+              "position": "副C",
+              "avatar": "avatars/菲比.png"
+            },
+            {
+              "name": "漂泊者·衍射",
+              "position": "奶媽",
+              "avatar": "avatars/漂泊者·衍射.png"
+            }
+          ]
+        },
+        {
+          "display_name": "S3.9",
+          "season": 3,
+          "turn": 9,
+          "score": 5262,
+          "boss": "天傀劫煞",
+          "members": [
+            {
+              "name": "卡提希婭",
+              "position": "主C",
+              "avatar": "avatars/卡提希婭.png"
+            },
+            {
+              "name": "琳奈",
+              "position": "副C",
+              "avatar": "avatars/琳奈.png"
+            },
+            {
+              "name": "漂泊者·衍射",
+              "position": "奶媽",
+              "avatar": "avatars/漂泊者·衍射.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 0,
+      "runner_up_count": 0,
+      "third_count": 0,
+      "max_score": 5262,
+      "total_fights": 2,
+      "best_score": 5262,
+      "season": 3,
+      "turn": 9,
+      "boss": "天傀劫煞",
+      "rank": 9
+    },
+    {
+      "name": "今汐衍射隊",
+      "members": [
+        {
+          "name": "今汐",
+          "position": "主C",
+          "avatar": "avatars/今汐.png"
+        },
+        {
+          "name": "琳奈",
+          "position": "副C",
+          "avatar": "avatars/琳奈.png"
+        },
+        {
+          "name": "維里奈",
+          "position": "奶媽",
+          "avatar": "avatars/維里奈.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S2.8",
+          "season": 2,
+          "turn": 8,
+          "score": 4791,
+          "boss": "朔雷之鱗",
+          "members": [
+            {
+              "name": "今汐",
+              "position": "主C",
+              "avatar": "avatars/今汐.png"
+            },
+            {
+              "name": "琳奈",
+              "position": "副C",
+              "avatar": "avatars/琳奈.png"
+            },
+            {
+              "name": "維里奈",
+              "position": "奶媽",
+              "avatar": "avatars/維里奈.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 0,
+      "runner_up_count": 0,
+      "third_count": 0,
+      "max_score": 4791,
+      "total_fights": 1,
+      "best_score": 4791,
+      "season": 2,
+      "turn": 8,
+      "boss": "朔雷之鱗",
+      "rank": 10
+    },
+    {
+      "name": "長離熱溶隊",
+      "members": [
+        {
+          "name": "長離",
+          "position": "主C",
+          "avatar": "avatars/長離.png"
+        },
+        {
+          "name": "露帕",
+          "position": "副C",
+          "avatar": "avatars/露帕.png"
+        },
+        {
+          "name": "鑒心",
+          "position": "奶媽",
+          "avatar": "avatars/鑒心.png"
+        }
+      ],
+      "fights": [
+        {
+          "display_name": "S3.10",
+          "season": 3,
+          "turn": 10,
+          "score": 2237,
+          "boss": "天傀劫煞",
+          "members": [
+            {
+              "name": "長離",
+              "position": "主C",
+              "avatar": "avatars/長離.png"
+            },
+            {
+              "name": "露帕",
+              "position": "副C",
+              "avatar": "avatars/露帕.png"
+            },
+            {
+              "name": "鑒心",
+              "position": "奶媽",
+              "avatar": "avatars/鑒心.png"
+            }
+          ]
+        }
+      ],
+      "champion_count": 0,
+      "runner_up_count": 0,
+      "third_count": 0,
+      "max_score": 2237,
+      "total_fights": 1,
+      "best_score": 2237,
+      "season": 3,
+      "turn": 10,
+      "boss": "天傀劫煞",
+      "rank": 11
     }
-   ],
-   "appear_teams": [
-    "玄翎虛煙隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "71",
-   "role_cost": "HK$273.69"
-  },
-  {
-   "name": "卡卡羅",
-   "element": "導電",
-   "weapon": "長刃",
-   "star": "5",
-   "constellation": 4,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-06-30",
-   "total_pulls": "239",
-   "key_const": "核心 0/3/6 命；2命加共鳴技能傷害，6命額外加大招倍率",
-   "weapon_name": "蒼鱗千嶂",
-   "weapon_pict": "[{\"file_token\": \"VDqobLOfPoFBmuxlaHQcOrSinTc\", \"name\": \"canglin_qianzhang.png\", \"size\": 9469}]",
-   "avatar": "avatars/卡卡羅.png",
-   "weapon_avatar": "weapons/卡卡羅.png",
-   "special_weapon": "蒼鱗千嶂",
-   "modality": "",
-   "total_draws": "239",
-   "key_draws": "核心 0/3/6 命；2命加共鳴技能傷害，6命額外加大招倍率",
-   "key_constellation": "核心 0/3/6 命；2命加共鳴技能傷害，6命額外加大招倍率",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2200",
-    "def": "1200",
-    "crit_rate": "70.0",
-    "crit_dmg": "240.0",
-    "resonance_efficiency": "110.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 27,
-     "key_draws": "",
-     "date": "2024-06-30T11:57:22.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
+  ],
+  "season_champions": {
+    "1": {
+      "team": "玄翎虛煙隊",
+      "score": 5683
     },
-    {
-     "draws": 5,
-     "key_draws": "",
-     "date": "2025-11-20T17:52:02.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
+    "2": {
+      "team": "尤諾日月隊",
+      "score": 6980
     },
-    {
-     "draws": 70,
-     "key_draws": "",
-     "date": "2025-12-25T23:01:16.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 70,
-     "key_draws": "",
-     "date": "2026-02-05T13:24:33.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 1,
-     "key_draws": "",
-     "date": "2026-07-10T09:15:56.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
+    "3": {
+      "team": "椿湮滅隊",
+      "score": 7504
     }
-   ],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "47.8",
-   "role_cost": "HK$921.31"
   },
-  {
-   "name": "長離",
-   "element": "熱熔",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 1,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-07-22",
-   "total_pulls": "175",
-   "key_const": "核心 0/2/6 命；2命穩定+25%暴擊率，6命無視40%防禦頂爆發",
-   "weapon_name": "赫奕流明",
-   "weapon_pict": "[{\"file_token\": \"RthFbYwzlosJUexCFgMcg2ZNnJN\", \"name\": \"heyiliu_ming.png\", \"size\": 152217}, {\"file_token\": \"CDBkb0j5PoeTKEx15EgcyoGanRg\", \"name\": \"heyiliu_ming_standard.png\", \"size\": 101302}]",
-   "avatar": "avatars/長離.png",
-   "weapon_avatar": "weapons/長離.png",
-   "special_weapon": "赫奕流明",
-   "modality": "",
-   "total_draws": "175",
-   "key_draws": "核心 0/2/6 命；2命穩定+25%暴擊率，6命無視40%防禦頂爆發",
-   "key_constellation": "核心 0/2/6 命；2命穩定+25%暴擊率，6命無視40%防禦頂爆發",
-   "tags": [
-    "副C",
-    "主C"
-   ],
-   "stats": {
-    "hp": "16500",
-    "atk": "2100",
-    "def": "1150",
-    "crit_rate": "72.5",
-    "crit_dmg": "235.0",
-    "resonance_efficiency": "114.0",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 70,
-     "key_draws": 175,
-     "date": "2024-07-22T21:09:54.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
+  "elementColors": {
+    "衍射": "#ffd700",
+    "導電": "#a855f7",
+    "煙滅": "#ef4444",
+    "冷凝": "#3b82f6",
+    "氣動": "#22c55e",
+    "熱熔": "#f97316",
+    "虛煙": "#6b7280"
+  },
+  "summary": {
+    "owned_resonators": 46,
+    "total_teams": 11,
+    "zheng_percentage": "73.7",
+    "avg_key_draws": "126.8"
+  },
+  "bosses": {
+    "哀聲鷙": {
+      "name": "哀聲鷙",
+      "note": "孑影憑吊形態",
+      "round1": "",
+      "round2": ""
     },
-    {
-     "draws": 34,
-     "key_draws": "",
-     "date": "2024-07-22T21:14:53.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
+    "萬囮牢朽軀": {
+      "name": "萬囮牢朽軀",
+      "note": "熱熔傷害抗性提高",
+      "round1": "",
+      "round2": ""
     },
-    {
-     "draws": 71,
-     "key_draws": "",
-     "date": "2024-08-06T23:59:01.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
+    "異構武裝": {
+      "name": "異構武裝",
+      "note": "冷凝屬性聲骸",
+      "round1": "",
+      "round2": ""
+    },
+    "朔雷之鱗": {
+      "name": "朔雷之鱗",
+      "note": "導電屬性聲骸",
+      "round1": "",
+      "round2": ""
+    },
+    "矩陣奇藏": {
+      "name": "矩陣奇藏",
+      "note": "全屬性抗性相同",
+      "round1": "危機應對·乘勝追擊：當擊敗矩陣奇藏後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·矩陣奇藏：矩陣奇藏的全屬性抗性相同，且對它造成傷害時將獲得1.1倍積分。【S2限定】擊敗矩陣奇藏額外獲得1000積分。",
+      "round2": ""
+    },
+    "卡提希婭": {
+      "name": "卡提希婭",
+      "note": "湮滅屬性",
+      "round1": "",
+      "round2": ""
+    },
+    "封庭械囿": {
+      "name": "封庭械囿",
+      "note": "冷凝抗性",
+      "round1": "危機應對·乘勝追擊：擊敗封庭械囿後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·機傀協同：我方共鳴者閃避反擊命中時，回復10點共鳴能量，並額外削減目標最大共振度的20%，冷卻2秒。",
+      "round2": "危機演進·封誓決心：封庭械囿的攻擊提升30%。"
+    },
+    "燎照之騎": {
+      "name": "燎照之騎",
+      "note": "熱熔抗性",
+      "round1": "危機應對·乘勝追擊：擊敗燎照之騎後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·焚燃明焰：燎照之騎的攻擊命中時，額外灼燒共鳴者，造成週期性的熱熔傷害，目標生命高於50%或擁有護盾時，該傷害降低90%。",
+      "round2": "危機演進·熾烈極速：燎照之騎對未處於空中的附近共鳴者造成週期性的熱熔傷害，目標生命高於50%或擁有護盾時，該傷害降低90%。"
+    },
+    "無冠者": {
+      "name": "無冠者",
+      "note": "湮滅抗性",
+      "round1": "危機應對·乘勝追擊：擊敗無冠者後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·戰爭藝術：共鳴者響應同奏時，該共鳴者在30秒內對無冠者造成的傷害最終提升40%。",
+      "round2": "危機演進·戰火淬鍊：對無冠者造成的共振度削減降低20%。"
+    },
+    "天傀劫煞": {
+      "name": "天傀劫煞",
+      "note": "氣動抗性",
+      "round1": "危機應對·乘勝追擊：擊敗天傀劫煞後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·萬變機巧：我方共鳴者閃避反擊命中時，獲得2層「萬鈞之勢」，抵擋受到的打斷或控制效果。「萬鈞之勢」最多可疊加2層，每次受到攻擊時減少1層，受擊減少層數的效果每秒至多觸發一次。",
+      "round2": "危機演進·失序狂亂：天傀劫煞的攻擊提升40%，天傀劫煞附帶電磁效應時，該強化失效。"
     }
-   ],
-   "appear_teams": [
-    "長離熱溶隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "87.5",
-   "role_cost": "HK$674.60"
-  },
-  {
-   "name": "安可",
-   "element": "熱熔",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 5,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-07-10",
-   "total_pulls": "300",
-   "key_const": "核心 0/4/6 命；4命變身後全隊熱熔+20%，6命加攻擊力",
-   "weapon_name": "掣傀之手",
-   "weapon_pict": "[{\"file_token\": \"N9iybtev9oWqs1xe8XjczV8Anue\", \"name\": \"cheguai_zhishou.png\", \"size\": 33222}]",
-   "avatar": "avatars/安可.png",
-   "weapon_avatar": "weapons/安可.png",
-   "special_weapon": "掣傀之手",
-   "modality": "",
-   "total_draws": "300",
-   "key_draws": "核心 0/4/6 命；4命變身後全隊熱熔+20%，6命加攻擊力",
-   "key_constellation": "核心 0/4/6 命；4命變身後全隊熱熔+20%，6命加攻擊力",
-   "tags": [
-    "主C",
-    "副C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2200",
-    "def": "1200",
-    "crit_rate": "67.5",
-    "crit_dmg": "250.0",
-    "resonance_efficiency": "117.5",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 71,
-     "key_draws": "",
-     "date": "2024-07-10T22:29:07.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 69,
-     "key_draws": "",
-     "date": "2025-02-13T23:23:31.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 20,
-     "key_draws": "",
-     "date": "2025-09-07T21:13:32.000+08:00",
-     "type": "角色",
-     "pool": "角色常駐"
-    },
-    {
-     "draws": 71,
-     "key_draws": "",
-     "date": "2026-04-30T21:27:33.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 69,
-     "key_draws": "",
-     "date": "2026-08-20T09:10:00.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 80,
-     "key_draws": "",
-     "date": "2026-09-30T10:00:00.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "50",
-   "role_cost": "HK$1,156.46"
-  },
-  {
-   "name": "今汐",
-   "element": "衍射",
-   "weapon": "長刃",
-   "star": "5",
-   "constellation": 1,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-06-30",
-   "total_pulls": "33",
-   "key_const": "核心 1/3/6 命；3命變奏疊「謫仙」攻擊力+50%，6命極致輸出",
-   "weapon_name": "時和歲稔",
-   "weapon_pict": "[{\"file_token\": \"Y9vBbPIpEoFtTdxLBkMcymyBnrb\", \"name\": \"shihe_suinian_standard.png\", \"size\": 114050}]",
-   "avatar": "avatars/今汐.png",
-   "weapon_avatar": "weapons/今汐.png",
-   "special_weapon": "時和歲稔",
-   "modality": "",
-   "total_draws": "33",
-   "key_draws": "核心 1/3/6 命；3命變奏疊「謫仙」攻擊力+50%，6命極致輸出",
-   "key_constellation": "核心 1/3/6 命；3命變奏疊「謫仙」攻擊力+50%，6命極致輸出",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2200",
-    "def": "1250",
-    "crit_rate": "72.5",
-    "crit_dmg": "245.0",
-    "resonance_efficiency": "112.5",
-    "element_dmg_bonus": "75.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 23,
-     "key_draws": 33,
-     "date": "2024-06-30T12:47:35.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 10,
-     "key_draws": "",
-     "date": "2024-07-03T08:45:07.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 0,
-     "key_draws": "",
-     "date": "2025-04-12T17:21:59.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "心狐同奏隊",
-    "今汐衍射隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "16.5",
-   "role_cost": "HK$127.21"
-  },
-  {
-   "name": "忌炎",
-   "element": "氣動",
-   "weapon": "長刃",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-10-24",
-   "total_pulls": "111",
-   "key_const": "核心 3/6 命；3命放技即吃暴擊16%+暴傷32%，堪稱最強命座",
-   "weapon_name": "蒼鱗千嶂",
-   "weapon_pict": "[{\"file_token\": \"NKgobgFa8oHaCFx7ULDcM9ainGe\", \"name\": \"canglin_qianzhang.png\", \"size\": 9469}]",
-   "avatar": "avatars/忌炎.png",
-   "weapon_avatar": "weapons/忌炎.png",
-   "special_weapon": "蒼鱗千嶂",
-   "modality": "",
-   "total_draws": "111",
-   "key_draws": "核心 3/6 命；3命放技即吃暴擊16%+暴傷32%，堪稱最強命座",
-   "key_constellation": "核心 3/6 命；3命放技即吃暴擊16%+暴傷32%，堪稱最強命座",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2300",
-    "def": "1150",
-    "crit_rate": "72.5",
-    "crit_dmg": "237.5",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "50.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 37,
-     "key_draws": "",
-     "date": "2024-10-24T20:19:16.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 74,
-     "key_draws": "",
-     "date": "2024-10-30T22:50:04.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "111",
-   "role_cost": "HK$427.89"
-  },
-  {
-   "name": "凌陽",
-   "element": "冷凝",
-   "weapon": "臂鎧",
-   "star": "5",
-   "constellation": 5,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-08-19",
-   "total_pulls": "184",
-   "key_const": "核心 0/5/6 命；5命加大招倍率，6命舞獅形態普攻+100%質變",
-   "weapon_name": "擎淵怒濤",
-   "weapon_pict": "[{\"file_token\": \"N8PabTjp3owgsrxo8fqcDJBgnTc\", \"name\": \"qingyuan_nutao.png\", \"size\": 9765}]",
-   "avatar": "avatars/凌陽.png",
-   "weapon_avatar": "weapons/凌陽.png",
-   "special_weapon": "擎淵怒濤",
-   "modality": "",
-   "total_draws": "184",
-   "key_draws": "核心 0/5/6 命；5命加大招倍率，6命舞獅形態普攻+100%質變",
-   "key_constellation": "核心 0/5/6 命；5命加大招倍率，6命舞獅形態普攻+100%質變",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2200",
-    "def": "1200",
-    "crit_rate": "70.0",
-    "crit_dmg": "240.0",
-    "resonance_efficiency": "110.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 15,
-     "key_draws": "",
-     "date": "2024-08-19T23:29:00.000+08:00",
-     "type": "角色",
-     "pool": "角色常駐"
-    },
-    {
-     "draws": 57,
-     "key_draws": "",
-     "date": "2024-11-17T09:48:37.000+08:00",
-     "type": "角色",
-     "pool": "角色常駐"
-    },
-    {
-     "draws": 11,
-     "key_draws": "",
-     "date": "2025-06-18T22:16:48.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 67,
-     "key_draws": "",
-     "date": "2025-07-25T08:15:49.000+08:00",
-     "type": "角色",
-     "pool": "角色常駐"
-    },
-    {
-     "draws": 16,
-     "key_draws": "",
-     "date": "2025-11-20T17:49:31.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 18,
-     "key_draws": "",
-     "date": "2026-01-15T20:59:36.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "30.66666667",
-   "role_cost": "HK$709.29"
-  },
-  {
-   "name": "維里奈",
-   "element": "衍射",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 6,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-06-10",
-   "total_pulls": "469",
-   "key_const": "核心 0/2/4 命；2命小技多給一層被動，4命全隊衍射+15%",
-   "weapon_name": "漪瀾浮錄",
-   "weapon_pict": "[{\"file_token\": \"ZPFkbWqSHor0ePxXQqYctiaVnkb\", \"name\": \"yilan_fulu.png\", \"size\": 65541}]",
-   "avatar": "avatars/維里奈.png",
-   "weapon_avatar": "weapons/維里奈.png",
-   "special_weapon": "漪瀾浮錄",
-   "modality": "",
-   "total_draws": "469",
-   "key_draws": "核心 0/2/4 命；2命小技多給一層被動，4命全隊衍射+15%",
-   "key_constellation": "核心 0/2/4 命；2命小技多給一層被動，4命全隊衍射+15%",
-   "tags": [
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "18000",
-    "atk": "1500",
-    "def": "1100",
-    "crit_rate": "60.0",
-    "crit_dmg": "210.0",
-    "resonance_efficiency": "225.0",
-    "element_dmg_bonus": "0.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 55,
-     "key_draws": "",
-     "date": "2024-06-10T09:35:10.000+08:00",
-     "type": "角色",
-     "pool": "新手定向"
-    },
-    {
-     "draws": 35,
-     "key_draws": "",
-     "date": "2024-10-05T02:51:29.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 55,
-     "key_draws": "",
-     "date": "2024-11-14T23:19:04.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 72,
-     "key_draws": "",
-     "date": "2024-12-01T08:34:29.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 35,
-     "key_draws": "",
-     "date": "2025-03-27T13:33:54.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 72,
-     "key_draws": "",
-     "date": "2025-04-12T17:21:59.000+08:00",
-     "type": "角色",
-     "pool": "角色常駐"
-    },
-    {
-     "draws": 71,
-     "key_draws": "",
-     "date": "2026-01-15T19:22:07.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 74,
-     "key_draws": "",
-     "date": "2026-05-21T20:08:50.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "椿湮滅隊",
-    "今汐衍射隊"
-   ],
-   "key_role": "否",
-   "draws_per_const": "67",
-   "role_cost": "HK$1,807.93"
-  },
-  {
-   "name": "吟霖",
-   "element": "導電",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-06-06",
-   "total_pulls": "203",
-   "key_const": "核心 0/3/6 命；3命後台雷擊觸發提速小質變，6命可當主C",
-   "weapon_name": "掣傀之手",
-   "weapon_pict": "[{\"file_token\": \"WeUrbMFNroDcUax8xowc8spanIe\", \"name\": \"cheguai_zhishou.png\", \"size\": 33222}]",
-   "avatar": "avatars/吟霖.png",
-   "weapon_avatar": "weapons/吟霖.png",
-   "special_weapon": "掣傀之手",
-   "modality": "",
-   "total_draws": "203",
-   "key_draws": "核心 0/3/6 命；3命後台雷擊觸發提速小質變，6命可當主C",
-   "key_constellation": "核心 0/3/6 命；3命後台雷擊觸發提速小質變，6命可當主C",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2000",
-    "def": "1200",
-    "crit_rate": "65.0",
-    "crit_dmg": "220.0",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 56,
-     "key_draws": 203,
-     "date": "2024-06-06T22:46:41.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 73,
-     "key_draws": "",
-     "date": "2024-06-11T22:08:14.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 74,
-     "key_draws": "",
-     "date": "2024-12-18T12:57:08.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [],
-   "key_role": "true",
-   "draws_per_const": "203",
-   "role_cost": "HK$782.54"
-  },
-  {
-   "name": "折枝",
-   "element": "冷凝",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-08-15",
-   "total_pulls": "96",
-   "key_const": "無課停 S1/S2；投資向 S3/S6",
-   "weapon_name": "瓊枝冰綃",
-   "weapon_pict": "[{\"file_token\": \"R7nzbrXe3oec4XxKvvVcRlRznYf\", \"name\": \"qiongzhi_bingxiao.png\", \"size\": 79897}]",
-   "avatar": "avatars/折枝.png",
-   "weapon_avatar": "weapons/折枝.png",
-   "special_weapon": "瓊枝冰綃",
-   "modality": "",
-   "total_draws": "96",
-   "key_draws": "無課停 S1/S2；投資向 S3/S6",
-   "key_constellation": "無課停 S1/S2；投資向 S3/S6",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2000",
-    "def": "1200",
-    "crit_rate": "65.0",
-    "crit_dmg": "220.0",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 25,
-     "key_draws": 96,
-     "date": "2024-08-15T20:14:09.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 71,
-     "key_draws": "",
-     "date": "2024-08-17T17:39:28.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [],
-   "key_role": "true",
-   "draws_per_const": "96",
-   "role_cost": "HK$370.07"
-  },
-  {
-   "name": "守岸人",
-   "element": "衍射",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 1,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-09-29",
-   "total_pulls": "144",
-   "key_const": "核心 0/2 命；2命全隊攻擊+40%，是意義上的完全體",
-   "weapon_name": "星序協響",
-   "weapon_pict": "[{\"file_token\": \"M2B7bQndjownDSxyyA6cs69Rnab\", \"name\": \"xingxu_xiexiang.png\", \"size\": 65754}]",
-   "avatar": "avatars/守岸人.png",
-   "weapon_avatar": "weapons/守岸人.png",
-   "special_weapon": "星序協響",
-   "modality": "",
-   "total_draws": "144",
-   "key_draws": "核心 0/2 命；2命全隊攻擊+40%，是意義上的完全體",
-   "key_constellation": "核心 0/2 命；2命全隊攻擊+40%，是意義上的完全體",
-   "tags": [
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "35000",
-    "atk": "1000",
-    "def": "1300",
-    "crit_rate": "50.0",
-    "crit_dmg": "150.0",
-    "resonance_efficiency": "140.0",
-    "element_dmg_bonus": "0.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 61,
-     "key_draws": 144,
-     "date": "2024-09-29T18:54:17.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 69,
-     "key_draws": "",
-     "date": "2024-09-29T19:25:00.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 14,
-     "key_draws": "",
-     "date": "2024-10-05T10:33:14.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "尤諾日月隊",
-    "玄翎虛煙隊",
-    "弗洛洛湮滅隊",
-    "心狐同奏隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "72",
-   "role_cost": "HK$555.10"
-  },
-  {
-   "name": "椿",
-   "element": "煙滅",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 3,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-11-14",
-   "total_pulls": "142",
-   "key_const": "2鏈強質變；優先 S6/S2/S3",
-   "weapon_name": "裁春",
-   "weapon_pict": "[{\"file_token\": \"GrPQbmfOdoRMlmxnsSjcCFTRnwc\", \"name\": \"caichun.png\", \"size\": 51944}]",
-   "avatar": "avatars/椿.png",
-   "weapon_avatar": "weapons/椿.png",
-   "special_weapon": "裁春",
-   "modality": "",
-   "total_draws": "142",
-   "key_draws": "2鏈強質變；優先 S6/S2/S3",
-   "key_constellation": "2鏈強質變；優先 S6/S2/S3",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2100",
-    "def": "1150",
-    "crit_rate": "67.5",
-    "crit_dmg": "250.0",
-    "resonance_efficiency": "121.5",
-    "element_dmg_bonus": "85.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 29,
-     "key_draws": 142,
-     "date": "2024-11-14T18:18:22.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 11,
-     "key_draws": "",
-     "date": "2024-11-14T18:21:42.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 21,
-     "key_draws": "",
-     "date": "2024-11-14T22:55:59.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 72,
-     "key_draws": "",
-     "date": "2024-11-14T23:32:03.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 9,
-     "key_draws": "",
-     "date": "2024-12-01T08:36:56.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "椿湮滅隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "35.5",
-   "role_cost": "HK$547.39"
-  },
-  {
-   "name": "珂萊塔",
-   "element": "冷凝",
-   "weapon": "佩槍",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-01-02",
-   "total_pulls": "144",
-   "key_const": "核心 2/3/6 命；2命大招尾槍倍率+126%真正分水嶺，6命質變",
-   "weapon_name": "死與舞",
-   "weapon_pict": "[{\"file_token\": \"GqyBbGKoaoxIoLxdeT5czbE0nNg\", \"name\": \"si_yuwu.png\", \"size\": 9407}]",
-   "avatar": "avatars/珂萊塔.png",
-   "weapon_avatar": "weapons/珂萊塔.png",
-   "special_weapon": "死與舞",
-   "modality": "",
-   "total_draws": "144",
-   "key_draws": "核心 2/3/6 命；2命大招尾槍倍率+126%真正分水嶺，6命質變",
-   "key_constellation": "核心 2/3/6 命；2命大招尾槍倍率+126%真正分水嶺，6命質變",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2150",
-    "def": "1100",
-    "crit_rate": "72.5",
-    "crit_dmg": "237.5",
-    "resonance_efficiency": "122.0",
-    "element_dmg_bonus": "50.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 69,
-     "key_draws": 144,
-     "date": "2025-01-02T17:36:31.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 75,
-     "key_draws": "",
-     "date": "2025-01-03T21:04:18.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [],
-   "key_role": "true",
-   "draws_per_const": "144",
-   "role_cost": "HK$555.10"
-  },
-  {
-   "name": "洛可可",
-   "element": "煙滅",
-   "weapon": "臂鎧",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-01-23",
-   "total_pulls": "73",
-   "key_const": "核心 0/2/6 命；2命全隊湮滅+40%化身暗隊大拐，6命轉主C",
-   "weapon_name": "悲喜劇",
-   "weapon_pict": "[{\"file_token\": \"StDhbSm3goqikwxbVfRc7GPgnAd\", \"name\": \"beixiju.png\", \"size\": 31986}]",
-   "avatar": "avatars/洛可可.png",
-   "weapon_avatar": "weapons/洛可可.png",
-   "special_weapon": "悲喜劇",
-   "modality": "",
-   "total_draws": "73",
-   "key_draws": "核心 0/2/6 命；2命全隊湮滅+40%化身暗隊大拐，6命轉主C",
-   "key_constellation": "核心 0/2/6 命；2命全隊湮滅+40%化身暗隊大拐，6命轉主C",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2000",
-    "def": "1200",
-    "crit_rate": "65.0",
-    "crit_dmg": "220.0",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 73,
-     "key_draws": 73,
-     "date": "2025-01-23T19:40:56.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "弗洛洛湮滅隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "73",
-   "role_cost": "HK$281.40"
-  },
-  {
-   "name": "菲比",
-   "element": "衍射",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 1,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-02-13",
-   "total_pulls": "115",
-   "key_const": "2鏈強質變",
-   "weapon_name": "和光回唱",
-   "weapon_pict": "[{\"file_token\": \"PoM6bHW9AoSrPnxJJMOckPYRnMd\", \"name\": \"heguang_huichang.png\", \"size\": 106092}]",
-   "avatar": "avatars/菲比.png",
-   "weapon_avatar": "weapons/菲比.png",
-   "special_weapon": "和光回唱",
-   "modality": "",
-   "total_draws": "115",
-   "key_draws": "2鏈強質變",
-   "key_constellation": "2鏈強質變",
-   "tags": [
-    "副C",
-    "主C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2050",
-    "def": "1100",
-    "crit_rate": "70.0",
-    "crit_dmg": "237.5",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 20,
-     "key_draws": 115,
-     "date": "2025-02-13T23:27:31.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 46,
-     "key_draws": "",
-     "date": "2025-02-22T16:49:48.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 49,
-     "key_draws": "",
-     "date": "2025-03-05T19:55:09.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [
-    "卡提風蝕隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "57.5",
-   "role_cost": "HK$443.31"
-  },
-  {
-   "name": "坎特蕾拉",
-   "element": "煙滅",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-03-27",
-   "total_pulls": "130",
-   "key_const": "核心 2/3/6 命；2命當頂級副C收益最高，3命大招倍率+370%",
-   "weapon_name": "玻色星儀",
-   "weapon_pict": "[{\"file_token\": \"VFyUb3PG6oATNjxMAo8cREMyncc\", \"name\": \"bose_xingyi.png\", \"size\": 41592}]",
-   "avatar": "avatars/坎特蕾拉.png",
-   "weapon_avatar": "weapons/坎特蕾拉.png",
-   "special_weapon": "玻色星儀",
-   "modality": "",
-   "total_draws": "130",
-   "key_draws": "核心 2/3/6 命；2命當頂級副C收益最高，3命大招倍率+370%",
-   "key_constellation": "核心 2/3/6 命；2命當頂級副C收益最高，3命大招倍率+370%",
-   "tags": [
-    "副C",
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2175",
-    "def": "1100",
-    "crit_rate": "72.5",
-    "crit_dmg": "245.0",
-    "resonance_efficiency": "130.0",
-    "element_dmg_bonus": "50.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 67,
-     "key_draws": 130,
-     "date": "2025-03-27T13:39:47.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 63,
-     "key_draws": "",
-     "date": "2025-12-29T09:57:17.000+08:00",
-     "type": "武器",
-     "pool": "武器常駐"
-    }
-   ],
-   "appear_teams": [
-    "椿湮滅隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "130",
-   "role_cost": "HK$501.13"
-  },
-  {
-   "name": "卡提希婭",
-   "element": "氣動",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 2,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-06-12",
-   "total_pulls": "244",
-   "key_const": "2鏈強質變",
-   "weapon_name": "不屈命定之冠",
-   "weapon_pict": "[{\"file_token\": \"VRtlbir0vo9ZBRxXCtScITtKnKf\", \"name\": \"buqu_mingding_zhiguan.png\", \"size\": 11562}]",
-   "avatar": "avatars/卡提希婭.png",
-   "weapon_avatar": "weapons/卡提希婭.png",
-   "special_weapon": "不屈命定之冠",
-   "modality": "",
-   "total_draws": "244",
-   "key_draws": "2鏈強質變",
-   "key_constellation": "2鏈強質變",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2200",
-    "def": "1200",
-    "crit_rate": "70.0",
-    "crit_dmg": "240.0",
-    "resonance_efficiency": "110.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 30,
-     "key_draws": 244,
-     "date": "2025-06-12T13:29:52.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 76,
-     "key_draws": "",
-     "date": "2025-06-12T13:34:59.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 69,
-     "key_draws": "",
-     "date": "2025-06-18T22:18:54.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 69,
-     "key_draws": "",
-     "date": "2025-06-29T03:20:15.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "卡提風蝕隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "81.33333333",
-   "role_cost": "HK$940.58"
-  },
-  {
-   "name": "露帕",
-   "element": "熱熔",
-   "weapon": "長刃",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-07-12",
-   "total_pulls": "132",
-   "key_const": "核心 0/2/3/6 命；2命全隊熱熔加成性價比最高，3命解綁三熱熔，6命主C上限",
-   "weapon_name": "焰痕",
-   "weapon_pict": "[{\"file_token\": \"CKanb839EoH6Uqxm3SrcVuT6nUf\", \"name\": \"yanhen.png\", \"size\": 11580}]",
-   "avatar": "avatars/露帕.png",
-   "weapon_avatar": "weapons/露帕.png",
-   "special_weapon": "焰痕",
-   "modality": "",
-   "total_draws": "132",
-   "key_draws": "核心 0/2/3/6 命；2命全隊熱熔加成性價比最高，3命解綁三熱熔，6命主C上限",
-   "key_constellation": "核心 0/2/3/6 命；2命全隊熱熔加成性價比最高，3命解綁三熱熔，6命主C上限",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2150",
-    "def": "1100",
-    "crit_rate": "72.5",
-    "crit_dmg": "237.5",
-    "resonance_efficiency": "122.5",
-    "element_dmg_bonus": "65.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 66,
-     "key_draws": 132,
-     "date": "2025-07-12T13:07:04.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 66,
-     "key_draws": "",
-     "date": "2025-07-12T13:11:30.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [
-    "長離熱溶隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "132",
-   "role_cost": "HK$508.84"
-  },
-  {
-   "name": "弗洛洛",
-   "element": "煙滅",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 2,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-07-24",
-   "total_pulls": "145",
-   "key_const": "2鏈強質變（加速被動疊層）",
-   "weapon_name": "幽冥的忘憂章",
-   "weapon_pict": "[{\"file_token\": \"OVNZbaymeogNAIxJckbcs7eNnQc\", \"name\": \"youming_wangyouzhang.png\", \"size\": 95193}]",
-   "avatar": "avatars/弗洛洛.png",
-   "weapon_avatar": "weapons/弗洛洛.png",
-   "special_weapon": "幽冥的忘憂章",
-   "modality": "",
-   "total_draws": "145",
-   "key_draws": "2鏈強質變（加速被動疊層）",
-   "key_constellation": "2鏈強質變（加速被動疊層）",
-   "tags": [
-    "主C",
-    "副C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2250",
-    "def": "1100",
-    "crit_rate": "60.0",
-    "crit_dmg": "237.5",
-    "resonance_efficiency": "100.0",
-    "element_dmg_bonus": "50.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 69,
-     "key_draws": 145,
-     "date": "2025-07-24T20:08:31.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 6,
-     "key_draws": "",
-     "date": "2025-07-24T20:11:18.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 70,
-     "key_draws": "",
-     "date": "2025-07-27T01:02:21.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 0,
-     "key_draws": "",
-     "date": "2025-07-27T01:02:21.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "弗洛洛湮滅隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "48.33333333",
-   "role_cost": "HK$558.95"
-  },
-  {
-   "name": "奧古斯塔",
-   "element": "導電",
-   "weapon": "長刃",
-   "star": "5",
-   "constellation": 1,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-01-15",
-   "total_pulls": "77",
-   "key_const": "核心 0/2/6 命；2命質變（暴擊超100%轉暴傷），6命上限",
-   "weapon_name": "馭冕鑄雷之權",
-   "weapon_pict": "[{\"file_token\": \"RGeDbdZUnowDQpxwZcnc6ZnJnGc\", \"name\": \"yumi_zhuleizhiquan.png\", \"size\": 24266}]",
-   "avatar": "avatars/奧古斯塔.png",
-   "weapon_avatar": "weapons/奧古斯塔.png",
-   "special_weapon": "馭冕鑄雷之權",
-   "modality": "",
-   "total_draws": "77",
-   "key_draws": "核心 0/2/6 命；2命質變（暴擊超100%轉暴傷），6命上限",
-   "key_constellation": "核心 0/2/6 命；2命質變（暴擊超100%轉暴傷），6命上限",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2200",
-    "def": "1200",
-    "crit_rate": "70.0",
-    "crit_dmg": "240.0",
-    "resonance_efficiency": "110.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 5,
-     "key_draws": 77,
-     "date": "2026-01-15T19:25:14.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 72,
-     "key_draws": 77,
-     "date": "2026-01-15T19:25:14.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "尤諾日月隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "38.5",
-   "role_cost": "HK$296.82"
-  },
-  {
-   "name": "尤諾",
-   "element": "氣動",
-   "weapon": "臂鎧",
-   "star": "5",
-   "constellation": 2,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-09-17",
-   "total_pulls": "214",
-   "key_const": "核心 0/2/6 命；2命關鍵輔助增傷（滿月領域+40%全傷害加深），6命變身主C",
-   "weapon_name": "萬物持存的注釋",
-   "weapon_pict": "[{\"file_token\": \"FpxPbFBifoz38wxXLI7cDkqXnVz\", \"name\": \"wanwu_chicun_de_zhushi.png\", \"size\": 68486}]",
-   "avatar": "avatars/尤諾.png",
-   "weapon_avatar": "weapons/尤諾.png",
-   "special_weapon": "萬物持存的注釋",
-   "modality": "",
-   "total_draws": "214",
-   "key_draws": "核心 0/2/6 命；2命關鍵輔助增傷（滿月領域+40%全傷害加深），6命變身主C",
-   "key_constellation": "核心 0/2/6 命；2命關鍵輔助增傷（滿月領域+40%全傷害加深），6命變身主C",
-   "tags": [
-    "主C",
-    "副C",
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2100",
-    "def": "1100",
-    "crit_rate": "72.5",
-    "crit_dmg": "237.5",
-    "resonance_efficiency": "125.0",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 72,
-     "key_draws": 214,
-     "date": "2025-09-17T13:52:31.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 72,
-     "key_draws": "",
-     "date": "2025-09-17T13:56:01.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 0,
-     "key_draws": "",
-     "date": "2025-09-19T13:52:31.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 70,
-     "key_draws": "",
-     "date": "2025-09-21T21:38:36.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "尤諾日月隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "71.33333333",
-   "role_cost": "HK$824.94"
-  },
-  {
-   "name": "千咲",
-   "element": "煙滅",
-   "weapon": "長刃",
-   "star": "5",
-   "constellation": 1,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-11-20",
-   "total_pulls": "50",
-   "key_const": "核心 0/2/3/6 命；2命質變（全隊全傷害加深），性價比最高",
-   "weapon_name": "曇切",
-   "weapon_pict": "[{\"file_token\": \"Yqb7bF7dxo3ZI6x5B1ycfdcqngw\", \"name\": \"tanqie.png\", \"size\": 98976}]",
-   "avatar": "avatars/千咲.png",
-   "weapon_avatar": "weapons/千咲.png",
-   "special_weapon": "曇切",
-   "modality": "",
-   "total_draws": "50",
-   "key_draws": "核心 0/2/3/6 命；2命質變（全隊全傷害加深），性價比最高",
-   "key_constellation": "核心 0/2/3/6 命；2命質變（全隊全傷害加深），性價比最高",
-   "tags": [
-    "副C",
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "35000",
-    "atk": "1000",
-    "def": "1300",
-    "crit_rate": "50.0",
-    "crit_dmg": "150.0",
-    "resonance_efficiency": "140.0",
-    "element_dmg_bonus": "0.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 67,
-     "key_draws": "",
-     "date": "2025-11-20T17:52:02.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 17,
-     "key_draws": "",
-     "date": "2025-11-20T18:39:18.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 33,
-     "key_draws": 50,
-     "date": "2025-11-22T13:51:25.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "玄翎虛煙隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "25",
-   "role_cost": "HK$192.74"
-  },
-  {
-   "name": "莫寧",
-   "element": "熱熔",
-   "weapon": "長刃",
-   "star": "5",
-   "constellation": 1,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-01-15",
-   "total_pulls": "73",
-   "key_const": "核心 0/1/2/6 命；1命解綁干涉標記（8秒→20秒）泛用，2命全隊暴傷+32%",
-   "weapon_name": "宙算儀軌",
-   "weapon_pict": "[{\"file_token\": \"UWJibyjgyo2H5zx5dRdcHyLvnRh\", \"name\": \"zhousuan_yigui.png\", \"size\": 33892}]",
-   "avatar": "avatars/莫寧.png",
-   "weapon_avatar": "weapons/莫寧.png",
-   "special_weapon": "宙算儀軌",
-   "modality": "",
-   "total_draws": "73",
-   "key_draws": "核心 0/1/2/6 命；1命解綁干涉標記（8秒→20秒）泛用，2命全隊暴傷+32%",
-   "key_constellation": "核心 0/1/2/6 命；1命解綁干涉標記（8秒→20秒）泛用，2命全隊暴傷+32%",
-   "tags": [
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "35000",
-    "atk": "1000",
-    "def": "1300",
-    "crit_rate": "50.0",
-    "crit_dmg": "150.0",
-    "resonance_efficiency": "140.0",
-    "element_dmg_bonus": "0.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 73,
-     "key_draws": 73,
-     "date": "2026-01-15T21:19:29.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 0,
-     "key_draws": "",
-     "date": "2026-01-16T21:19:29.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "清宵集諧隊",
-    "愛彌斯熱熔隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "36.5",
-   "role_cost": "HK$281.40"
-  },
-  {
-   "name": "琳奈",
-   "element": "衍射",
-   "weapon": "佩槍",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2025-12-25",
-   "total_pulls": "126",
-   "key_const": "核心 0/2/6 命；0命機制完全體，2命延奏全傷害加深25%拐力質變",
-   "weapon_name": "溢彩熒輝",
-   "weapon_pict": "[{\"file_token\": \"FWo0bFFFpogrVCxUyaJclLgGn9g\", \"name\": \"yicai_yinghui.png\", \"size\": 25815}]",
-   "avatar": "avatars/琳奈.png",
-   "weapon_avatar": "weapons/琳奈.png",
-   "special_weapon": "溢彩熒輝",
-   "modality": "",
-   "total_draws": "126",
-   "key_draws": "核心 0/2/6 命；0命機制完全體，2命延奏全傷害加深25%拐力質變",
-   "key_constellation": "核心 0/2/6 命；0命機制完全體，2命延奏全傷害加深25%拐力質變",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "12000",
-    "atk": "2100",
-    "def": "1150",
-    "crit_rate": "65.0",
-    "crit_dmg": "265.0",
-    "resonance_efficiency": "122.5",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 69,
-     "key_draws": 126,
-     "date": "2025-12-25T23:04:41.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 57,
-     "key_draws": "",
-     "date": "2025-12-25T23:06:50.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [
-    "今汐衍射隊",
-    "卡提風蝕隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "126",
-   "role_cost": "HK$485.71"
-  },
-  {
-   "name": "愛彌斯",
-   "element": "熱熔",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 3,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-02-05",
-   "total_pulls": "126",
-   "key_const": "核心 0/2/3/6 命；3命解綁隊友二段大招倍率翻倍，6命數值怪",
-   "weapon_name": "永遠的啟明星",
-   "weapon_pict": "[{\"file_token\": \"EOB6bvuNeoybTRx2PfacypKPn6e\", \"name\": \"yongyuan_de_qimingxing.png\", \"size\": 23653}]",
-   "avatar": "avatars/愛彌斯.png",
-   "weapon_avatar": "weapons/愛彌斯.png",
-   "special_weapon": "永遠的啟明星",
-   "modality": "",
-   "total_draws": "126",
-   "key_draws": "核心 0/2/3/6 命；3命解綁隊友二段大招倍率翻倍，6命數值怪",
-   "key_constellation": "核心 0/2/3/6 命；3命解綁隊友二段大招倍率翻倍，6命數值怪",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "17401",
-    "atk": "2261",
-    "def": "1148",
-    "crit_rate": "73.0",
-    "crit_dmg": "272.6",
-    "resonance_efficiency": "109.2",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 73,
-     "key_draws": 126,
-     "date": "2026-02-05T13:37:25.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 9,
-     "key_draws": "",
-     "date": "2026-02-05T13:38:55.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    },
-    {
-     "draws": 34,
-     "key_draws": "",
-     "date": "2026-02-14T22:10:36.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 0,
-     "key_draws": "",
-     "date": "2026-02-15T22:10:36.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 0,
-     "key_draws": "",
-     "date": "2026-07-30T09:15:56.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "愛彌斯熱熔隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "31.5",
-   "role_cost": "HK$485.71"
-  },
-  {
-   "name": "達妮婭",
-   "element": "熱熔",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-05-21",
-   "total_pulls": "39",
-   "key_const": "2命（全隊增傷）與 3命（手法質變縮軸）",
-   "weapon_name": "贗作的矮星",
-   "weapon_pict": "[{\"file_token\": \"LZqgbANEbo6VGnxJKiPcvOnIncc\", \"name\": \"yanzuo_de_aixing.png\", \"size\": 83381}]",
-   "avatar": "avatars/達妮婭.png",
-   "weapon_avatar": "weapons/達妮婭.png",
-   "special_weapon": "贗作的矮星",
-   "modality": "",
-   "total_draws": "39",
-   "key_draws": "2命（全隊增傷）與 3命（手法質變縮軸）",
-   "key_constellation": "2命（全隊增傷）與 3命（手法質變縮軸）",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2000",
-    "def": "1200",
-    "crit_rate": "65.0",
-    "crit_dmg": "220.0",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 13,
-     "key_draws": 39,
-     "date": "2026-05-21T20:22:51.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 26,
-     "key_draws": "",
-     "date": "2026-05-23T09:15:56.000+08:00",
-     "type": "武器",
-     "pool": "武器常駐"
-    }
-   ],
-   "appear_teams": [
-    "清宵集諧隊",
-    "愛彌斯熱熔隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "39",
-   "role_cost": "HK$150.34"
-  },
-  {
-   "name": "緋雪",
-   "element": "冷凝",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-04-30",
-   "total_pulls": "141",
-   "key_const": "2命（居合傷害+125%啟動縮軸）；6鏈上限",
-   "weapon_name": "灼霜",
-   "weapon_pict": "[{\"file_token\": \"JPyJb3w4QoWQSRxhVlzckY4hnJf\", \"name\": \"zhuoshuang.png\", \"size\": 68225}]",
-   "avatar": "avatars/緋雪.png",
-   "weapon_avatar": "weapons/緋雪.png",
-   "special_weapon": "灼霜",
-   "modality": "",
-   "total_draws": "141",
-   "key_draws": "2命（居合傷害+125%啟動縮軸）；6鏈上限",
-   "key_constellation": "2命（居合傷害+125%啟動縮軸）；6鏈上限",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "16054",
-    "atk": "2843",
-    "def": "1172",
-    "crit_rate": "73.0",
-    "crit_dmg": "240.6",
-    "resonance_efficiency": "110.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 72,
-     "key_draws": 141,
-     "date": "2026-04-30T21:30:30.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 69,
-     "key_draws": "",
-     "date": "2026-04-30T21:32:22.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [
-    "緋雪霜漸隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "141",
-   "role_cost": "HK$543.53"
-  },
-  {
-   "name": "洛瑟菈",
-   "element": "冷凝",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-06-13",
-   "total_pulls": "72",
-   "key_const": "核心 0/2/6 命；2命給隊友霜漸傷害+80%拐力最大化",
-   "weapon_name": "存幀",
-   "weapon_pict": "[{\"file_token\": \"Gb2ObtO3Co7M32xiU2ecSxuFnJh\", \"name\": \"cunzhen.png\", \"size\": 48708}]",
-   "avatar": "avatars/洛瑟菈.png",
-   "weapon_avatar": "weapons/洛瑟菈.png",
-   "special_weapon": "存幀",
-   "modality": "",
-   "total_draws": "72",
-   "key_draws": "核心 0/2/6 命；2命給隊友霜漸傷害+80%拐力最大化",
-   "key_constellation": "核心 0/2/6 命；2命給隊友霜漸傷害+80%拐力最大化",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2000",
-    "def": "1200",
-    "crit_rate": "65.0",
-    "crit_dmg": "220.0",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 72,
-     "key_draws": 72,
-     "date": "2026-06-13T09:15:56.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "緋雪霜漸隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "72",
-   "role_cost": "HK$277.55"
-  },
-  {
-   "name": "穗穗",
-   "element": "冷凝",
-   "weapon": "音感儀",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-07-30",
-   "total_pulls": "0",
-   "key_const": "1鏈（機制完善+免疫打斷）、2鏈（效應角色爆傷）、3鏈（縮軸）",
-   "weapon_name": "棲霞飲露",
-   "weapon_pict": "[{\"file_token\": \"LpjIbbk0rootMwx6lqxcOnawnFh\", \"name\": \"qixia_yinlu.png\", \"size\": 60373}]",
-   "avatar": "avatars/穗穗.png",
-   "weapon_avatar": "weapons/穗穗.png",
-   "special_weapon": "棲霞飲露",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "1鏈（機制完善+免疫打斷）、2鏈（效應角色爆傷）、3鏈（縮軸）",
-   "key_constellation": "1鏈（機制完善+免疫打斷）、2鏈（效應角色爆傷）、3鏈（縮軸）",
-   "tags": [
-    "奶媽",
-    "副C"
-   ],
-   "stats": {
-    "hp": "43473",
-    "atk": "874",
-    "def": "1349",
-    "crit_rate": "22.4",
-    "crit_dmg": "273.4",
-    "resonance_efficiency": "140.0",
-    "element_dmg_bonus": "0.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 10,
-     "key_draws": "",
-     "date": "2026-07-30T09:15:56.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "緋雪霜漸隊",
-    "心狐電磁隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "0",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "清宵",
-   "element": "氣動",
-   "weapon": "迅刀",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-08-20",
-   "total_pulls": "133",
-   "key_const": "核心 0/1/3/6 命；1命暴擊+抗打斷質變，3命關鍵爆發節點",
-   "weapon_name": "雲琅",
-   "weapon_pict": "[{\"file_token\": \"G0cRblxWAoppR9xgHfKcP6wTnQh\", \"name\": \"yunlang.png\", \"size\": 12078}]",
-   "avatar": "avatars/清宵.png",
-   "weapon_avatar": "weapons/清宵.png",
-   "special_weapon": "雲琅",
-   "modality": "",
-   "total_draws": "133",
-   "key_draws": "核心 0/1/3/6 命；1命暴擊+抗打斷質變，3命關鍵爆發節點",
-   "key_constellation": "核心 0/1/3/6 命；1命暴擊+抗打斷質變，3命關鍵爆發節點",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2200",
-    "def": "1200",
-    "crit_rate": "70.0",
-    "crit_dmg": "240.0",
-    "resonance_efficiency": "110.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 62,
-     "key_draws": 133,
-     "date": "2026-08-20T09:15:56.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 71,
-     "key_draws": "",
-     "date": "2026-08-20T09:05:00.000+08:00",
-     "type": "武器",
-     "pool": "角色活動"
-    }
-   ],
-   "appear_teams": [
-    "清宵集諧隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "133",
-   "role_cost": "HK$512.70"
-  },
-  {
-   "name": "心月狐",
-   "element": "導電",
-   "weapon": "法器",
-   "star": "5",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2026-09-30",
-   "total_pulls": "188",
-   "key_const": "核心 2鏈（S2 主要投資目標）；分水嶺 3鏈；S6 鯨魚斷點",
-   "weapon_name": "玉闕玄華",
-   "weapon_pict": "[{\"file_token\": \"VGyxblDCkobTbPx3D7ScBolBn5b\", \"name\": \"yuque_xuanhua.png\", \"size\": 730227}]",
-   "avatar": "avatars/心月狐.png",
-   "weapon_avatar": "weapons/心月狐.png",
-   "special_weapon": "玉闕玄華",
-   "modality": "",
-   "total_draws": "188",
-   "key_draws": "核心 2鏈（S2 主要投資目標）；分水嶺 3鏈；S6 鯨魚斷點",
-   "key_constellation": "核心 2鏈（S2 主要投資目標）；分水嶺 3鏈；S6 鯨魚斷點",
-   "tags": [
-    "主C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2050",
-    "def": "1100",
-    "crit_rate": "70.0",
-    "crit_dmg": "247.5",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 39,
-     "key_draws": 188,
-     "date": "2026-09-30T10:00:00.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 69,
-     "key_draws": "",
-     "date": "2026-09-30T10:00:00.000+08:00",
-     "type": "武器",
-     "pool": "武器活動"
-    }
-   ],
-   "appear_teams": [
-    "心狐同奏隊",
-    "心狐電磁隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "188",
-   "role_cost": "HK$724.71"
-  },
-  {
-   "name": "鑒心",
-   "element": "氣動",
-   "weapon": "臂鎧",
-   "star": "5",
-   "constellation": 3,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "2024-05-26",
-   "total_pulls": "261",
-   "key_const": "核心 0/1/2 命；1命協奏回復翻倍，2命協奏提速可作專輔下位替代",
-   "weapon_name": "擎淵怒濤",
-   "weapon_pict": "[{\"file_token\": \"TrbObsCBXo0OpIxkdD4cEqnSnFV\", \"name\": \"qingyuan_nutao.png\", \"size\": 9765}]",
-   "avatar": "avatars/鑒心.png",
-   "weapon_avatar": "weapons/鑒心.png",
-   "special_weapon": "擎淵怒濤",
-   "modality": "",
-   "total_draws": "261",
-   "key_draws": "核心 0/1/2 命；1命協奏回復翻倍，2命協奏提速可作專輔下位替代",
-   "key_constellation": "核心 0/1/2 命；1命協奏回復翻倍，2命協奏提速可作專輔下位替代",
-   "tags": [
-    "主C",
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "1900",
-    "def": "1250",
-    "crit_rate": "72.5",
-    "crit_dmg": "245.0",
-    "resonance_efficiency": "165.0",
-    "element_dmg_bonus": "45.0"
-   },
-   "gacha_records": [
-    {
-     "draws": 50,
-     "key_draws": 261,
-     "date": "2024-05-26T19:55:58.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 10,
-     "key_draws": "",
-     "date": "2024-10-24T20:13:58.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 68,
-     "key_draws": "",
-     "date": "2025-01-02T15:12:01.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 70,
-     "key_draws": "",
-     "date": "2025-09-21T21:29:23.000+08:00",
-     "type": "角色",
-     "pool": "角色活動"
-    },
-    {
-     "draws": 63,
-     "key_draws": "",
-     "date": "2026-02-27T18:43:45.000+08:00",
-     "type": "武器",
-     "pool": "武器常駐"
-    }
-   ],
-   "appear_teams": [
-    "長離熱溶隊"
-   ],
-   "key_role": "true",
-   "draws_per_const": "65.25",
-   "role_cost": "HK$1,006.12"
-  },
-  {
-   "name": "白芷",
-   "element": "冷凝",
-   "weapon": "法器",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即可用，關鍵5命（復活機制）與6命（全隊冷凝增傷12%）",
-   "weapon_name": "漪瀾浮錄",
-   "weapon_pict": "[{\"file_token\": \"JOQPbCdM0oqxLhx0UxAcDVrZnxb\", \"name\": \"yilan_fulu.png\", \"size\": 65541}]",
-   "avatar": "avatars/白芷.png",
-   "weapon_avatar": "weapons/白芷.png",
-   "special_weapon": "漪瀾浮錄",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即可用，關鍵5命（復活機制）與6命（全隊冷凝增傷12%）",
-   "key_constellation": "零命即可用，關鍵5命（復活機制）與6命（全隊冷凝增傷12%）",
-   "tags": [
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "35000",
-    "atk": "1000",
-    "def": "1300",
-    "crit_rate": "50.0",
-    "crit_dmg": "150.0",
-    "resonance_efficiency": "140.0",
-    "element_dmg_bonus": "0.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "熾霞",
-   "element": "熱熔",
-   "weapon": "佩槍",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "命座戰士，5命傷害提升最大，6命全隊普攻傷害；零命當主C不推薦",
-   "weapon_name": "鞘銳蝕骨",
-   "weapon_pict": "[{\"file_token\": \"REK4bS4TxoUrufx5Atccx11qnKe\", \"name\": \"qiaorui_shigu.png\", \"size\": 41413}]",
-   "avatar": "avatars/熾霞.png",
-   "weapon_avatar": "weapons/熾霞.png",
-   "special_weapon": "鞘銳蝕骨",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "命座戰士，5命傷害提升最大，6命全隊普攻傷害；零命當主C不推薦",
-   "key_constellation": "命座戰士，5命傷害提升最大，6命全隊普攻傷害；零命當主C不推薦",
-   "tags": [
-    "副C",
-    "主C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2200",
-    "def": "1200",
-    "crit_rate": "70.0",
-    "crit_dmg": "240.0",
-    "resonance_efficiency": "110.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "丹瑾",
-   "element": "煙滅",
-   "weapon": "迅刀",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即可給暗主增傷；補強2/3/4/5命，6命全隊20%攻擊",
-   "weapon_name": "暗影",
-   "weapon_pict": "",
-   "avatar": "avatars/丹瑾.png",
-   "weapon_avatar": "weapons/丹瑾.png",
-   "special_weapon": "暗影",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即可給暗主增傷；補強2/3/4/5命，6命全隊20%攻擊",
-   "key_constellation": "零命即可給暗主增傷；補強2/3/4/5命，6命全隊20%攻擊",
-   "tags": [
-    "副C",
-    "主C"
-   ],
-   "stats": {
-    "hp": "16500",
-    "atk": "2100",
-    "def": "1150",
-    "crit_rate": "70.0",
-    "crit_dmg": "240.0",
-    "resonance_efficiency": "110.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "莫特斐",
-   "element": "熱熔",
-   "weapon": "佩槍",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即可用，關鍵1/5/6命（6命開大全隊20%攻擊）",
-   "weapon_name": "重擊",
-   "weapon_pict": "",
-   "avatar": "avatars/莫特斐.png",
-   "weapon_avatar": "weapons/莫特斐.png",
-   "special_weapon": "重擊",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即可用，關鍵1/5/6命（6命開大全隊20%攻擊）",
-   "key_constellation": "零命即可用，關鍵1/5/6命（6命開大全隊20%攻擊）",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2050",
-    "def": "1100",
-    "crit_rate": "70.0",
-    "crit_dmg": "237.5",
-    "resonance_efficiency": "122.5",
-    "element_dmg_bonus": "55.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "散華",
-   "element": "冷凝",
-   "weapon": "迅刀",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即完全體，5命質變（冰柱自動爆炸），6鏈完美副C",
-   "weapon_name": "冰晶",
-   "weapon_pict": "",
-   "avatar": "avatars/散華.png",
-   "weapon_avatar": "weapons/散華.png",
-   "special_weapon": "冰晶",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即完全體，5命質變（冰柱自動爆炸），6鏈完美副C",
-   "key_constellation": "零命即完全體，5命質變（冰柱自動爆炸），6鏈完美副C",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2000",
-    "def": "1150",
-    "crit_rate": "70.0",
-    "crit_dmg": "235.0",
-    "resonance_efficiency": "100.0",
-    "element_dmg_bonus": "45.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "桃祈",
-   "element": "煙滅",
-   "weapon": "長刃",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即可當輔助，1命護盾量+40%推薦",
-   "weapon_name": "守護",
-   "weapon_pict": "",
-   "avatar": "avatars/桃祈.png",
-   "weapon_avatar": "weapons/桃祈.png",
-   "special_weapon": "守護",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即可當輔助，1命護盾量+40%推薦",
-   "key_constellation": "零命即可當輔助，1命護盾量+40%推薦",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2000",
-    "def": "1150",
-    "crit_rate": "70.0",
-    "crit_dmg": "235.0",
-    "resonance_efficiency": "113.0",
-    "element_dmg_bonus": "45.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "秧秧",
-   "element": "氣動",
-   "weapon": "迅刀",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即完全體；推薦2命（重擊回能）與6命（空中攻擊後全隊+20%攻擊）",
-   "weapon_name": "飛翔",
-   "weapon_pict": "",
-   "avatar": "avatars/秧秧.png",
-   "weapon_avatar": "weapons/秧秧.png",
-   "special_weapon": "飛翔",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即完全體；推薦2命（重擊回能）與6命（空中攻擊後全隊+20%攻擊）",
-   "key_constellation": "零命即完全體；推薦2命（重擊回能）與6命（空中攻擊後全隊+20%攻擊）",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "15000",
-    "atk": "2000",
-    "def": "1150",
-    "crit_rate": "70.0",
-    "crit_dmg": "235.0",
-    "resonance_efficiency": "107.0",
-    "element_dmg_bonus": "45.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "淵武",
-   "element": "導電",
-   "weapon": "臂鎧",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命可用，關鍵1命（攻速+20%）與4命（開大給登場角色護盾）",
-   "weapon_name": "深淵",
-   "weapon_pict": "",
-   "avatar": "avatars/淵武.png",
-   "weapon_avatar": "weapons/淵武.png",
-   "special_weapon": "深淵",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命可用，關鍵1命（攻速+20%）與4命（開大給登場角色護盾）",
-   "key_constellation": "零命可用，關鍵1命（攻速+20%）與4命（開大給登場角色護盾）",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "13000",
-    "atk": "1200",
-    "def": "1800",
-    "crit_rate": "60.0",
-    "crit_dmg": "250.0",
-    "resonance_efficiency": "100.0",
-    "element_dmg_bonus": "45.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "釉瑚",
-   "element": "冷凝",
-   "weapon": "臂鎧",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即完全體，命座多為自身增傷無需專門抽；主C向追2/6命",
-   "weapon_name": "擎淵怒濤",
-   "weapon_pict": "[{\"file_token\": \"Ul4aby9ddo7U46xGMU5cOLsHnCd\", \"name\": \"qingyuan_nutao.png\", \"size\": 9765}]",
-   "avatar": "avatars/釉瑚.png",
-   "weapon_avatar": "weapons/釉瑚.png",
-   "special_weapon": "擎淵怒濤",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即完全體，命座多為自身增傷無需專門抽；主C向追2/6命",
-   "key_constellation": "零命即完全體，命座多為自身增傷無需專門抽；主C向追2/6命",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2000",
-    "def": "1200",
-    "crit_rate": "65.0",
-    "crit_dmg": "220.0",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "燈燈",
-   "element": "導電",
-   "weapon": "長刃",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即完全體，主C推薦4命，6命開大全隊20%攻擊",
-   "weapon_name": "光明",
-   "weapon_pict": "",
-   "avatar": "avatars/燈燈.png",
-   "weapon_avatar": "weapons/燈燈.png",
-   "special_weapon": "光明",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即完全體，主C推薦4命，6命開大全隊20%攻擊",
-   "key_constellation": "零命即完全體，主C推薦4命，6命開大全隊20%攻擊",
-   "tags": [
-    "副C"
-   ],
-   "stats": {
-    "hp": "16000",
-    "atk": "2000",
-    "def": "1200",
-    "crit_rate": "65.0",
-    "crit_dmg": "220.0",
-    "resonance_efficiency": "120.0",
-    "element_dmg_bonus": "70.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
-  },
-  {
-   "name": "卜靈",
-   "element": "導電",
-   "weapon": "法器",
-   "star": "4",
-   "constellation": 0,
-   "modal": "",
-   "role": "",
-   "status": "已擁有",
-   "obtain_date": "",
-   "total_pulls": "0",
-   "key_const": "零命即帶完整治療機制，關鍵6命（共鳴技能傷害加成升至50%）",
-   "weapon_name": "神秘",
-   "weapon_pict": "",
-   "avatar": "avatars/卜靈.png",
-   "weapon_avatar": "weapons/卜靈.png",
-   "special_weapon": "神秘",
-   "modality": "",
-   "total_draws": "0",
-   "key_draws": "零命即帶完整治療機制，關鍵6命（共鳴技能傷害加成升至50%）",
-   "key_constellation": "零命即帶完整治療機制，關鍵6命（共鳴技能傷害加成升至50%）",
-   "tags": [
-    "奶媽"
-   ],
-   "stats": {
-    "hp": "35000",
-    "atk": "1000",
-    "def": "1300",
-    "crit_rate": "50.0",
-    "crit_dmg": "150.0",
-    "resonance_efficiency": "140.0",
-    "element_dmg_bonus": "0.0"
-   },
-   "gacha_records": [],
-   "appear_teams": [],
-   "key_role": "否",
-   "draws_per_const": "",
-   "role_cost": "HK$0.00"
   }
- ],
- "teams": [
-  {
-   "name": "椿湮滅隊",
-   "members": [
-    {
-     "name": "椿",
-     "position": "主C",
-     "avatar": "avatars/椿.png"
-    },
-    {
-     "name": "坎特蕾拉",
-     "position": "副C",
-     "avatar": "avatars/坎特蕾拉.png"
-    },
-    {
-     "name": "維里奈",
-     "position": "奶媽",
-     "avatar": "avatars/維里奈.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S1.6",
-     "season": 1,
-     "turn": 6,
-     "score": 5146,
-     "boss": "萬囮牢朽軀",
-     "members": [
-      {
-       "name": "椿",
-       "position": "主C",
-       "avatar": "avatars/椿.png"
-      },
-      {
-       "name": "坎特蕾拉",
-       "position": "副C",
-       "avatar": "avatars/坎特蕾拉.png"
-      },
-      {
-       "name": "維里奈",
-       "position": "奶媽",
-       "avatar": "avatars/維里奈.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S2.2",
-     "season": 2,
-     "turn": 2,
-     "score": 5646,
-     "boss": "萬囮牢朽軀",
-     "members": [
-      {
-       "name": "椿",
-       "position": "主C",
-       "avatar": "avatars/椿.png"
-      },
-      {
-       "name": "坎特蕾拉",
-       "position": "副C",
-       "avatar": "avatars/坎特蕾拉.png"
-      },
-      {
-       "name": "維里奈",
-       "position": "奶媽",
-       "avatar": "avatars/維里奈.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.1",
-     "season": 3,
-     "turn": 1,
-     "score": 7504,
-     "boss": "燎照之騎",
-     "members": [
-      {
-       "name": "椿",
-       "position": "主C",
-       "avatar": "avatars/椿.png"
-      },
-      {
-       "name": "坎特蕾拉",
-       "position": "副C",
-       "avatar": "avatars/坎特蕾拉.png"
-      },
-      {
-       "name": "維里奈",
-       "position": "奶媽",
-       "avatar": "avatars/維里奈.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 1,
-   "runner_up_count": 0,
-   "third_count": 0,
-   "max_score": 7504,
-   "total_fights": 3,
-   "best_score": 7504,
-   "season": 3,
-   "turn": 1,
-   "boss": "燎照之騎",
-   "rank": 1
-  },
-  {
-   "name": "愛彌斯熱熔隊",
-   "members": [
-    {
-     "name": "愛彌斯",
-     "position": "主C",
-     "avatar": "avatars/愛彌斯.png"
-    },
-    {
-     "name": "達妮婭",
-     "position": "副C",
-     "avatar": "avatars/達妮婭.png"
-    },
-    {
-     "name": "莫寧",
-     "position": "奶媽",
-     "avatar": "avatars/莫寧.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S1.5",
-     "season": 1,
-     "turn": 5,
-     "score": 5257,
-     "boss": "萬囮牢朽軀",
-     "members": [
-      {
-       "name": "愛彌斯",
-       "position": "主C",
-       "avatar": "avatars/愛彌斯.png"
-      },
-      {
-       "name": "達妮婭",
-       "position": "副C",
-       "avatar": "avatars/達妮婭.png"
-      },
-      {
-       "name": "莫寧",
-       "position": "奶媽",
-       "avatar": "avatars/莫寧.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S2.3",
-     "season": 2,
-     "turn": 3,
-     "score": 5773,
-     "boss": "異構武裝",
-     "members": [
-      {
-       "name": "愛彌斯",
-       "position": "主C",
-       "avatar": "avatars/愛彌斯.png"
-      },
-      {
-       "name": "達妮婭",
-       "position": "副C",
-       "avatar": "avatars/達妮婭.png"
-      },
-      {
-       "name": "莫寧",
-       "position": "奶媽",
-       "avatar": "avatars/莫寧.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.3",
-     "season": 3,
-     "turn": 3,
-     "score": 7317,
-     "boss": "矩陣奇藏",
-     "members": [
-      {
-       "name": "愛彌斯",
-       "position": "主C",
-       "avatar": "avatars/愛彌斯.png"
-      },
-      {
-       "name": "達妮婭",
-       "position": "副C",
-       "avatar": "avatars/達妮婭.png"
-      },
-      {
-       "name": "莫寧",
-       "position": "奶媽",
-       "avatar": "avatars/莫寧.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 0,
-   "runner_up_count": 1,
-   "third_count": 1,
-   "max_score": 7317,
-   "total_fights": 3,
-   "best_score": 7317,
-   "season": 3,
-   "turn": 3,
-   "boss": "矩陣奇藏",
-   "rank": 2
-  },
-  {
-   "name": "尤諾日月隊",
-   "members": [
-    {
-     "name": "尤諾",
-     "position": "主C",
-     "avatar": "avatars/尤諾.png"
-    },
-    {
-     "name": "奧古斯塔",
-     "position": "副C",
-     "avatar": "avatars/奧古斯塔.png"
-    },
-    {
-     "name": "守岸人",
-     "position": "奶媽",
-     "avatar": "avatars/守岸人.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S1.4",
-     "season": 1,
-     "turn": 4,
-     "score": 5126,
-     "boss": "矩陣奇藏",
-     "members": [
-      {
-       "name": "尤諾",
-       "position": "主C",
-       "avatar": "avatars/尤諾.png"
-      },
-      {
-       "name": "奧古斯塔",
-       "position": "副C",
-       "avatar": "avatars/奧古斯塔.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S2.7",
-     "season": 2,
-     "turn": 7,
-     "score": 6980,
-     "boss": "哀聲鷙",
-     "members": [
-      {
-       "name": "尤諾",
-       "position": "主C",
-       "avatar": "avatars/尤諾.png"
-      },
-      {
-       "name": "奧古斯塔",
-       "position": "副C",
-       "avatar": "avatars/奧古斯塔.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.2",
-     "season": 3,
-     "turn": 2,
-     "score": 5364,
-     "boss": "封庭械囿",
-     "members": [
-      {
-       "name": "尤諾",
-       "position": "主C",
-       "avatar": "avatars/尤諾.png"
-      },
-      {
-       "name": "奧古斯塔",
-       "position": "副C",
-       "avatar": "avatars/奧古斯塔.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 1,
-   "runner_up_count": 0,
-   "third_count": 0,
-   "max_score": 6980,
-   "total_fights": 3,
-   "best_score": 6980,
-   "season": 2,
-   "turn": 7,
-   "boss": "哀聲鷙",
-   "rank": 3
-  },
-  {
-   "name": "清宵集諧隊",
-   "members": [
-    {
-     "name": "清宵",
-     "position": "主C",
-     "avatar": "avatars/清宵.png"
-    },
-    {
-     "name": "達妮婭",
-     "position": "副C",
-     "avatar": "avatars/達妮婭.png"
-    },
-    {
-     "name": "莫寧",
-     "position": "奶媽",
-     "avatar": "avatars/莫寧.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S2.6",
-     "season": 2,
-     "turn": 6,
-     "score": 6177,
-     "boss": "哀聲鷙",
-     "members": [
-      {
-       "name": "清宵",
-       "position": "主C",
-       "avatar": "avatars/清宵.png"
-      },
-      {
-       "name": "達妮婭",
-       "position": "副C",
-       "avatar": "avatars/達妮婭.png"
-      },
-      {
-       "name": "莫寧",
-       "position": "奶媽",
-       "avatar": "avatars/莫寧.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.4",
-     "season": 3,
-     "turn": 4,
-     "score": 5640,
-     "boss": "燎照之騎",
-     "members": [
-      {
-       "name": "清宵",
-       "position": "主C",
-       "avatar": "avatars/清宵.png"
-      },
-      {
-       "name": "達妮婭",
-       "position": "副C",
-       "avatar": "avatars/達妮婭.png"
-      },
-      {
-       "name": "莫寧",
-       "position": "奶媽",
-       "avatar": "avatars/莫寧.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 0,
-   "runner_up_count": 1,
-   "third_count": 0,
-   "max_score": 6177,
-   "total_fights": 2,
-   "best_score": 6177,
-   "season": 2,
-   "turn": 6,
-   "boss": "哀聲鷙",
-   "rank": 4
-  },
-  {
-   "name": "心狐同奏隊",
-   "members": [
-    {
-     "name": "心月狐",
-     "position": "主C",
-     "avatar": "avatars/心月狐.png"
-    },
-    {
-     "name": "今汐",
-     "position": "副C",
-     "avatar": "avatars/今汐.png"
-    },
-    {
-     "name": "守岸人",
-     "position": "奶媽",
-     "avatar": "avatars/守岸人.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S3.5",
-     "season": 3,
-     "turn": 5,
-     "score": 6130,
-     "boss": "燎照之騎",
-     "members": [
-      {
-       "name": "心月狐",
-       "position": "主C",
-       "avatar": "avatars/心月狐.png"
-      },
-      {
-       "name": "今汐",
-       "position": "副C",
-       "avatar": "avatars/今汐.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 0,
-   "runner_up_count": 0,
-   "third_count": 1,
-   "max_score": 6130,
-   "total_fights": 1,
-   "best_score": 6130,
-   "season": 3,
-   "turn": 5,
-   "boss": "燎照之騎",
-   "rank": 5
-  },
-  {
-   "name": "緋雪霜漸隊",
-   "members": [
-    {
-     "name": "緋雪",
-     "position": "主C",
-     "avatar": "avatars/緋雪.png"
-    },
-    {
-     "name": "洛瑟菈",
-     "position": "副C",
-     "avatar": "avatars/洛瑟菈.png"
-    },
-    {
-     "name": "穗穗",
-     "position": "奶媽",
-     "avatar": "avatars/穗穗.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S1.3",
-     "season": 1,
-     "turn": 3,
-     "score": 5531,
-     "boss": "異構武裝",
-     "members": [
-      {
-       "name": "緋雪",
-       "position": "主C",
-       "avatar": "avatars/緋雪.png"
-      },
-      {
-       "name": "洛瑟菈",
-       "position": "副C",
-       "avatar": "avatars/洛瑟菈.png"
-      },
-      {
-       "name": "穗穗",
-       "position": "奶媽",
-       "avatar": "avatars/穗穗.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S2.4",
-     "season": 2,
-     "turn": 4,
-     "score": 5709,
-     "boss": "朔雷之鱗",
-     "members": [
-      {
-       "name": "緋雪",
-       "position": "主C",
-       "avatar": "avatars/緋雪.png"
-      },
-      {
-       "name": "洛瑟菈",
-       "position": "副C",
-       "avatar": "avatars/洛瑟菈.png"
-      },
-      {
-       "name": "穗穗",
-       "position": "奶媽",
-       "avatar": "avatars/穗穗.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.8",
-     "season": 3,
-     "turn": 8,
-     "score": 4559,
-     "boss": "無冠者",
-     "members": [
-      {
-       "name": "緋雪",
-       "position": "主C",
-       "avatar": "avatars/緋雪.png"
-      },
-      {
-       "name": "洛瑟菈",
-       "position": "副C",
-       "avatar": "avatars/洛瑟菈.png"
-      },
-      {
-       "name": "穗穗",
-       "position": "奶媽",
-       "avatar": "avatars/穗穗.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 0,
-   "runner_up_count": 1,
-   "third_count": 0,
-   "max_score": 5709,
-   "total_fights": 3,
-   "best_score": 5709,
-   "season": 2,
-   "turn": 4,
-   "boss": "朔雷之鱗",
-   "rank": 6
-  },
-  {
-   "name": "玄翎虛煙隊",
-   "members": [
-    {
-     "name": "秧秧·玄翎",
-     "position": "主C",
-     "avatar": "avatars/秧秧·玄翎.png"
-    },
-    {
-     "name": "千咲",
-     "position": "副C",
-     "avatar": "avatars/千咲.png"
-    },
-    {
-     "name": "守岸人",
-     "position": "奶媽",
-     "avatar": "avatars/守岸人.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S1.2",
-     "season": 1,
-     "turn": 2,
-     "score": 5683,
-     "boss": "卡提希婭",
-     "members": [
-      {
-       "name": "秧秧·玄翎",
-       "position": "主C",
-       "avatar": "avatars/秧秧·玄翎.png"
-      },
-      {
-       "name": "千咲",
-       "position": "副C",
-       "avatar": "avatars/千咲.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S2.1",
-     "season": 2,
-     "turn": 1,
-     "score": 5173,
-     "boss": "哀聲鷙",
-     "members": [
-      {
-       "name": "秧秧·玄翎",
-       "position": "主C",
-       "avatar": "avatars/秧秧·玄翎.png"
-      },
-      {
-       "name": "千咲",
-       "position": "副C",
-       "avatar": "avatars/千咲.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.6",
-     "season": 3,
-     "turn": 6,
-     "score": 5683,
-     "boss": "封庭械囿",
-     "members": [
-      {
-       "name": "秧秧·玄翎",
-       "position": "主C",
-       "avatar": "avatars/秧秧·玄翎.png"
-      },
-      {
-       "name": "千咲",
-       "position": "副C",
-       "avatar": "avatars/千咲.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 1,
-   "runner_up_count": 0,
-   "third_count": 0,
-   "max_score": 5683,
-   "total_fights": 3,
-   "best_score": 5683,
-   "season": 1,
-   "turn": 2,
-   "boss": "卡提希婭",
-   "rank": 7
-  },
-  {
-   "name": "弗洛洛湮滅隊",
-   "members": [
-    {
-     "name": "弗洛洛",
-     "position": "主C",
-     "avatar": "avatars/弗洛洛.png"
-    },
-    {
-     "name": "洛可可",
-     "position": "副C",
-     "avatar": "avatars/洛可可.png"
-    },
-    {
-     "name": "守岸人",
-     "position": "奶媽",
-     "avatar": "avatars/守岸人.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S1.1",
-     "season": 1,
-     "turn": 1,
-     "score": 5371,
-     "boss": "哀聲鷙",
-     "members": [
-      {
-       "name": "弗洛洛",
-       "position": "主C",
-       "avatar": "avatars/弗洛洛.png"
-      },
-      {
-       "name": "洛可可",
-       "position": "副C",
-       "avatar": "avatars/洛可可.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.7",
-     "season": 3,
-     "turn": 7,
-     "score": 5406,
-     "boss": "封庭械囿",
-     "members": [
-      {
-       "name": "弗洛洛",
-       "position": "主C",
-       "avatar": "avatars/弗洛洛.png"
-      },
-      {
-       "name": "洛可可",
-       "position": "副C",
-       "avatar": "avatars/洛可可.png"
-      },
-      {
-       "name": "守岸人",
-       "position": "奶媽",
-       "avatar": "avatars/守岸人.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 0,
-   "runner_up_count": 0,
-   "third_count": 1,
-   "max_score": 5406,
-   "total_fights": 2,
-   "best_score": 5406,
-   "season": 3,
-   "turn": 7,
-   "boss": "封庭械囿",
-   "rank": 8
-  },
-  {
-   "name": "卡提風蝕隊",
-   "members": [
-    {
-     "name": "卡提希婭",
-     "position": "主C",
-     "avatar": "avatars/卡提希婭.png"
-    },
-    {
-     "name": "菲比",
-     "position": "副C",
-     "avatar": "avatars/菲比.png"
-    },
-    {
-     "name": "琳奈",
-     "position": "副C",
-     "avatar": "avatars/琳奈.png"
-    },
-    {
-     "name": "漂泊者·衍射",
-     "position": "奶媽",
-     "avatar": "avatars/漂泊者·衍射.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S2.5",
-     "season": 2,
-     "turn": 5,
-     "score": 5019,
-     "boss": "哀聲鷙",
-     "members": [
-      {
-       "name": "卡提希婭",
-       "position": "主C",
-       "avatar": "avatars/卡提希婭.png"
-      },
-      {
-       "name": "菲比",
-       "position": "副C",
-       "avatar": "avatars/菲比.png"
-      },
-      {
-       "name": "漂泊者·衍射",
-       "position": "奶媽",
-       "avatar": "avatars/漂泊者·衍射.png"
-      }
-     ]
-    },
-    {
-     "display_name": "S3.9",
-     "season": 3,
-     "turn": 9,
-     "score": 5262,
-     "boss": "天傀劫煞",
-     "members": [
-      {
-       "name": "卡提希婭",
-       "position": "主C",
-       "avatar": "avatars/卡提希婭.png"
-      },
-      {
-       "name": "琳奈",
-       "position": "副C",
-       "avatar": "avatars/琳奈.png"
-      },
-      {
-       "name": "漂泊者·衍射",
-       "position": "奶媽",
-       "avatar": "avatars/漂泊者·衍射.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 0,
-   "runner_up_count": 0,
-   "third_count": 0,
-   "max_score": 5262,
-   "total_fights": 2,
-   "best_score": 5262,
-   "season": 3,
-   "turn": 9,
-   "boss": "天傀劫煞",
-   "rank": 9
-  },
-  {
-   "name": "今汐衍射隊",
-   "members": [
-    {
-     "name": "今汐",
-     "position": "主C",
-     "avatar": "avatars/今汐.png"
-    },
-    {
-     "name": "琳奈",
-     "position": "副C",
-     "avatar": "avatars/琳奈.png"
-    },
-    {
-     "name": "維里奈",
-     "position": "奶媽",
-     "avatar": "avatars/維里奈.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S2.8",
-     "season": 2,
-     "turn": 8,
-     "score": 4791,
-     "boss": "朔雷之鱗",
-     "members": [
-      {
-       "name": "今汐",
-       "position": "主C",
-       "avatar": "avatars/今汐.png"
-      },
-      {
-       "name": "琳奈",
-       "position": "副C",
-       "avatar": "avatars/琳奈.png"
-      },
-      {
-       "name": "維里奈",
-       "position": "奶媽",
-       "avatar": "avatars/維里奈.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 0,
-   "runner_up_count": 0,
-   "third_count": 0,
-   "max_score": 4791,
-   "total_fights": 1,
-   "best_score": 4791,
-   "season": 2,
-   "turn": 8,
-   "boss": "朔雷之鱗",
-   "rank": 10
-  },
-  {
-   "name": "長離熱溶隊",
-   "members": [
-    {
-     "name": "長離",
-     "position": "主C",
-     "avatar": "avatars/長離.png"
-    },
-    {
-     "name": "露帕",
-     "position": "副C",
-     "avatar": "avatars/露帕.png"
-    },
-    {
-     "name": "鑒心",
-     "position": "奶媽",
-     "avatar": "avatars/鑒心.png"
-    }
-   ],
-   "fights": [
-    {
-     "display_name": "S3.10",
-     "season": 3,
-     "turn": 10,
-     "score": 2237,
-     "boss": "天傀劫煞",
-     "members": [
-      {
-       "name": "長離",
-       "position": "主C",
-       "avatar": "avatars/長離.png"
-      },
-      {
-       "name": "露帕",
-       "position": "副C",
-       "avatar": "avatars/露帕.png"
-      },
-      {
-       "name": "鑒心",
-       "position": "奶媽",
-       "avatar": "avatars/鑒心.png"
-      }
-     ]
-    }
-   ],
-   "champion_count": 0,
-   "runner_up_count": 0,
-   "third_count": 0,
-   "max_score": 2237,
-   "total_fights": 1,
-   "best_score": 2237,
-   "season": 3,
-   "turn": 10,
-   "boss": "天傀劫煞",
-   "rank": 11
-  }
- ],
- "season_champions": {
-  "1": {
-   "team": "玄翎虛煙隊",
-   "score": 5683
-  },
-  "2": {
-   "team": "尤諾日月隊",
-   "score": 6980
-  },
-  "3": {
-   "team": "椿湮滅隊",
-   "score": 7504
-  }
- },
- "elementColors": {
-  "衍射": "#ffd700",
-  "導電": "#a855f7",
-  "煙滅": "#ef4444",
-  "冷凝": "#3b82f6",
-  "氣動": "#22c55e",
-  "熱熔": "#f97316",
-  "虛煙": "#6b7280"
- },
- "summary": {
-  "owned_resonators": 46,
-  "total_teams": 11,
-  "zheng_percentage": "73.7",
-  "avg_key_draws": "126.8"
- },
- "bosses": {
-  "哀聲鷙": {
-   "name": "哀聲鷙",
-   "note": "孑影憑吊形態",
-   "round1": "",
-   "round2": ""
-  },
-  "萬囮牢朽軀": {
-   "name": "萬囮牢朽軀",
-   "note": "熱熔傷害抗性提高",
-   "round1": "",
-   "round2": ""
-  },
-  "異構武裝": {
-   "name": "異構武裝",
-   "note": "冷凝屬性聲骸",
-   "round1": "",
-   "round2": ""
-  },
-  "朔雷之鱗": {
-   "name": "朔雷之鱗",
-   "note": "導電屬性聲骸",
-   "round1": "",
-   "round2": ""
-  },
-  "矩陣奇藏": {
-   "name": "矩陣奇藏",
-   "note": "全屬性抗性相同",
-   "round1": "危機應對·乘勝追擊：當擊敗矩陣奇藏後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·矩陣奇藏：矩陣奇藏的全屬性抗性相同，且對它造成傷害時將獲得1.1倍積分。【S2限定】擊敗矩陣奇藏額外獲得1000積分。",
-   "round2": ""
-  },
-  "卡提希婭": {
-   "name": "卡提希婭",
-   "note": "湮滅屬性",
-   "round1": "",
-   "round2": ""
-  },
-  "封庭械囿": {
-   "name": "封庭械囿",
-   "note": "冷凝抗性",
-   "round1": "危機應對·乘勝追擊：擊敗封庭械囿後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·機傀協同：我方共鳴者閃避反擊命中時，回復10點共鳴能量，並額外削減目標最大共振度的20%，冷卻2秒。",
-   "round2": "危機演進·封誓決心：封庭械囿的攻擊提升30%。"
-  },
-  "燎照之騎": {
-   "name": "燎照之騎",
-   "note": "熱熔抗性",
-   "round1": "危機應對·乘勝追擊：擊敗燎照之騎後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·焚燃明焰：燎照之騎的攻擊命中時，額外灼燒共鳴者，造成週期性的熱熔傷害，目標生命高於50%或擁有護盾時，該傷害降低90%。",
-   "round2": "危機演進·熾烈極速：燎照之騎對未處於空中的附近共鳴者造成週期性的熱熔傷害，目標生命高於50%或擁有護盾時，該傷害降低90%。"
-  },
-  "無冠者": {
-   "name": "無冠者",
-   "note": "湮滅抗性",
-   "round1": "危機應對·乘勝追擊：擊敗無冠者後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·戰爭藝術：共鳴者響應同奏時，該共鳴者在30秒內對無冠者造成的傷害最終提升40%。",
-   "round2": "危機演進·戰火淬鍊：對無冠者造成的共振度削減降低20%。"
-  },
-  "天傀劫煞": {
-   "name": "天傀劫煞",
-   "note": "氣動抗性",
-   "round1": "危機應對·乘勝追擊：擊敗天傀劫煞後，當前隊伍中的所有共鳴者免疫所有傷害且不會被打斷，持續15秒。\n危機演進·萬變機巧：我方共鳴者閃避反擊命中時，獲得2層「萬鈞之勢」，抵擋受到的打斷或控制效果。「萬鈞之勢」最多可疊加2層，每次受到攻擊時減少1層，受擊減少層數的效果每秒至多觸發一次。",
-   "round2": "危機演進·失序狂亂：天傀劫煞的攻擊提升40%，天傀劫煞附帶電磁效應時，該強化失效。"
-  }
- }
 }
