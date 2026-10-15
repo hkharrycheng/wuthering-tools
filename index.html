@@ -41,8 +41,7 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 6px;
-            margin-top: 12px;
-            grid-column: 1 / -1;
+            margin-bottom: 14px;
         }
 
         .stat-item {
@@ -594,7 +593,7 @@
         .member-detail-pos { font-size: 10px; color: rgba(255, 255, 255, 0.6); }
 
         /* 鳴潮新聞 */
-        .news-filter { display: flex; gap: 8px; padding: 10px 12px; overflow-x: auto; scrollbar-width: none; position: sticky; top: 52px; background: #141522; z-index: 5; }
+        .news-filter { display: flex; gap: 8px; padding: 10px 12px; overflow-x: auto; scrollbar-width: none; position: sticky; top: 61px; background: #141522; z-index: 5; }
         .news-filter::-webkit-scrollbar { display: none; }
         .news-chip { background: rgba(255, 255, 255, 0.08); border: none; color: #ccc; padding: 6px 14px; border-radius: 16px; font-size: 13px; cursor: pointer; white-space: nowrap; flex-shrink: 0; }
         .news-chip.active { background: #ffd700; color: #111; font-weight: bold; }
@@ -795,33 +794,35 @@
     <div class="header">
         <img src="logo.jpg" alt="HIS Tools" style="width:34px;height:34px;border-radius:8px;object-fit:contain;flex-shrink:0">
         <h1>鳴潮助手</h1>
-        <div class="stats-bar" id="statsBar">
-            <div class="stat-item" onclick="switchTab('pool', this)" style="cursor:pointer;">
-                <div class="number" id="ownedCount">-</div>
-                <div class="label">擁有共鳴者</div>
-            </div>
-            <div class="stat-item" onclick="switchTab('ranking', this)" style="cursor:pointer;">
-                <div class="number" id="teamCount">-</div>
-                <div class="label">配隊數量</div>
-            </div>
-            <div class="stat-item">
-                <div class="number" id="zhengPct">-</div>
-                <div class="label">正抽%</div>
-            </div>
-            <div class="stat-item">
-                <div class="number" id="avgKeyDraws">-</div>
-                <div class="label">平均關鍵實抽</div>
-            </div>
-        </div>
     </div>
 
-        <div class="tab" onclick="switchTab('ranking', this)">🏆 奇點擴張排名</div>
+    <div class="tabs">
         <div class="tab" onclick="switchTab('anime', this)">📰 鳴潮新聞</div>
+        <div class="tab active" onclick="switchTab('pool', this)">⭐ 我擁有的共鳴者</div>
+        <div class="tab" onclick="switchTab('ranking', this)">🏆 奇點擴張排名</div>
     </div>
 
     <div class="content">
         <!-- 共鳴者POOL -->
         <div class="section active" id="section-pool">
+            <div class="stats-bar" id="statsBar">
+                <div class="stat-item">
+                    <div class="number" id="ownedCount">-</div>
+                    <div class="label">擁有共鳴者</div>
+                </div>
+                <div class="stat-item" onclick="switchTab('ranking', this)" style="cursor:pointer;">
+                    <div class="number" id="teamCount">-</div>
+                    <div class="label">配隊數量</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number" id="zhengPct">-</div>
+                    <div class="label">正抽%</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number" id="avgKeyDraws">-</div>
+                    <div class="label">平均關鍵實抽</div>
+                </div>
+            </div>
             <div class="filter-bar" id="elementFilter"></div>
             <div class="sort-bar" id="sortBar">
                 <label>排序:</label>
@@ -898,7 +899,7 @@
     </div>
 
     <div class="footer">
-        HIS Tools © 2026.1.24 · 數據源自飛書多維表格
+        HIS Tools © 2026.1.25 · 數據源自飛書多維表格
     </div>
 
     <script>
@@ -911,6 +912,8 @@
         function switchTab(tabName, el) {
             document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
             document.getElementById('section-' + tabName).classList.add('active');
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            if (el) el.classList.add('active');
         }
 
         // 載入數據
