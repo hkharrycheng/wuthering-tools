@@ -37,6 +37,16 @@
             background-clip: text;
         }
 
+        /* YouTube 數據延遲告示（fetched_at > 24h 時顯示，恢復後自動消失） */
+        .delay-banner {
+            display: none;
+            font-size: 11px;
+            color: #f59e0b;
+            text-align: center;
+            padding: 4px 0;
+            background: rgba(245, 158, 11, 0.08);
+        }
+
         .stats-bar {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -843,6 +853,7 @@
         <img src="logo.jpg" alt="HIS Tools" style="width:34px;height:34px;border-radius:8px;object-fit:contain;flex-shrink:0">
         <h1>鳴潮助手</h1>
     </div>
+    <div class="delay-banner" id="delayBanner"></div>
 
     <div class="content">
         <!-- 共鳴者POOL -->
@@ -1461,6 +1472,7 @@
                 const list = Array.isArray(data) ? data : (data && data.videos);
                 if (Array.isArray(list) && list.length) {
                     ytSourceNote = 'YouTube鏡像 ' + (data && data.fetched_at ? data.fetched_at.slice(5, 16) : '');
+                    updateDelayBanner(data && data.fetched_at);
                     return list;
                 }
             } catch (e) { /* fall through */ }
@@ -1473,6 +1485,39 @@
                 }
             } catch (e) { /* fall through */ }
             throw new Error('YouTube 鏡像暫時無法訪問');
+        }
+        // fetched_at 格式 "YYYY-MM-DD HH:MM"（UTC，由 Actions 寫入）→ 當 UTC 解析
+        function parseFetchedAt(s) {
+            if (!s) return null;
+            const t = new Date(String(s).replace(' ', 'T') + 'Z');
+            return isNaN(t.getTime()) ? null : t;
+        }
+        // fetched_at > 24h 顯示延遲告示；恢復（≤24h）自動隱藏
+        function updateDelayBanner(fetchedAt) {
+            const banner = document.getElementById('delayBanner');
+            if (!banner) return;
+            const t = parseFetchedAt(fetchedAt);
+            if (!t) { banner.style.display = 'none'; banner.textContent = ''; return; }
+            const ageH = (Date.now() - t.getTime()) / 3600000;
+            if (ageH > 24) {
+                const pad = n => String(n).padStart(2, '0');
+                const last = t.getUTCFullYear() + '-' + pad(t.getUTCMonth() + 1) + '-' + pad(t.getUTCDate()) +
+                    ' ' + pad(t.getUTCHours()) + ':' + pad(t.getUTCMinutes());
+                banner.textContent = '⚠️ YouTube 數據已延遲 ' + Math.floor(ageH) + ' 小時，最後更新：' + last + ' UTC';
+                banner.style.display = 'block';
+            } else {
+                banner.textContent = '';
+                banner.style.display = 'none';
+            }
+        }
+        // 頁面載入時獨立檢查（不依賴用戶所在 tab）
+        async function checkDelayBanner() {
+            try {
+                const res = await fetchTimeout(YT_MIRROR + '?t=' + Math.floor(Date.now() / 600000), 8000);
+                if (!res.ok) return;
+                const data = await res.json();
+                updateDelayBanner(data && data.fetched_at);
+            } catch (e) { /* 檢查失敗唔影響主頁 */ }
         }
         async function loadWutheringNews() {
             const box = document.getElementById('animeNews');
@@ -1623,6 +1668,7 @@
         }
 
         loadWutheringNews();
+        checkDelayBanner();
     
         function getResonatorTeams(resonatorName) {
             if (!data.teams) return '<div style="color:#666;">暫無配隊</div>';
